@@ -6484,7 +6484,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dispatcher_tC941911289CA9A4DE7B02505AB9C6F311
 		Type_t * L_0 = ___toType1;
 		RuntimeObject * L_1 = ___value0;
 		NullCheck(L_0);
-		bool L_2 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(102 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_0, L_1);
+		bool L_2 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(107 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_0, L_1);
 		V_2 = L_2;
 		bool L_3 = V_2;
 		if (!L_3)
@@ -8123,7 +8123,7 @@ IL_0055:
 			Type_t * L_19 = VirtFuncInvoker0< Type_t * >::Invoke(7 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_18);
 			Type_t * L_20 = ___from1;
 			NullCheck(L_19);
-			bool L_21 = VirtFuncInvoker1< bool, Type_t * >::Invoke(103 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_19, L_20);
+			bool L_21 = VirtFuncInvoker1< bool, Type_t * >::Invoke(108 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_19, L_20);
 			V_6 = (bool)((((int32_t)L_21) == ((int32_t)0))? 1 : 0);
 			bool L_22 = V_6;
 			if (!L_22)

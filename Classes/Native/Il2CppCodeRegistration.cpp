@@ -42,31 +42,46 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_SystemCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_CoreCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_SharedInternalsModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_CoreModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_PhysicsModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_SubsystemsModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_AudioModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TextRenderingModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UnityWebRequestModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_XRModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_AndroidJNIModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_AnimationModuleCodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_AudioModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_GameCenterModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_IMGUIModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_InputLegacyModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_InputModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_JSONSerializeModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_ParticleSystemModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_Physics2DModuleCodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_PhysicsModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TextCoreModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UIModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UnityAnalyticsModuleCodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UnityWebRequestModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UnityWebRequestWWWModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_VRModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Purchasing_CommonCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngineCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_AppleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_FacebookStoreCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_SecurityCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_TizenCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UDPCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_PurchasingCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UICodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_winrtCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Coffee_UnmaskForUGUICodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_DOTweenCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_StoresCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Boo_LangCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_TextMeshProCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_AdvertisementsCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_AssemblyU2DCSharpU2DfirstpassCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
 extern const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[31] = 
+const Il2CppCodeGenModule* g_CodeGenModules[46] = 
 {
 	(&g_mscorlibCodeGenModule),
 	(&g_System_ConfigurationCodeGenModule),
@@ -76,24 +91,39 @@ const Il2CppCodeGenModule* g_CodeGenModules[31] =
 	(&g_System_CoreCodeGenModule),
 	(&g_UnityEngine_SharedInternalsModuleCodeGenModule),
 	(&g_UnityEngine_CoreModuleCodeGenModule),
+	(&g_UnityEngine_PhysicsModuleCodeGenModule),
+	(&g_UnityEngine_SubsystemsModuleCodeGenModule),
+	(&g_UnityEngine_AudioModuleCodeGenModule),
 	(&g_UnityEngine_TextRenderingModuleCodeGenModule),
+	(&g_UnityEngine_UnityWebRequestModuleCodeGenModule),
+	(&g_UnityEngine_XRModuleCodeGenModule),
 	(&g_UnityEngine_AndroidJNIModuleCodeGenModule),
 	(&g_UnityEngine_AnimationModuleCodeGenModule),
-	(&g_UnityEngine_AudioModuleCodeGenModule),
 	(&g_UnityEngine_GameCenterModuleCodeGenModule),
 	(&g_UnityEngine_IMGUIModuleCodeGenModule),
 	(&g_UnityEngine_InputLegacyModuleCodeGenModule),
+	(&g_UnityEngine_InputModuleCodeGenModule),
+	(&g_UnityEngine_JSONSerializeModuleCodeGenModule),
 	(&g_UnityEngine_ParticleSystemModuleCodeGenModule),
 	(&g_UnityEngine_Physics2DModuleCodeGenModule),
-	(&g_UnityEngine_PhysicsModuleCodeGenModule),
 	(&g_UnityEngine_TextCoreModuleCodeGenModule),
 	(&g_UnityEngine_UIModuleCodeGenModule),
 	(&g_UnityEngine_UnityAnalyticsModuleCodeGenModule),
-	(&g_UnityEngine_UnityWebRequestModuleCodeGenModule),
+	(&g_UnityEngine_UnityWebRequestWWWModuleCodeGenModule),
+	(&g_UnityEngine_VRModuleCodeGenModule),
+	(&g_Purchasing_CommonCodeGenModule),
 	(&g_UnityEngineCodeGenModule),
+	(&g_AppleCodeGenModule),
+	(&g_FacebookStoreCodeGenModule),
+	(&g_SecurityCodeGenModule),
+	(&g_TizenCodeGenModule),
+	(&g_UDPCodeGenModule),
+	(&g_UnityEngine_PurchasingCodeGenModule),
 	(&g_UnityEngine_UICodeGenModule),
+	(&g_winrtCodeGenModule),
 	(&g_Coffee_UnmaskForUGUICodeGenModule),
 	(&g_DOTweenCodeGenModule),
+	(&g_StoresCodeGenModule),
 	(&g_Boo_LangCodeGenModule),
 	(&g_Unity_TextMeshProCodeGenModule),
 	(&g_UnityEngine_AdvertisementsCodeGenModule),
@@ -103,21 +133,21 @@ const Il2CppCodeGenModule* g_CodeGenModules[31] =
 extern const Il2CppCodeRegistration g_CodeRegistration;
 const Il2CppCodeRegistration g_CodeRegistration = 
 {
-	15,
+	18,
 	g_ReversePInvokeWrapperPointers,
-	8181,
+	8804,
 	g_Il2CppGenericMethodPointers,
-	2615,
+	2817,
 	g_Il2CppInvokerPointers,
-	4375,
+	5303,
 	g_AttributeGenerators,
-	393,
+	433,
 	g_UnresolvedVirtualMethodPointers,
-	218,
+	247,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	31,
+	46,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;

@@ -5574,7 +5574,7 @@ IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m507C9149FF7F
 // !0 System.Collections.Generic.List`1<System.Object>::get_Item(System.Int32)
 IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR RuntimeObject * List_1_get_Item_mFDB8AD680C600072736579BBF5F38F7416396588_gshared_inline (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * __this, int32_t ___index0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<System.Object>::RemoveAt(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_RemoveAt_m3CAF82E0FF61CD84E251E0F7231BBB867C9755C2_gshared (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * __this, int32_t ___index0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_RemoveAt_m1EC5117AD814B97460F8F95D49A428032FE37CBF_gshared (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * __this, int32_t ___index0, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.List`1<System.Object>::Remove(!0)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool List_1_Remove_m908B647BB9F807676DACE34E3E73475C3C3751D4_gshared (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<System.Object>::set_Item(System.Int32,!0)
@@ -5731,7 +5731,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TweenManager_Despawn_mCBBD003E4779D54699
 // System.Void System.Collections.Generic.List`1<DG.Tweening.Core.ABSSequentiable>::RemoveAt(System.Int32)
 inline void List_1_RemoveAt_m6444421A71E0A4A4E8436E635E6C7AF2A959B5BD (List_1_t2E181C700331B7635DE1FD6A98300CEAEFABC4ED * __this, int32_t ___index0, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_t2E181C700331B7635DE1FD6A98300CEAEFABC4ED *, int32_t, const RuntimeMethod*))List_1_RemoveAt_m3CAF82E0FF61CD84E251E0F7231BBB867C9755C2_gshared)(__this, ___index0, method);
+	((  void (*) (List_1_t2E181C700331B7635DE1FD6A98300CEAEFABC4ED *, int32_t, const RuntimeMethod*))List_1_RemoveAt_m1EC5117AD814B97460F8F95D49A428032FE37CBF_gshared)(__this, ___index0, method);
 }
 // System.Boolean System.Collections.Generic.List`1<DG.Tweening.Tween>::Remove(!0)
 inline bool List_1_Remove_mB424B19FA68DB7E6ED91CD78AF813D85C2C3B138 (List_1_t57BB69F1AC3759152D9E750F6120000328D367B8 * __this, Tween_t119487E0AB84EF563521F1043116BDBAE68AC437 * ___item0, const RuntimeMethod* method)

@@ -10870,7 +10870,7 @@ IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m507C9149FF7F
 // !0 System.Collections.Generic.List`1<System.Object>::get_Item(System.Int32)
 IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR RuntimeObject * List_1_get_Item_mFDB8AD680C600072736579BBF5F38F7416396588_gshared_inline (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * __this, int32_t ___index0, const RuntimeMethod* method);
 // !!0 UnityEngine.GameObject::AddComponent<System.Object>()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * GameObject_AddComponent_TisRuntimeObject_mE053F7A95F30AFF07D69F0DED3DA13AE2EC25E03_gshared (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * GameObject_AddComponent_TisRuntimeObject_mCB8164FB05F8DCF99E098ADC5E13E96FEF6FC4E9_gshared (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method);
 // System.Void System.Action`4<DG.Tweening.Plugins.Options.PathOptions,System.Object,UnityEngine.Quaternion,System.Object>::Invoke(!0,!1,!2,!3)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_4_Invoke_mFD0C099DF7520F6B4D0C9FD7CDE0251F48C55839_gshared (Action_4_t6357257A436C4D96081774D8BFEB6BCBB370AA41 * __this, PathOptions_tE44D7F93669AF298F0376DB1276BFAF8902F65A7  ___arg10, RuntimeObject * ___arg21, Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___arg32, RuntimeObject * ___arg43, const RuntimeMethod* method);
 // !2 System.Func`3<System.Int32Enum,System.Object,System.Boolean>::Invoke(!0,!1)
@@ -11123,7 +11123,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DontDestroyOnLoad_m4DC90770AD6084
 // !!0 UnityEngine.GameObject::AddComponent<DG.Tweening.Core.DOTweenComponent>()
 inline DOTweenComponent_t48118927332C9BFAE792209EEE42AF786370B05F * GameObject_AddComponent_TisDOTweenComponent_t48118927332C9BFAE792209EEE42AF786370B05F_m3FC8AC899C244139FEAF82307DAA56D006852129 (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method)
 {
-	return ((  DOTweenComponent_t48118927332C9BFAE792209EEE42AF786370B05F * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_mE053F7A95F30AFF07D69F0DED3DA13AE2EC25E03_gshared)(__this, method);
+	return ((  DOTweenComponent_t48118927332C9BFAE792209EEE42AF786370B05F * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_mCB8164FB05F8DCF99E098ADC5E13E96FEF6FC4E9_gshared)(__this, method);
 }
 // System.Void UnityEngine.MonoBehaviour::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_mEAEC84B222C60319D593E456D769B3311DFCEF97 (MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429 * __this, const RuntimeMethod* method);

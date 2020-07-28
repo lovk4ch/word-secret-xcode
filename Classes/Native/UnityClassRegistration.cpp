@@ -6,6 +6,9 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_Core();
 	RegisterModule_Core();
 
+	void RegisterModule_AndroidJNI();
+	RegisterModule_AndroidJNI();
+
 	void RegisterModule_Animation();
 	RegisterModule_Animation();
 
@@ -21,11 +24,14 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_GameCenter();
 	RegisterModule_GameCenter();
 
-	void RegisterModule_InputLegacy();
-	RegisterModule_InputLegacy();
-
 	void RegisterModule_IMGUI();
 	RegisterModule_IMGUI();
+
+	void RegisterModule_Input();
+	RegisterModule_Input();
+
+	void RegisterModule_InputLegacy();
+	RegisterModule_InputLegacy();
 
 	void RegisterModule_JSONSerialize();
 	RegisterModule_JSONSerialize();
@@ -48,6 +54,9 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_Physics2D();
 	RegisterModule_Physics2D();
 
+	void RegisterModule_Subsystems();
+	RegisterModule_Subsystems();
+
 	void RegisterModule_TextRendering();
 	RegisterModule_TextRendering();
 
@@ -62,6 +71,12 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 
 	void RegisterModule_UnityWebRequest();
 	RegisterModule_UnityWebRequest();
+
+	void RegisterModule_XR();
+	RegisterModule_XR();
+
+	void RegisterModule_VR();
+	RegisterModule_VR();
 
 }
 
@@ -195,7 +210,7 @@ namespace TextRenderingPrivate { class TextMesh; }
 class Transform; template <> void RegisterUnityClass<Transform>(const char*);
 namespace UI { class RectTransform; } template <> void RegisterUnityClass<UI::RectTransform>(const char*);
 class Tree; 
-class WorldAnchor; 
+class WorldAnchor; template <> void RegisterUnityClass<WorldAnchor>(const char*);
 class GameObject; template <> void RegisterUnityClass<GameObject>(const char*);
 class NamedObject; template <> void RegisterUnityClass<NamedObject>(const char*);
 class AssetBundle; 
@@ -303,7 +318,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 79 non stripped classes
+	//Total: 80 non stripped classes
 	//0. AnimationClip
 	RegisterUnityClass<AnimationClip>("Animation");
 	//1. Animator
@@ -462,5 +477,7 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<UI::CanvasRenderer>("UI");
 	//78. UnityConnectSettings
 	RegisterUnityClass<UnityConnectSettings>("UnityConnect");
+	//79. WorldAnchor
+	RegisterUnityClass<WorldAnchor>("VR");
 
 }

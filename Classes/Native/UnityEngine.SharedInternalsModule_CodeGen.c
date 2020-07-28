@@ -128,17 +128,21 @@ extern void IgnoreAttribute_set_DoesNotContributeToSize_mF507E8A0ADF588062014330
 extern void IgnoreAttribute__ctor_m4B78BE44704DA9040A683AC928187E1DAE6BC885 ();
 // 0x00000036 System.Void UnityEngine.Scripting.UsedByNativeCodeAttribute::.ctor()
 extern void UsedByNativeCodeAttribute__ctor_m599B42E9BBC333CDA57CD8154C902AB7594B80AD ();
-// 0x00000037 System.Void UnityEngine.Scripting.RequiredByNativeCodeAttribute::.ctor()
+// 0x00000037 System.Void UnityEngine.Scripting.UsedByNativeCodeAttribute::.ctor(System.String)
+extern void UsedByNativeCodeAttribute__ctor_m55E1FDE70505DB890BD076C78AF986869C3D714F ();
+// 0x00000038 System.Void UnityEngine.Scripting.UsedByNativeCodeAttribute::set_Name(System.String)
+extern void UsedByNativeCodeAttribute_set_Name_m5AF6F7B56F5D616F4CA7C5C2AE1E92B5A621A062 ();
+// 0x00000039 System.Void UnityEngine.Scripting.RequiredByNativeCodeAttribute::.ctor()
 extern void RequiredByNativeCodeAttribute__ctor_mD8B976753773E00BB7E1E63DF6C23A1EB3054422 ();
-// 0x00000038 System.Void UnityEngine.Scripting.RequiredByNativeCodeAttribute::.ctor(System.String)
+// 0x0000003A System.Void UnityEngine.Scripting.RequiredByNativeCodeAttribute::.ctor(System.String)
 extern void RequiredByNativeCodeAttribute__ctor_m761592712F1FA96E5BF7721E9463AE05DC73A306 ();
-// 0x00000039 System.Void UnityEngine.Scripting.RequiredByNativeCodeAttribute::set_Name(System.String)
+// 0x0000003B System.Void UnityEngine.Scripting.RequiredByNativeCodeAttribute::set_Name(System.String)
 extern void RequiredByNativeCodeAttribute_set_Name_m756DAF113B75ABD5D869765E6FA6C546ADC85423 ();
-// 0x0000003A System.Void UnityEngine.Scripting.RequiredByNativeCodeAttribute::set_Optional(System.Boolean)
+// 0x0000003C System.Void UnityEngine.Scripting.RequiredByNativeCodeAttribute::set_Optional(System.Boolean)
 extern void RequiredByNativeCodeAttribute_set_Optional_m995DE99A803BC2D6FE66CCB370AEBE5ACF706955 ();
-// 0x0000003B System.Void UnityEngine.Scripting.RequiredByNativeCodeAttribute::set_GenerateProxy(System.Boolean)
+// 0x0000003D System.Void UnityEngine.Scripting.RequiredByNativeCodeAttribute::set_GenerateProxy(System.Boolean)
 extern void RequiredByNativeCodeAttribute_set_GenerateProxy_m8B647BCD03460AD81F920CEF4CC51B499B5AFE55 ();
-static Il2CppMethodPointer s_methodPointers[59] = 
+static Il2CppMethodPointer s_methodPointers[61] = 
 {
 	AssetFileNameExtensionAttribute__ctor_m49EB0E6BB7D29A0AC5131A6EC007AFBC1DE60390,
 	ThreadAndSerializationSafeAttribute__ctor_mCB8D8FEED836D6472A4FB90C69969F0D99C39619,
@@ -194,13 +198,15 @@ static Il2CppMethodPointer s_methodPointers[59] =
 	IgnoreAttribute_set_DoesNotContributeToSize_mF507E8A0ADF588062014330B44B9BD674D7A75AA,
 	IgnoreAttribute__ctor_m4B78BE44704DA9040A683AC928187E1DAE6BC885,
 	UsedByNativeCodeAttribute__ctor_m599B42E9BBC333CDA57CD8154C902AB7594B80AD,
+	UsedByNativeCodeAttribute__ctor_m55E1FDE70505DB890BD076C78AF986869C3D714F,
+	UsedByNativeCodeAttribute_set_Name_m5AF6F7B56F5D616F4CA7C5C2AE1E92B5A621A062,
 	RequiredByNativeCodeAttribute__ctor_mD8B976753773E00BB7E1E63DF6C23A1EB3054422,
 	RequiredByNativeCodeAttribute__ctor_m761592712F1FA96E5BF7721E9463AE05DC73A306,
 	RequiredByNativeCodeAttribute_set_Name_m756DAF113B75ABD5D869765E6FA6C546ADC85423,
 	RequiredByNativeCodeAttribute_set_Optional_m995DE99A803BC2D6FE66CCB370AEBE5ACF706955,
 	RequiredByNativeCodeAttribute_set_GenerateProxy_m8B647BCD03460AD81F920CEF4CC51B499B5AFE55,
 };
-static const int32_t s_InvokerIndices[59] = 
+static const int32_t s_InvokerIndices[61] = 
 {
 	27,
 	23,
@@ -229,12 +235,12 @@ static const int32_t s_InvokerIndices[59] =
 	31,
 	23,
 	26,
-	388,
-	728,
+	118,
+	116,
 	32,
 	23,
 	26,
-	938,
+	1015,
 	26,
 	26,
 	32,
@@ -245,17 +251,19 @@ static const int32_t s_InvokerIndices[59] =
 	23,
 	23,
 	26,
-	388,
+	118,
 	23,
 	26,
 	32,
 	26,
-	124,
+	144,
 	31,
 	23,
 	31,
 	23,
 	23,
+	26,
+	26,
 	23,
 	26,
 	26,
@@ -266,7 +274,7 @@ extern const Il2CppCodeGenModule g_UnityEngine_SharedInternalsModuleCodeGenModul
 const Il2CppCodeGenModule g_UnityEngine_SharedInternalsModuleCodeGenModule = 
 {
 	"UnityEngine.SharedInternalsModule.dll",
-	59,
+	61,
 	s_methodPointers,
 	s_InvokerIndices,
 	0,
