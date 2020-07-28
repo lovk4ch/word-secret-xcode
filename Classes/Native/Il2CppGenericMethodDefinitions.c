@@ -21,7 +21,7 @@ IL2CPP_EXTERN_C_END
 
 
 extern const Il2CppMethodSpec g_Il2CppMethodSpecTable[];
-const Il2CppMethodSpec g_Il2CppMethodSpecTable[11737] = 
+const Il2CppMethodSpec g_Il2CppMethodSpecTable[11738] = 
 {
 	{ 834, -1, 0 } /* System.Void System.ThrowHelper::IfNullAndNullsAreIllegalThenThrow<System.Object>(System.Object,System.ExceptionArgument) */,
 	{ 838, -1, 0 } /* System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Array::AsReadOnly<System.Object>(T[]) */,
@@ -3603,6 +3603,7 @@ const Il2CppMethodSpec g_Il2CppMethodSpecTable[11737] =
 	{ 10425, 1031, -1 } /* System.Int32 System.Collections.Generic.List`1<WordController>::get_Count() */,
 	{ 10428, 1031, -1 } /* !0 System.Collections.Generic.List`1<WordController>::get_Item(System.Int32) */,
 	{ 21519, 1025, -1 } /* System.Void Manager`1<LevelManager>::.ctor() */,
+	{ 21515, 1027, -1 } /* T Manager`1<AdsManager>::get_Instance() */,
 	{ 21519, 1020, -1 } /* System.Void Manager`1<MainManager>::.ctor() */,
 	{ 21515, 1034, -1 } /* T Manager`1<ScreenManager>::get_Instance() */,
 	{ 21519, 1035, -1 } /* System.Void Manager`1<MenuManager>::.ctor() */,

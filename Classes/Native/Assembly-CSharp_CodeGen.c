@@ -204,8 +204,8 @@ extern void Gradient__ctor_mD871C80A0307AFB252738D54538FE55E524F44CA ();
 extern void IAPBundleController_Awake_m28D84EC3FF1955A919EA00025A1D9CBDF34C1FCC ();
 // 0x0000005C System.Void IAPBundleController::.ctor()
 extern void IAPBundleController__ctor_m940885782C94E0F0012CE4F29FFAE1E0197F78EC ();
-// 0x0000005D System.Void IAPBundleController::<Awake>b__1_0()
-extern void IAPBundleController_U3CAwakeU3Eb__1_0_mA98A78A62F1FB7B46F78A30FDCDBFA8ECFEC714A ();
+// 0x0000005D System.Void IAPBundleController::<Awake>b__2_0()
+extern void IAPBundleController_U3CAwakeU3Eb__2_0_mC8FF3360DECCB7839DA9B9E25270588C911CB8B7 ();
 // 0x0000005E System.Void AdsManager::Awake()
 extern void AdsManager_Awake_m9DCAF8FD89C4E3B5DD304F71B20FAE1BA67CDFDB ();
 // 0x0000005F System.Void AdsManager::Load()
@@ -1044,7 +1044,7 @@ static Il2CppMethodPointer s_methodPointers[468] =
 	Gradient__ctor_mD871C80A0307AFB252738D54538FE55E524F44CA,
 	IAPBundleController_Awake_m28D84EC3FF1955A919EA00025A1D9CBDF34C1FCC,
 	IAPBundleController__ctor_m940885782C94E0F0012CE4F29FFAE1E0197F78EC,
-	IAPBundleController_U3CAwakeU3Eb__1_0_mA98A78A62F1FB7B46F78A30FDCDBFA8ECFEC714A,
+	IAPBundleController_U3CAwakeU3Eb__2_0_mC8FF3360DECCB7839DA9B9E25270588C911CB8B7,
 	AdsManager_Awake_m9DCAF8FD89C4E3B5DD304F71B20FAE1BA67CDFDB,
 	AdsManager_Load_m028011CF0065C4E2A2CCDB5A8F54080D0575D8C0,
 	AdsManager_Show_mFBF793B6BC604F059A0E05325FEF3DB668D919AB,
@@ -1901,7 +1901,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[4] =
 	{ (Il2CppRGCTXDataType)2, 20257 },
 	{ (Il2CppRGCTXDataType)2, 19920 },
 	{ (Il2CppRGCTXDataType)1, 19920 },
-	{ (Il2CppRGCTXDataType)3, 11736 },
+	{ (Il2CppRGCTXDataType)3, 11737 },
 };
 extern const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule = 

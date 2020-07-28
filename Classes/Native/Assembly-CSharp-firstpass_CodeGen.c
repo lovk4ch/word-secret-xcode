@@ -4497,19 +4497,19 @@ static const Il2CppRGCTXDefinition s_rgctxValues[15] =
 {
 	{ (Il2CppRGCTXDataType)1, 19342 },
 	{ (Il2CppRGCTXDataType)2, 19342 },
-	{ (Il2CppRGCTXDataType)3, 11725 },
 	{ (Il2CppRGCTXDataType)3, 11726 },
 	{ (Il2CppRGCTXDataType)3, 11727 },
 	{ (Il2CppRGCTXDataType)3, 11728 },
-	{ (Il2CppRGCTXDataType)2, 20256 },
 	{ (Il2CppRGCTXDataType)3, 11729 },
+	{ (Il2CppRGCTXDataType)2, 20256 },
 	{ (Il2CppRGCTXDataType)3, 11730 },
 	{ (Il2CppRGCTXDataType)3, 11731 },
 	{ (Il2CppRGCTXDataType)3, 11732 },
-	{ (Il2CppRGCTXDataType)2, 19550 },
 	{ (Il2CppRGCTXDataType)3, 11733 },
+	{ (Il2CppRGCTXDataType)2, 19550 },
 	{ (Il2CppRGCTXDataType)3, 11734 },
 	{ (Il2CppRGCTXDataType)3, 11735 },
+	{ (Il2CppRGCTXDataType)3, 11736 },
 };
 extern const Il2CppCodeGenModule g_AssemblyU2DCSharpU2DfirstpassCodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharpU2DfirstpassCodeGenModule = 
