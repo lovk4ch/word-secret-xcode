@@ -21,6 +21,7 @@
 		<type fullname="UnityEngine.AnimationClip" preserve="nothing"/>
 		<type fullname="UnityEngine.Camera" preserve="nothing"/>
 		<type fullname="UnityEngine.Renderer" preserve="nothing"/>
+		<type fullname="UnityEngine.LineRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshFilter" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.SpriteRenderer" preserve="nothing"/>
@@ -58,36 +59,42 @@
 	<assembly fullname="Assembly-CSharp-firstpass">
 		<type fullname="DragonBones.UnityArmatureComponent" preserve="nothing"/>
 		<type fullname="DragonBones.UnityDragonBonesData" preserve="nothing"/>
+		<type fullname="UnityEngine.Purchasing.IAPButton" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
-		<type fullname="AdsManager" preserve="nothing"/>
 		<type fullname="AudioManager" preserve="nothing"/>
 		<type fullname="BallController" preserve="nothing"/>
 		<type fullname="BonusTimeController" preserve="nothing"/>
-		<type fullname="Branch" preserve="nothing"/>
 		<type fullname="ButtonController" preserve="nothing"/>
+		<type fullname="CloudController" preserve="nothing"/>
+		<type fullname="CoinsController" preserve="nothing"/>
 		<type fullname="CompleteController" preserve="nothing"/>
 		<type fullname="DailyController" preserve="nothing"/>
 		<type fullname="Gimbal" preserve="nothing"/>
 		<type fullname="Gradient" preserve="nothing"/>
 		<type fullname="IAPBundleController" preserve="nothing"/>
 		<type fullname="IAPManager" preserve="nothing"/>
+		<type fullname="IronSourceManager" preserve="nothing"/>
 		<type fullname="LevelManager" preserve="nothing"/>
 		<type fullname="LoseController" preserve="nothing"/>
 		<type fullname="MainManager" preserve="nothing"/>
+		<type fullname="MapManager" preserve="nothing"/>
+		<type fullname="MapPointController" preserve="nothing"/>
 		<type fullname="MenuManager" preserve="nothing"/>
+		<type fullname="NoteController" preserve="nothing"/>
+		<type fullname="NoteLetterController" preserve="nothing"/>
+		<type fullname="NoteWordController" preserve="nothing"/>
 		<type fullname="OwlController2d" preserve="nothing"/>
 		<type fullname="PushManager" preserve="nothing"/>
+		<type fullname="PuzzleController" preserve="nothing"/>
 		<type fullname="RaysController" preserve="nothing"/>
 		<type fullname="ScreenManager" preserve="nothing"/>
 		<type fullname="SettingsManager" preserve="nothing"/>
 		<type fullname="ShakeTransform" preserve="nothing"/>
 		<type fullname="ShakeTransformEvent" preserve="nothing"/>
-		<type fullname="ShopManager" preserve="nothing"/>
+		<type fullname="StoryController" preserve="nothing"/>
 		<type fullname="TermsController" preserve="nothing"/>
 		<type fullname="TimerController" preserve="nothing"/>
-		<type fullname="TreeBranch" preserve="nothing"/>
-		<type fullname="TreeManager" preserve="nothing"/>
 		<type fullname="TutorialController" preserve="nothing"/>
 		<type fullname="UnityStandardAssets.ImageEffects.Antialiasing" preserve="nothing"/>
 		<type fullname="WinController" preserve="nothing"/>
@@ -96,16 +103,15 @@
 	<assembly fullname="Coffee.UnmaskForUGUI">
 		<type fullname="Coffee.UIExtensions.Unmask" preserve="nothing"/>
 	</assembly>
+	<assembly fullname="PathCreator">
+		<type fullname="PathCreation.PathCreator" preserve="nothing"/>
+	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
 		<type fullname="TMPro.TMP_FontAsset" preserve="nothing"/>
 		<type fullname="TMPro.TMP_Settings" preserve="nothing"/>
 		<type fullname="TMPro.TMP_SpriteAsset" preserve="nothing"/>
 		<type fullname="TMPro.TMP_StyleSheet" preserve="nothing"/>
 		<type fullname="TMPro.TextMeshProUGUI" preserve="nothing"/>
-	</assembly>
-	<assembly fullname="UnityEngine.Advertisements">
-		<type fullname="UnityEngine.Advertisements.Placeholder" preserve="nothing"/>
-		<type fullname="UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine.UI">
 		<type fullname="UnityEngine.EventSystems.EventSystem" preserve="nothing"/>
@@ -122,6 +128,7 @@
 		<type fullname="UnityEngine.UI.RawImage" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.ScrollRect" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Scrollbar" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.Shadow" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Text" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Toggle" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="nothing"/>

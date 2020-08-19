@@ -28,7 +28,7 @@ extern void FacebookStoreBindings_Check_mE221BDE6ADBFE1196197BD4CA3868B79763BEFE
 // 0x00000005 System.Void UnityEngine.Purchasing.FacebookStoreBindings::Init()
 extern void FacebookStoreBindings_Init_mC882116ECC9445B7D9418C67205F769D77F02630 ();
 // 0x00000006 System.Void UnityEngine.Purchasing.FacebookStoreBindings::SetUnityPurchasingCallback(UnityEngine.Purchasing.UnityPurchasingCallback)
-extern void FacebookStoreBindings_SetUnityPurchasingCallback_mA8BFC65085D351FE975C7E7A85103FEB83A740A6 ();
+extern void FacebookStoreBindings_SetUnityPurchasingCallback_m963711EFD846AD3C8317A00141E989436D1AF364 ();
 // 0x00000007 System.Void UnityEngine.Purchasing.FacebookStoreBindings::RetrieveProducts(System.String)
 extern void FacebookStoreBindings_RetrieveProducts_m777C6425E7AC254EEC2BBB7E4CC0A7E781B6990B ();
 // 0x00000008 System.Void UnityEngine.Purchasing.FacebookStoreBindings::Purchase(System.String,System.String)
@@ -44,7 +44,7 @@ static Il2CppMethodPointer s_methodPointers[10] =
 	NULL,
 	FacebookStoreBindings_Check_mE221BDE6ADBFE1196197BD4CA3868B79763BEFE1,
 	FacebookStoreBindings_Init_mC882116ECC9445B7D9418C67205F769D77F02630,
-	FacebookStoreBindings_SetUnityPurchasingCallback_mA8BFC65085D351FE975C7E7A85103FEB83A740A6,
+	FacebookStoreBindings_SetUnityPurchasingCallback_m963711EFD846AD3C8317A00141E989436D1AF364,
 	FacebookStoreBindings_RetrieveProducts_m777C6425E7AC254EEC2BBB7E4CC0A7E781B6990B,
 	FacebookStoreBindings_Purchase_m901BB7A6CAEFCB381FFC3B8625A504E3F8777695,
 	FacebookStoreBindings_FinishTransaction_m99A7D7C432CDDBDA400F4C99A1E1A777678F5475,
@@ -63,6 +63,7 @@ static const int32_t s_InvokerIndices[10] =
 	27,
 	23,
 };
+extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationFacebookStore;
 extern const Il2CppCodeGenModule g_FacebookStoreCodeGenModule;
 const Il2CppCodeGenModule g_FacebookStoreCodeGenModule = 
 {
@@ -76,5 +77,5 @@ const Il2CppCodeGenModule g_FacebookStoreCodeGenModule =
 	NULL,
 	0,
 	NULL,
-	NULL,
+	&g_DebuggerMetadataRegistrationFacebookStore,
 };

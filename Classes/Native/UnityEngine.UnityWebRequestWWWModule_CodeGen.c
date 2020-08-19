@@ -66,6 +66,7 @@ static const int32_t s_InvokerIndices[10] =
 	23,
 	89,
 };
+extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnityEngine_UnityWebRequestWWWModule;
 extern const Il2CppCodeGenModule g_UnityEngine_UnityWebRequestWWWModuleCodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_UnityWebRequestWWWModuleCodeGenModule = 
 {
@@ -79,5 +80,5 @@ const Il2CppCodeGenModule g_UnityEngine_UnityWebRequestWWWModuleCodeGenModule =
 	NULL,
 	0,
 	NULL,
-	NULL,
+	&g_DebuggerMetadataRegistrationUnityEngine_UnityWebRequestWWWModule,
 };

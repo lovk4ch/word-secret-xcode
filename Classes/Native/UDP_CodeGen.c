@@ -388,7 +388,7 @@ static const int32_t s_InvokerIndices[118] =
 	3,
 	3,
 	165,
-	1559,
+	1556,
 	591,
 	23,
 	23,
@@ -431,14 +431,14 @@ static const int32_t s_InvokerIndices[118] =
 	26,
 	23,
 	195,
-	1560,
+	1557,
 	49,
 	49,
 	49,
 	49,
 	49,
 	46,
-	1561,
+	1558,
 	46,
 	3,
 	3,
@@ -497,6 +497,7 @@ static const int32_t s_InvokerIndices[118] =
 	26,
 	27,
 };
+extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUDP;
 extern const Il2CppCodeGenModule g_UDPCodeGenModule;
 const Il2CppCodeGenModule g_UDPCodeGenModule = 
 {
@@ -510,5 +511,5 @@ const Il2CppCodeGenModule g_UDPCodeGenModule =
 	NULL,
 	0,
 	NULL,
-	NULL,
+	&g_DebuggerMetadataRegistrationUDP,
 };

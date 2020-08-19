@@ -74,14 +74,13 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UICodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_winrtCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Coffee_UnmaskForUGUICodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_DOTweenCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_PathCreatorCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_StoresCodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Boo_LangCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_TextMeshProCodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_AdvertisementsCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_AssemblyU2DCSharpU2DfirstpassCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
 extern const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[46] = 
+const Il2CppCodeGenModule* g_CodeGenModules[45] = 
 {
 	(&g_mscorlibCodeGenModule),
 	(&g_System_ConfigurationCodeGenModule),
@@ -123,31 +122,30 @@ const Il2CppCodeGenModule* g_CodeGenModules[46] =
 	(&g_winrtCodeGenModule),
 	(&g_Coffee_UnmaskForUGUICodeGenModule),
 	(&g_DOTweenCodeGenModule),
+	(&g_PathCreatorCodeGenModule),
 	(&g_StoresCodeGenModule),
-	(&g_Boo_LangCodeGenModule),
 	(&g_Unity_TextMeshProCodeGenModule),
-	(&g_UnityEngine_AdvertisementsCodeGenModule),
 	(&g_AssemblyU2DCSharpU2DfirstpassCodeGenModule),
 	(&g_AssemblyU2DCSharpCodeGenModule),
 };
 extern const Il2CppCodeRegistration g_CodeRegistration;
 const Il2CppCodeRegistration g_CodeRegistration = 
 {
-	18,
+	4,
 	g_ReversePInvokeWrapperPointers,
-	8804,
+	9014,
 	g_Il2CppGenericMethodPointers,
-	2817,
+	2852,
 	g_Il2CppInvokerPointers,
-	5304,
+	5480,
 	g_AttributeGenerators,
-	433,
+	442,
 	g_UnresolvedVirtualMethodPointers,
-	247,
+	231,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	46,
+	45,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;
@@ -158,6 +156,9 @@ static const Il2CppCodeGenOptions s_Il2CppCodeGenOptions =
 void s_Il2CppCodegenRegistration()
 {
 	il2cpp_codegen_register (&g_CodeRegistration, &g_MetadataRegistration, &s_Il2CppCodeGenOptions);
+	#if IL2CPP_MONO_DEBUGGER
+	il2cpp_codegen_register_debugger_data(NULL);
+	#endif
 }
 #if RUNTIME_IL2CPP
 static il2cpp::utils::RegisterRuntimeInitializeAndCleanup s_Il2CppCodegenRegistrationVariable (&s_Il2CppCodegenRegistration, NULL);

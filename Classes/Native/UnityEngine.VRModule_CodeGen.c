@@ -58,6 +58,7 @@ static const int32_t s_InvokerIndices[8] =
 	806,
 	26,
 };
+extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnityEngine_VRModule;
 extern const Il2CppCodeGenModule g_UnityEngine_VRModuleCodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_VRModuleCodeGenModule = 
 {
@@ -71,5 +72,5 @@ const Il2CppCodeGenModule g_UnityEngine_VRModuleCodeGenModule =
 	NULL,
 	0,
 	NULL,
-	NULL,
+	&g_DebuggerMetadataRegistrationUnityEngine_VRModule,
 };

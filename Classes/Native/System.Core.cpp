@@ -78,6 +78,8 @@ struct SymmetricTransform_t413AE9CB2D31AA411A8F189123C15258929AC750;
 struct ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1;
 // System.ArgumentNullException
 struct ArgumentNullException_t581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD;
+// System.ArgumentOutOfRangeException
+struct ArgumentOutOfRangeException_t94D19DF918A54511AEDF4784C9A08741BAD1DEDA;
 // System.Byte[]
 struct ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821;
 // System.Char[]
@@ -92,6 +94,8 @@ struct Exception_t;
 struct IntPtrU5BU5D_t4DC01DCB9A6DF6C9792A6513595D7A11E637DCDD;
 // System.InvalidOperationException
 struct InvalidOperationException_t0530E734D823F78310CAFAFA424CA5164D93A1F1;
+// System.NotSupportedException
+struct NotSupportedException_tE75B318D6590A02A5D9B29FD97409B1750FA0010;
 // System.Object[]
 struct ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A;
 // System.Runtime.Serialization.SafeSerializationManager
@@ -127,11 +131,13 @@ IL2CPP_EXTERN_C RuntimeClass* AesTransform_tEC263AC15300586978DFC864CFE6D82314C7
 IL2CPP_EXTERN_C RuntimeClass* Aes_t45D82D059B1811A60AF2DA6FD0355CAFB591A653_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArgumentNullException_t581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArgumentOutOfRangeException_t94D19DF918A54511AEDF4784C9A08741BAD1DEDA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* CryptographicException_t67ABE4FAB48298C9DF4C5E37E4C8F20AA601F15A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IDisposable_t7218B22548186B208D65EA5B7870503810A2D15A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Int32_t585191389E07734F19F3156FF88FB3EF4800D102_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* InvalidOperationException_t0530E734D823F78310CAFAFA424CA5164D93A1F1_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_tE75B318D6590A02A5D9B29FD97409B1750FA0010_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RijndaelManaged_t4E3376C5DAE4AB0D658F4A00A1FE7496DB258182_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UInt32U5BU5D_t9AA834AF2940E75BBF8E3F08FF0D20D266DB71CB_il2cpp_TypeInfo_var;
@@ -160,30 +166,117 @@ IL2CPP_EXTERN_C String_t* _stringLiteralC24C570C80332D3F38155C328F3AF1A671970FE7
 IL2CPP_EXTERN_C String_t* _stringLiteralC7C98D2F3A743BCA3032E11738A7C2CD9E0DAF5A;
 IL2CPP_EXTERN_C String_t* _stringLiteralCD72BFB00B20A1600AF561C7F666CA5EA98BBB38;
 IL2CPP_EXTERN_C const RuntimeMethod* AesCryptoServiceProvider_CreateDecryptor_m3842B2AC283063BE4D9902818C8F68CFB4100139_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesCryptoServiceProvider_CreateDecryptor_mD858924207EA664C6E32D42408FB5C8040DD4D44_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesCryptoServiceProvider_CreateEncryptor_m964DD0E94A26806AB34A7A79D4E4D1539425A2EA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AesCryptoServiceProvider_CreateEncryptor_mACCCC00AED5CBBF5E9437BCA907DD67C6D123672_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesCryptoServiceProvider_Dispose_mCFA420F8643911F86A112F50905FCB34C4A3045F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesCryptoServiceProvider_GenerateIV_mAE25C1774AEB75702E4737808E56FD2EC8BF54CC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesCryptoServiceProvider_GenerateKey_mC65CD8C14E8FD07E9469E74C641A746E52977586_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesCryptoServiceProvider__ctor_m8AA4C1503DBE1849070CFE727ED227BE5043373E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesCryptoServiceProvider_get_FeedbackSize_mB93FFC9FCB2C09EABFB13913E245A2D75491659F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesCryptoServiceProvider_get_IV_m30FBD13B702C384941FB85AD975BB3C0668F426F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesCryptoServiceProvider_get_KeySize_m10BDECEC12722803F3DE5F15CD76C5BDF588D1FA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesCryptoServiceProvider_get_Key_m9ABC98DF0CDE8952B677538C387C66A88196786A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesCryptoServiceProvider_get_Mode_m5C09588E49787D597CF8C0CD0C74DB63BE0ACE5F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesCryptoServiceProvider_get_Padding_mA56E045AE5CCF569C4A21C949DD4A4332E63F438_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesCryptoServiceProvider_set_FeedbackSize_m409990EF50B03E207F0BAAE9BE19C23A77EA9C27_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesCryptoServiceProvider_set_IV_m195F582AD29E4B449AFC54036AAECE0E05385C9C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesCryptoServiceProvider_set_KeySize_mA26268F7CEDA7D0A2447FC2022327E0C49C89B9B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesCryptoServiceProvider_set_Key_m4B9CE2F92E3B1BC209BFAECEACB7A976BBCDC700_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AesCryptoServiceProvider_set_Mode_mC7EE07E709C918D0745E5A207A66D89F08EA57EA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesCryptoServiceProvider_set_Padding_m94A4D3BE55325036611C5015E02CB622CFCDAF22_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesManaged_CreateDecryptor_m9E9E7861138397C7A6AAF8C43C81BD4CFCB8E0BD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AesManaged_CreateDecryptor_mEBE041A905F0848F846901916BA23485F85C65F1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesManaged_CreateEncryptor_m82CC97D7C3C330EB8F5F61B3192D65859CAA94F4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AesManaged_CreateEncryptor_mA914CA875EF777EDB202343570182CC0D9D89A91_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesManaged_Dispose_m57258CB76A9CCEF03FF4D4C5DE02E9A31056F8ED_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesManaged_GenerateIV_m92735378E3FB47DE1D0241A923CB4E426C702ABC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesManaged_GenerateKey_m5C790BC376A3FAFF13617855FF6BFA8A57925146_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AesManaged__ctor_mB2BB25E2F795428300A966DF7C4706BDDB65FB64_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesManaged_get_FeedbackSize_mA079406B80A8CDFB6811251C8BCE9EFE3C83A712_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesManaged_get_IV_mAAC08AB6D76CE29D3AEFCEF7B46F17B788B00B6E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesManaged_get_KeySize_m5218EB6C55678DC91BDE12E4F0697B719A2C7DD6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesManaged_get_Key_mC3790099349E411DFBC3EB6916E31CCC1F2AC088_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesManaged_get_Mode_m85C722AAA2A9CF3BC012EC908CF5B3B57BAF4BDA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesManaged_get_Padding_mBD0B0AA07CF0FBFDFC14458D14F058DE6DA656F0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesManaged_set_FeedbackSize_m881146DEC23D6F9FA3480D2ABDA7CBAFBD71C7C9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesManaged_set_IV_m6AF8905A7F0DBD20D7E059360423DB57C7DFA722_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesManaged_set_KeySize_m0AF9E2BB96295D70FBADB46F8E32FB54A695C349_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesManaged_set_Key_m654922A858A73BC91747B52F5D8B194B1EA88ADC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AesManaged_set_Mode_mE06717F04195261B88A558FBD08AEB847D9320D8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesManaged_set_Padding_m1BAC3EECEF3E2F49E4641E29169F149EDA8C5B23_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesTransform_Decrypt128_m1AE10B230A47A294B5B10EFD9C8243B02DBEA463_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesTransform_ECB_mAFE52E4D1958026C3343F85CC950A8E24FDFBBDA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesTransform_Encrypt128_m09C945A0345FD32E8DB3F4AF4B4E184CADD754DA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesTransform_SubByte_mEDB43A2A4E83017475094E5616E7DBC56F945A24_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AesTransform__cctor_mDEA197C50BA055FF76B7ECFEB5C1FD7900CE4325_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AesTransform__ctor_m1BC6B0F208747D4E35A58075D74DEBD5F72DB7DD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Error_ArgumentNull_mCA126ED8F4F3B343A70E201C44B3A509690F1EA7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Error_ArgumentOutOfRange_mACFCB068F4E0C4EEF9E6EDDD59E798901C32C6C9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Error_MoreThanOneMatch_m85C3617F782E9F2333FC1FDF42821BE069F24623_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Error_NoElements_m17188AC2CF25EB359A4E1DDE9518A98598791136_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Error_NotSupported_mD771E9977E8BE0B8298A582AB0BB74D1CF10900D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SR_GetString_m0D34A4798D653D11FFC8F27A24C741A83A3DA90B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SymmetricAlgorithm_get_FeedbackSize_mD2DEAC30A2684A4CC725A592D7301265EE979FE0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SymmetricAlgorithm_get_KeySize_m416638119C768C838536FDC5FAD652478F3EC18E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SymmetricAlgorithm_get_Mode_m782D8A5FAC8271F3FAF6689DDDD4E9B1D15A685D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SymmetricAlgorithm_get_Padding_mD308D61BEA3783A6BC49FBF5E4A8A3C6F9BB61F8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const uint32_t AesCryptoServiceProvider_CreateDecryptor_m3842B2AC283063BE4D9902818C8F68CFB4100139_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesCryptoServiceProvider_CreateDecryptor_mD858924207EA664C6E32D42408FB5C8040DD4D44_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesCryptoServiceProvider_CreateEncryptor_m964DD0E94A26806AB34A7A79D4E4D1539425A2EA_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AesCryptoServiceProvider_CreateEncryptor_mACCCC00AED5CBBF5E9437BCA907DD67C6D123672_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesCryptoServiceProvider_Dispose_mCFA420F8643911F86A112F50905FCB34C4A3045F_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesCryptoServiceProvider_GenerateIV_mAE25C1774AEB75702E4737808E56FD2EC8BF54CC_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesCryptoServiceProvider_GenerateKey_mC65CD8C14E8FD07E9469E74C641A746E52977586_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AesCryptoServiceProvider__ctor_m8AA4C1503DBE1849070CFE727ED227BE5043373E_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesCryptoServiceProvider_get_FeedbackSize_mB93FFC9FCB2C09EABFB13913E245A2D75491659F_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesCryptoServiceProvider_get_IV_m30FBD13B702C384941FB85AD975BB3C0668F426F_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesCryptoServiceProvider_get_KeySize_m10BDECEC12722803F3DE5F15CD76C5BDF588D1FA_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesCryptoServiceProvider_get_Key_m9ABC98DF0CDE8952B677538C387C66A88196786A_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesCryptoServiceProvider_get_Mode_m5C09588E49787D597CF8C0CD0C74DB63BE0ACE5F_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesCryptoServiceProvider_get_Padding_mA56E045AE5CCF569C4A21C949DD4A4332E63F438_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesCryptoServiceProvider_set_FeedbackSize_m409990EF50B03E207F0BAAE9BE19C23A77EA9C27_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesCryptoServiceProvider_set_IV_m195F582AD29E4B449AFC54036AAECE0E05385C9C_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesCryptoServiceProvider_set_KeySize_mA26268F7CEDA7D0A2447FC2022327E0C49C89B9B_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesCryptoServiceProvider_set_Key_m4B9CE2F92E3B1BC209BFAECEACB7A976BBCDC700_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AesCryptoServiceProvider_set_Mode_mC7EE07E709C918D0745E5A207A66D89F08EA57EA_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesCryptoServiceProvider_set_Padding_m94A4D3BE55325036611C5015E02CB622CFCDAF22_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesManaged_CreateDecryptor_m9E9E7861138397C7A6AAF8C43C81BD4CFCB8E0BD_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AesManaged_CreateDecryptor_mEBE041A905F0848F846901916BA23485F85C65F1_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesManaged_CreateEncryptor_m82CC97D7C3C330EB8F5F61B3192D65859CAA94F4_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AesManaged_CreateEncryptor_mA914CA875EF777EDB202343570182CC0D9D89A91_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AesManaged_Dispose_m57258CB76A9CCEF03FF4D4C5DE02E9A31056F8ED_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesManaged_GenerateIV_m92735378E3FB47DE1D0241A923CB4E426C702ABC_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesManaged_GenerateKey_m5C790BC376A3FAFF13617855FF6BFA8A57925146_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AesManaged__ctor_mB2BB25E2F795428300A966DF7C4706BDDB65FB64_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesManaged_get_FeedbackSize_mA079406B80A8CDFB6811251C8BCE9EFE3C83A712_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesManaged_get_IV_mAAC08AB6D76CE29D3AEFCEF7B46F17B788B00B6E_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesManaged_get_KeySize_m5218EB6C55678DC91BDE12E4F0697B719A2C7DD6_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesManaged_get_Key_mC3790099349E411DFBC3EB6916E31CCC1F2AC088_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesManaged_get_Mode_m85C722AAA2A9CF3BC012EC908CF5B3B57BAF4BDA_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesManaged_get_Padding_mBD0B0AA07CF0FBFDFC14458D14F058DE6DA656F0_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesManaged_set_FeedbackSize_m881146DEC23D6F9FA3480D2ABDA7CBAFBD71C7C9_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesManaged_set_IV_m6AF8905A7F0DBD20D7E059360423DB57C7DFA722_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesManaged_set_KeySize_m0AF9E2BB96295D70FBADB46F8E32FB54A695C349_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesManaged_set_Key_m654922A858A73BC91747B52F5D8B194B1EA88ADC_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AesManaged_set_Mode_mE06717F04195261B88A558FBD08AEB847D9320D8_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesManaged_set_Padding_m1BAC3EECEF3E2F49E4641E29169F149EDA8C5B23_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AesTransform_Decrypt128_m1AE10B230A47A294B5B10EFD9C8243B02DBEA463_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t AesTransform_ECB_mAFE52E4D1958026C3343F85CC950A8E24FDFBBDA_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AesTransform_Encrypt128_m09C945A0345FD32E8DB3F4AF4B4E184CADD754DA_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AesTransform_SubByte_mEDB43A2A4E83017475094E5616E7DBC56F945A24_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AesTransform__cctor_mDEA197C50BA055FF76B7ECFEB5C1FD7900CE4325_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AesTransform__ctor_m1BC6B0F208747D4E35A58075D74DEBD5F72DB7DD_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Error_ArgumentNull_mCA126ED8F4F3B343A70E201C44B3A509690F1EA7_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t Error_ArgumentOutOfRange_mACFCB068F4E0C4EEF9E6EDDD59E798901C32C6C9_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Error_MoreThanOneMatch_m85C3617F782E9F2333FC1FDF42821BE069F24623_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Error_NoElements_m17188AC2CF25EB359A4E1DDE9518A98598791136_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t Error_NotSupported_mD771E9977E8BE0B8298A582AB0BB74D1CF10900D_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t SR_GetString_m0D34A4798D653D11FFC8F27A24C741A83A3DA90B_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t SymmetricAlgorithm_get_FeedbackSize_mD2DEAC30A2684A4CC725A592D7301265EE979FE0System_Core_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t SymmetricAlgorithm_get_KeySize_m416638119C768C838536FDC5FAD652478F3EC18ESystem_Core_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t SymmetricAlgorithm_get_Mode_m782D8A5FAC8271F3FAF6689DDDD4E9B1D15A685DSystem_Core_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t SymmetricAlgorithm_get_Padding_mD308D61BEA3783A6BC49FBF5E4A8A3C6F9BB61F8System_Core_MetadataUsageId;
 struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
 
@@ -1224,6 +1317,15 @@ public:
 };
 
 
+// System.NotSupportedException
+struct  NotSupportedException_tE75B318D6590A02A5D9B29FD97409B1750FA0010  : public SystemException_t5380468142AA850BE4A341D7AF3EAB9C78746782
+{
+public:
+
+public:
+};
+
+
 // System.Security.Cryptography.Aes
 struct  Aes_t45D82D059B1811A60AF2DA6FD0355CAFB591A653  : public SymmetricAlgorithm_t0A2EC7E7AD8B8976832B4F0AC432B691F862E789
 {
@@ -1482,6 +1584,42 @@ public:
 };
 
 
+// System.ArgumentOutOfRangeException
+struct  ArgumentOutOfRangeException_t94D19DF918A54511AEDF4784C9A08741BAD1DEDA  : public ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1
+{
+public:
+	// System.Object System.ArgumentOutOfRangeException::m_actualValue
+	RuntimeObject * ___m_actualValue_19;
+
+public:
+	inline static int32_t get_offset_of_m_actualValue_19() { return static_cast<int32_t>(offsetof(ArgumentOutOfRangeException_t94D19DF918A54511AEDF4784C9A08741BAD1DEDA, ___m_actualValue_19)); }
+	inline RuntimeObject * get_m_actualValue_19() const { return ___m_actualValue_19; }
+	inline RuntimeObject ** get_address_of_m_actualValue_19() { return &___m_actualValue_19; }
+	inline void set_m_actualValue_19(RuntimeObject * value)
+	{
+		___m_actualValue_19 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_actualValue_19), (void*)value);
+	}
+};
+
+struct ArgumentOutOfRangeException_t94D19DF918A54511AEDF4784C9A08741BAD1DEDA_StaticFields
+{
+public:
+	// System.String modreq(System.Runtime.CompilerServices.IsVolatile) System.ArgumentOutOfRangeException::_rangeMessage
+	String_t* ____rangeMessage_18;
+
+public:
+	inline static int32_t get_offset_of__rangeMessage_18() { return static_cast<int32_t>(offsetof(ArgumentOutOfRangeException_t94D19DF918A54511AEDF4784C9A08741BAD1DEDA_StaticFields, ____rangeMessage_18)); }
+	inline String_t* get__rangeMessage_18() const { return ____rangeMessage_18; }
+	inline String_t** get_address_of__rangeMessage_18() { return &____rangeMessage_18; }
+	inline void set__rangeMessage_18(String_t* value)
+	{
+		____rangeMessage_18 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____rangeMessage_18), (void*)value);
+	}
+};
+
+
 // System.Security.Cryptography.AesCryptoServiceProvider
 struct  AesCryptoServiceProvider_t01E8BF6BEA9BB2C16BEEC3291EC0060086E2EBB3  : public Aes_t45D82D059B1811A60AF2DA6FD0355CAFB591A653
 {
@@ -1633,8 +1771,12 @@ public:
 
 // System.Void System.ArgumentNullException::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentNullException__ctor_mEE0C0D6FCB2D08CD7967DBB1329A0854BBED49ED (ArgumentNullException_t581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD * __this, String_t* ___paramName0, const RuntimeMethod* method);
+// System.Void System.ArgumentOutOfRangeException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentOutOfRangeException__ctor_m6B36E60C989DC798A8B44556DB35960282B133A6 (ArgumentOutOfRangeException_t94D19DF918A54511AEDF4784C9A08741BAD1DEDA * __this, String_t* ___paramName0, const RuntimeMethod* method);
 // System.Void System.InvalidOperationException::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidOperationException__ctor_m72027D5F1D513C25C05137E203EEED8FD8297706 (InvalidOperationException_t0530E734D823F78310CAFAFA424CA5164D93A1F1 * __this, String_t* ___message0, const RuntimeMethod* method);
+// System.Void System.NotSupportedException::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_mA121DE1CAC8F25277DEB489DC7771209D91CAE33 (NotSupportedException_tE75B318D6590A02A5D9B29FD97409B1750FA0010 * __this, const RuntimeMethod* method);
 // System.Void System.Security.Cryptography.Aes::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aes__ctor_m16C1BE841CDC7AD3484B027FADD635F4CC2F46C5 (Aes_t45D82D059B1811A60AF2DA6FD0355CAFB591A653 * __this, const RuntimeMethod* method);
 // System.Byte[] Mono.Security.Cryptography.KeyBuilder::IV(System.Int32)
@@ -1741,6 +1883,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m29F50CDF
 // System.String SR::GetString(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SR_GetString_m0D34A4798D653D11FFC8F27A24C741A83A3DA90B (String_t* ___name0, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SR_GetString_m0D34A4798D653D11FFC8F27A24C741A83A3DA90B_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SR_GetString_m0D34A4798D653D11FFC8F27A24C741A83A3DA90B_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___name0;
 		return L_0;
@@ -1771,10 +1921,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t * Error_ArgumentNull_mCA126ED8F4F
 		il2cpp_codegen_initialize_method (Error_ArgumentNull_mCA126ED8F4F3B343A70E201C44B3A509690F1EA7_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Error_ArgumentNull_mCA126ED8F4F3B343A70E201C44B3A509690F1EA7_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___s0;
 		ArgumentNullException_t581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD * L_1 = (ArgumentNullException_t581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD *)il2cpp_codegen_object_new(ArgumentNullException_t581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD_il2cpp_TypeInfo_var);
 		ArgumentNullException__ctor_mEE0C0D6FCB2D08CD7967DBB1329A0854BBED49ED(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Exception System.Linq.Error::ArgumentOutOfRange(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t * Error_ArgumentOutOfRange_mACFCB068F4E0C4EEF9E6EDDD59E798901C32C6C9 (String_t* ___s0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Error_ArgumentOutOfRange_mACFCB068F4E0C4EEF9E6EDDD59E798901C32C6C9_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Error_ArgumentOutOfRange_mACFCB068F4E0C4EEF9E6EDDD59E798901C32C6C9_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		String_t* L_0 = ___s0;
+		ArgumentOutOfRangeException_t94D19DF918A54511AEDF4784C9A08741BAD1DEDA * L_1 = (ArgumentOutOfRangeException_t94D19DF918A54511AEDF4784C9A08741BAD1DEDA *)il2cpp_codegen_object_new(ArgumentOutOfRangeException_t94D19DF918A54511AEDF4784C9A08741BAD1DEDA_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m6B36E60C989DC798A8B44556DB35960282B133A6(L_1, L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
@@ -1787,6 +1957,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t * Error_MoreThanOneMatch_m85C3617
 		il2cpp_codegen_initialize_method (Error_MoreThanOneMatch_m85C3617F782E9F2333FC1FDF42821BE069F24623_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Error_MoreThanOneMatch_m85C3617F782E9F2333FC1FDF42821BE069F24623_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		InvalidOperationException_t0530E734D823F78310CAFAFA424CA5164D93A1F1 * L_0 = (InvalidOperationException_t0530E734D823F78310CAFAFA424CA5164D93A1F1 *)il2cpp_codegen_object_new(InvalidOperationException_t0530E734D823F78310CAFAFA424CA5164D93A1F1_il2cpp_TypeInfo_var);
 		InvalidOperationException__ctor_m72027D5F1D513C25C05137E203EEED8FD8297706(L_0, _stringLiteral482B665E48FCB8584375B0A83CB92F4C37CED919, /*hidden argument*/NULL);
@@ -1802,9 +1974,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t * Error_NoElements_m17188AC2CF25E
 		il2cpp_codegen_initialize_method (Error_NoElements_m17188AC2CF25EB359A4E1DDE9518A98598791136_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Error_NoElements_m17188AC2CF25EB359A4E1DDE9518A98598791136_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		InvalidOperationException_t0530E734D823F78310CAFAFA424CA5164D93A1F1 * L_0 = (InvalidOperationException_t0530E734D823F78310CAFAFA424CA5164D93A1F1 *)il2cpp_codegen_object_new(InvalidOperationException_t0530E734D823F78310CAFAFA424CA5164D93A1F1_il2cpp_TypeInfo_var);
 		InvalidOperationException__ctor_m72027D5F1D513C25C05137E203EEED8FD8297706(L_0, _stringLiteral63DB03EEE91E150C79DAE22C333C4FD70369B910, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Exception System.Linq.Error::NotSupported()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t * Error_NotSupported_mD771E9977E8BE0B8298A582AB0BB74D1CF10900D (const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Error_NotSupported_mD771E9977E8BE0B8298A582AB0BB74D1CF10900D_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Error_NotSupported_mD771E9977E8BE0B8298A582AB0BB74D1CF10900D_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		NotSupportedException_tE75B318D6590A02A5D9B29FD97409B1750FA0010 * L_0 = (NotSupportedException_tE75B318D6590A02A5D9B29FD97409B1750FA0010 *)il2cpp_codegen_object_new(NotSupportedException_tE75B318D6590A02A5D9B29FD97409B1750FA0010_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_mA121DE1CAC8F25277DEB489DC7771209D91CAE33(L_0, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
@@ -1825,6 +2016,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesCryptoServiceProvider__ctor_m8AA4C150
 		il2cpp_codegen_initialize_method (AesCryptoServiceProvider__ctor_m8AA4C1503DBE1849070CFE727ED227BE5043373E_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesCryptoServiceProvider__ctor_m8AA4C1503DBE1849070CFE727ED227BE5043373E_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Aes_t45D82D059B1811A60AF2DA6FD0355CAFB591A653_il2cpp_TypeInfo_var);
 		Aes__ctor_m16C1BE841CDC7AD3484B027FADD635F4CC2F46C5(__this, /*hidden argument*/NULL);
@@ -1835,6 +2028,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesCryptoServiceProvider__ctor_m8AA4C150
 // System.Void System.Security.Cryptography.AesCryptoServiceProvider::GenerateIV()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesCryptoServiceProvider_GenerateIV_mAE25C1774AEB75702E4737808E56FD2EC8BF54CC (AesCryptoServiceProvider_t01E8BF6BEA9BB2C16BEEC3291EC0060086E2EBB3 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesCryptoServiceProvider_GenerateIV_mAE25C1774AEB75702E4737808E56FD2EC8BF54CC_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesCryptoServiceProvider_GenerateIV_mAE25C1774AEB75702E4737808E56FD2EC8BF54CC_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ((SymmetricAlgorithm_t0A2EC7E7AD8B8976832B4F0AC432B691F862E789 *)__this)->get_BlockSizeValue_0();
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_1 = KeyBuilder_IV_m45A7513A2E5E3F6535B20B1861DFA209FD52232E(((int32_t)((int32_t)L_0>>(int32_t)3)), /*hidden argument*/NULL);
@@ -1845,6 +2046,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesCryptoServiceProvider_GenerateIV_mAE2
 // System.Void System.Security.Cryptography.AesCryptoServiceProvider::GenerateKey()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesCryptoServiceProvider_GenerateKey_mC65CD8C14E8FD07E9469E74C641A746E52977586 (AesCryptoServiceProvider_t01E8BF6BEA9BB2C16BEEC3291EC0060086E2EBB3 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesCryptoServiceProvider_GenerateKey_mC65CD8C14E8FD07E9469E74C641A746E52977586_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesCryptoServiceProvider_GenerateKey_mC65CD8C14E8FD07E9469E74C641A746E52977586_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ((SymmetricAlgorithm_t0A2EC7E7AD8B8976832B4F0AC432B691F862E789 *)__this)->get_KeySizeValue_6();
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_1 = KeyBuilder_Key_mE2BA9CC6CF77F5A93BC03E878DCB6EFB6E1A0332(((int32_t)((int32_t)L_0>>(int32_t)3)), /*hidden argument*/NULL);
@@ -1861,6 +2070,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AesCryptoServiceProvider_Creat
 		il2cpp_codegen_initialize_method (AesCryptoServiceProvider_CreateDecryptor_m3842B2AC283063BE4D9902818C8F68CFB4100139_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesCryptoServiceProvider_CreateDecryptor_m3842B2AC283063BE4D9902818C8F68CFB4100139_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = VirtFuncInvoker0< int32_t >::Invoke(18 /* System.Security.Cryptography.CipherMode System.Security.Cryptography.SymmetricAlgorithm::get_Mode() */, __this);
 		if ((!(((uint32_t)L_0) == ((uint32_t)4))))
@@ -1899,6 +2110,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AesCryptoServiceProvider_Creat
 		il2cpp_codegen_initialize_method (AesCryptoServiceProvider_CreateEncryptor_mACCCC00AED5CBBF5E9437BCA907DD67C6D123672_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesCryptoServiceProvider_CreateEncryptor_mACCCC00AED5CBBF5E9437BCA907DD67C6D123672_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = VirtFuncInvoker0< int32_t >::Invoke(18 /* System.Security.Cryptography.CipherMode System.Security.Cryptography.SymmetricAlgorithm::get_Mode() */, __this);
 		if ((!(((uint32_t)L_0) == ((uint32_t)4))))
@@ -1931,6 +2144,14 @@ IL_001e:
 // System.Byte[] System.Security.Cryptography.AesCryptoServiceProvider::get_IV()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* AesCryptoServiceProvider_get_IV_m30FBD13B702C384941FB85AD975BB3C0668F426F (AesCryptoServiceProvider_t01E8BF6BEA9BB2C16BEEC3291EC0060086E2EBB3 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesCryptoServiceProvider_get_IV_m30FBD13B702C384941FB85AD975BB3C0668F426F_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesCryptoServiceProvider_get_IV_m30FBD13B702C384941FB85AD975BB3C0668F426F_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_0 = SymmetricAlgorithm_get_IV_m2F5791D5F7FD950502907C577DBAEA2C62DFA1A2(__this, /*hidden argument*/NULL);
 		return L_0;
@@ -1939,6 +2160,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A22
 // System.Void System.Security.Cryptography.AesCryptoServiceProvider::set_IV(System.Byte[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesCryptoServiceProvider_set_IV_m195F582AD29E4B449AFC54036AAECE0E05385C9C (AesCryptoServiceProvider_t01E8BF6BEA9BB2C16BEEC3291EC0060086E2EBB3 * __this, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* ___value0, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesCryptoServiceProvider_set_IV_m195F582AD29E4B449AFC54036AAECE0E05385C9C_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesCryptoServiceProvider_set_IV_m195F582AD29E4B449AFC54036AAECE0E05385C9C_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_0 = ___value0;
 		SymmetricAlgorithm_set_IV_m3EA9F1066011BC02DC5E4460883AEC0CC5AC2F33(__this, L_0, /*hidden argument*/NULL);
@@ -1948,6 +2177,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesCryptoServiceProvider_set_IV_m195F582
 // System.Byte[] System.Security.Cryptography.AesCryptoServiceProvider::get_Key()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* AesCryptoServiceProvider_get_Key_m9ABC98DF0CDE8952B677538C387C66A88196786A (AesCryptoServiceProvider_t01E8BF6BEA9BB2C16BEEC3291EC0060086E2EBB3 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesCryptoServiceProvider_get_Key_m9ABC98DF0CDE8952B677538C387C66A88196786A_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesCryptoServiceProvider_get_Key_m9ABC98DF0CDE8952B677538C387C66A88196786A_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_0 = SymmetricAlgorithm_get_Key_mE3CB723B043AE6ED61EA661BACB9E16622A7D9E8(__this, /*hidden argument*/NULL);
 		return L_0;
@@ -1956,6 +2193,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A22
 // System.Void System.Security.Cryptography.AesCryptoServiceProvider::set_Key(System.Byte[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesCryptoServiceProvider_set_Key_m4B9CE2F92E3B1BC209BFAECEACB7A976BBCDC700 (AesCryptoServiceProvider_t01E8BF6BEA9BB2C16BEEC3291EC0060086E2EBB3 * __this, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* ___value0, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesCryptoServiceProvider_set_Key_m4B9CE2F92E3B1BC209BFAECEACB7A976BBCDC700_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesCryptoServiceProvider_set_Key_m4B9CE2F92E3B1BC209BFAECEACB7A976BBCDC700_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_0 = ___value0;
 		SymmetricAlgorithm_set_Key_m0FAF965C2DF241C3CDFD16F5ED2A55CD07200467(__this, L_0, /*hidden argument*/NULL);
@@ -1965,6 +2210,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesCryptoServiceProvider_set_Key_m4B9CE2
 // System.Int32 System.Security.Cryptography.AesCryptoServiceProvider::get_KeySize()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AesCryptoServiceProvider_get_KeySize_m10BDECEC12722803F3DE5F15CD76C5BDF588D1FA (AesCryptoServiceProvider_t01E8BF6BEA9BB2C16BEEC3291EC0060086E2EBB3 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesCryptoServiceProvider_get_KeySize_m10BDECEC12722803F3DE5F15CD76C5BDF588D1FA_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesCryptoServiceProvider_get_KeySize_m10BDECEC12722803F3DE5F15CD76C5BDF588D1FA_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = SymmetricAlgorithm_get_KeySize_m416638119C768C838536FDC5FAD652478F3EC18E_inline(__this, /*hidden argument*/NULL);
 		return L_0;
@@ -1973,6 +2226,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AesCryptoServiceProvider_get_KeySize_
 // System.Void System.Security.Cryptography.AesCryptoServiceProvider::set_KeySize(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesCryptoServiceProvider_set_KeySize_mA26268F7CEDA7D0A2447FC2022327E0C49C89B9B (AesCryptoServiceProvider_t01E8BF6BEA9BB2C16BEEC3291EC0060086E2EBB3 * __this, int32_t ___value0, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesCryptoServiceProvider_set_KeySize_mA26268F7CEDA7D0A2447FC2022327E0C49C89B9B_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesCryptoServiceProvider_set_KeySize_mA26268F7CEDA7D0A2447FC2022327E0C49C89B9B_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___value0;
 		SymmetricAlgorithm_set_KeySize_m4848DDE2DBE3BEA4F560CCF2DF868E8A16391DAD(__this, L_0, /*hidden argument*/NULL);
@@ -1982,6 +2243,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesCryptoServiceProvider_set_KeySize_mA2
 // System.Int32 System.Security.Cryptography.AesCryptoServiceProvider::get_FeedbackSize()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AesCryptoServiceProvider_get_FeedbackSize_mB93FFC9FCB2C09EABFB13913E245A2D75491659F (AesCryptoServiceProvider_t01E8BF6BEA9BB2C16BEEC3291EC0060086E2EBB3 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesCryptoServiceProvider_get_FeedbackSize_mB93FFC9FCB2C09EABFB13913E245A2D75491659F_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesCryptoServiceProvider_get_FeedbackSize_mB93FFC9FCB2C09EABFB13913E245A2D75491659F_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = SymmetricAlgorithm_get_FeedbackSize_mD2DEAC30A2684A4CC725A592D7301265EE979FE0_inline(__this, /*hidden argument*/NULL);
 		return L_0;
@@ -1990,6 +2259,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AesCryptoServiceProvider_get_Feedback
 // System.Void System.Security.Cryptography.AesCryptoServiceProvider::set_FeedbackSize(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesCryptoServiceProvider_set_FeedbackSize_m409990EF50B03E207F0BAAE9BE19C23A77EA9C27 (AesCryptoServiceProvider_t01E8BF6BEA9BB2C16BEEC3291EC0060086E2EBB3 * __this, int32_t ___value0, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesCryptoServiceProvider_set_FeedbackSize_m409990EF50B03E207F0BAAE9BE19C23A77EA9C27_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesCryptoServiceProvider_set_FeedbackSize_m409990EF50B03E207F0BAAE9BE19C23A77EA9C27_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___value0;
 		SymmetricAlgorithm_set_FeedbackSize_mD26C5C8E130A6A250BEC49F7AAC1AF3CC362B1A0(__this, L_0, /*hidden argument*/NULL);
@@ -1999,6 +2276,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesCryptoServiceProvider_set_FeedbackSiz
 // System.Security.Cryptography.CipherMode System.Security.Cryptography.AesCryptoServiceProvider::get_Mode()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AesCryptoServiceProvider_get_Mode_m5C09588E49787D597CF8C0CD0C74DB63BE0ACE5F (AesCryptoServiceProvider_t01E8BF6BEA9BB2C16BEEC3291EC0060086E2EBB3 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesCryptoServiceProvider_get_Mode_m5C09588E49787D597CF8C0CD0C74DB63BE0ACE5F_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesCryptoServiceProvider_get_Mode_m5C09588E49787D597CF8C0CD0C74DB63BE0ACE5F_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = SymmetricAlgorithm_get_Mode_m782D8A5FAC8271F3FAF6689DDDD4E9B1D15A685D_inline(__this, /*hidden argument*/NULL);
 		return L_0;
@@ -2013,6 +2298,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesCryptoServiceProvider_set_Mode_mC7EE0
 		il2cpp_codegen_initialize_method (AesCryptoServiceProvider_set_Mode_mC7EE07E709C918D0745E5A207A66D89F08EA57EA_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesCryptoServiceProvider_set_Mode_mC7EE07E709C918D0745E5A207A66D89F08EA57EA_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___value0;
 		if ((!(((uint32_t)L_0) == ((uint32_t)5))))
@@ -2036,6 +2323,14 @@ IL_000f:
 // System.Security.Cryptography.PaddingMode System.Security.Cryptography.AesCryptoServiceProvider::get_Padding()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AesCryptoServiceProvider_get_Padding_mA56E045AE5CCF569C4A21C949DD4A4332E63F438 (AesCryptoServiceProvider_t01E8BF6BEA9BB2C16BEEC3291EC0060086E2EBB3 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesCryptoServiceProvider_get_Padding_mA56E045AE5CCF569C4A21C949DD4A4332E63F438_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesCryptoServiceProvider_get_Padding_mA56E045AE5CCF569C4A21C949DD4A4332E63F438_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = SymmetricAlgorithm_get_Padding_mD308D61BEA3783A6BC49FBF5E4A8A3C6F9BB61F8_inline(__this, /*hidden argument*/NULL);
 		return L_0;
@@ -2044,6 +2339,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AesCryptoServiceProvider_get_Padding_
 // System.Void System.Security.Cryptography.AesCryptoServiceProvider::set_Padding(System.Security.Cryptography.PaddingMode)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesCryptoServiceProvider_set_Padding_m94A4D3BE55325036611C5015E02CB622CFCDAF22 (AesCryptoServiceProvider_t01E8BF6BEA9BB2C16BEEC3291EC0060086E2EBB3 * __this, int32_t ___value0, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesCryptoServiceProvider_set_Padding_m94A4D3BE55325036611C5015E02CB622CFCDAF22_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesCryptoServiceProvider_set_Padding_m94A4D3BE55325036611C5015E02CB622CFCDAF22_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___value0;
 		SymmetricAlgorithm_set_Padding_m1EDE1DE4815A7ACC496D95D57407FB5A6E3755A9(__this, L_0, /*hidden argument*/NULL);
@@ -2053,6 +2356,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesCryptoServiceProvider_set_Padding_m94
 // System.Security.Cryptography.ICryptoTransform System.Security.Cryptography.AesCryptoServiceProvider::CreateDecryptor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AesCryptoServiceProvider_CreateDecryptor_mD858924207EA664C6E32D42408FB5C8040DD4D44 (AesCryptoServiceProvider_t01E8BF6BEA9BB2C16BEEC3291EC0060086E2EBB3 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesCryptoServiceProvider_CreateDecryptor_mD858924207EA664C6E32D42408FB5C8040DD4D44_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesCryptoServiceProvider_CreateDecryptor_mD858924207EA664C6E32D42408FB5C8040DD4D44_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_0 = VirtFuncInvoker0< ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* >::Invoke(12 /* System.Byte[] System.Security.Cryptography.SymmetricAlgorithm::get_Key() */, __this);
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_1 = VirtFuncInvoker0< ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* >::Invoke(10 /* System.Byte[] System.Security.Cryptography.SymmetricAlgorithm::get_IV() */, __this);
@@ -2063,6 +2374,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AesCryptoServiceProvider_Creat
 // System.Security.Cryptography.ICryptoTransform System.Security.Cryptography.AesCryptoServiceProvider::CreateEncryptor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AesCryptoServiceProvider_CreateEncryptor_m964DD0E94A26806AB34A7A79D4E4D1539425A2EA (AesCryptoServiceProvider_t01E8BF6BEA9BB2C16BEEC3291EC0060086E2EBB3 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesCryptoServiceProvider_CreateEncryptor_m964DD0E94A26806AB34A7A79D4E4D1539425A2EA_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesCryptoServiceProvider_CreateEncryptor_m964DD0E94A26806AB34A7A79D4E4D1539425A2EA_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_0 = VirtFuncInvoker0< ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* >::Invoke(12 /* System.Byte[] System.Security.Cryptography.SymmetricAlgorithm::get_Key() */, __this);
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_1 = VirtFuncInvoker0< ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* >::Invoke(10 /* System.Byte[] System.Security.Cryptography.SymmetricAlgorithm::get_IV() */, __this);
@@ -2073,6 +2392,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AesCryptoServiceProvider_Creat
 // System.Void System.Security.Cryptography.AesCryptoServiceProvider::Dispose(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesCryptoServiceProvider_Dispose_mCFA420F8643911F86A112F50905FCB34C4A3045F (AesCryptoServiceProvider_t01E8BF6BEA9BB2C16BEEC3291EC0060086E2EBB3 * __this, bool ___disposing0, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesCryptoServiceProvider_Dispose_mCFA420F8643911F86A112F50905FCB34C4A3045F_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesCryptoServiceProvider_Dispose_mCFA420F8643911F86A112F50905FCB34C4A3045F_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		bool L_0 = ___disposing0;
 		SymmetricAlgorithm_Dispose_m7528DAAC38724C0571A2DF385D2FA6179140A258(__this, L_0, /*hidden argument*/NULL);
@@ -2096,6 +2423,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesManaged__ctor_mB2BB25E2F795428300A966
 		il2cpp_codegen_initialize_method (AesManaged__ctor_mB2BB25E2F795428300A966DF7C4706BDDB65FB64_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesManaged__ctor_mB2BB25E2F795428300A966DF7C4706BDDB65FB64_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Aes_t45D82D059B1811A60AF2DA6FD0355CAFB591A653_il2cpp_TypeInfo_var);
 		Aes__ctor_m16C1BE841CDC7AD3484B027FADD635F4CC2F46C5(__this, /*hidden argument*/NULL);
@@ -2131,6 +2460,14 @@ IL_001d:
 // System.Int32 System.Security.Cryptography.AesManaged::get_FeedbackSize()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AesManaged_get_FeedbackSize_mA079406B80A8CDFB6811251C8BCE9EFE3C83A712 (AesManaged_tECE77EB2106D6F15928DA89DF573A924936907B3 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesManaged_get_FeedbackSize_mA079406B80A8CDFB6811251C8BCE9EFE3C83A712_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesManaged_get_FeedbackSize_mA079406B80A8CDFB6811251C8BCE9EFE3C83A712_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RijndaelManaged_t4E3376C5DAE4AB0D658F4A00A1FE7496DB258182 * L_0 = __this->get_m_rijndael_11();
 		NullCheck(L_0);
@@ -2141,6 +2478,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AesManaged_get_FeedbackSize_mA079406B
 // System.Void System.Security.Cryptography.AesManaged::set_FeedbackSize(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesManaged_set_FeedbackSize_m881146DEC23D6F9FA3480D2ABDA7CBAFBD71C7C9 (AesManaged_tECE77EB2106D6F15928DA89DF573A924936907B3 * __this, int32_t ___value0, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesManaged_set_FeedbackSize_m881146DEC23D6F9FA3480D2ABDA7CBAFBD71C7C9_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesManaged_set_FeedbackSize_m881146DEC23D6F9FA3480D2ABDA7CBAFBD71C7C9_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RijndaelManaged_t4E3376C5DAE4AB0D658F4A00A1FE7496DB258182 * L_0 = __this->get_m_rijndael_11();
 		int32_t L_1 = ___value0;
@@ -2152,6 +2497,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesManaged_set_FeedbackSize_m881146DEC23
 // System.Byte[] System.Security.Cryptography.AesManaged::get_IV()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* AesManaged_get_IV_mAAC08AB6D76CE29D3AEFCEF7B46F17B788B00B6E (AesManaged_tECE77EB2106D6F15928DA89DF573A924936907B3 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesManaged_get_IV_mAAC08AB6D76CE29D3AEFCEF7B46F17B788B00B6E_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesManaged_get_IV_mAAC08AB6D76CE29D3AEFCEF7B46F17B788B00B6E_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RijndaelManaged_t4E3376C5DAE4AB0D658F4A00A1FE7496DB258182 * L_0 = __this->get_m_rijndael_11();
 		NullCheck(L_0);
@@ -2162,6 +2515,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A22
 // System.Void System.Security.Cryptography.AesManaged::set_IV(System.Byte[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesManaged_set_IV_m6AF8905A7F0DBD20D7E059360423DB57C7DFA722 (AesManaged_tECE77EB2106D6F15928DA89DF573A924936907B3 * __this, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* ___value0, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesManaged_set_IV_m6AF8905A7F0DBD20D7E059360423DB57C7DFA722_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesManaged_set_IV_m6AF8905A7F0DBD20D7E059360423DB57C7DFA722_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RijndaelManaged_t4E3376C5DAE4AB0D658F4A00A1FE7496DB258182 * L_0 = __this->get_m_rijndael_11();
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_1 = ___value0;
@@ -2173,6 +2534,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesManaged_set_IV_m6AF8905A7F0DBD20D7E05
 // System.Byte[] System.Security.Cryptography.AesManaged::get_Key()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* AesManaged_get_Key_mC3790099349E411DFBC3EB6916E31CCC1F2AC088 (AesManaged_tECE77EB2106D6F15928DA89DF573A924936907B3 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesManaged_get_Key_mC3790099349E411DFBC3EB6916E31CCC1F2AC088_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesManaged_get_Key_mC3790099349E411DFBC3EB6916E31CCC1F2AC088_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RijndaelManaged_t4E3376C5DAE4AB0D658F4A00A1FE7496DB258182 * L_0 = __this->get_m_rijndael_11();
 		NullCheck(L_0);
@@ -2183,6 +2552,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A22
 // System.Void System.Security.Cryptography.AesManaged::set_Key(System.Byte[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesManaged_set_Key_m654922A858A73BC91747B52F5D8B194B1EA88ADC (AesManaged_tECE77EB2106D6F15928DA89DF573A924936907B3 * __this, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* ___value0, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesManaged_set_Key_m654922A858A73BC91747B52F5D8B194B1EA88ADC_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesManaged_set_Key_m654922A858A73BC91747B52F5D8B194B1EA88ADC_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RijndaelManaged_t4E3376C5DAE4AB0D658F4A00A1FE7496DB258182 * L_0 = __this->get_m_rijndael_11();
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_1 = ___value0;
@@ -2194,6 +2571,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesManaged_set_Key_m654922A858A73BC91747
 // System.Int32 System.Security.Cryptography.AesManaged::get_KeySize()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AesManaged_get_KeySize_m5218EB6C55678DC91BDE12E4F0697B719A2C7DD6 (AesManaged_tECE77EB2106D6F15928DA89DF573A924936907B3 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesManaged_get_KeySize_m5218EB6C55678DC91BDE12E4F0697B719A2C7DD6_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesManaged_get_KeySize_m5218EB6C55678DC91BDE12E4F0697B719A2C7DD6_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RijndaelManaged_t4E3376C5DAE4AB0D658F4A00A1FE7496DB258182 * L_0 = __this->get_m_rijndael_11();
 		NullCheck(L_0);
@@ -2204,6 +2589,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AesManaged_get_KeySize_m5218EB6C55678
 // System.Void System.Security.Cryptography.AesManaged::set_KeySize(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesManaged_set_KeySize_m0AF9E2BB96295D70FBADB46F8E32FB54A695C349 (AesManaged_tECE77EB2106D6F15928DA89DF573A924936907B3 * __this, int32_t ___value0, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesManaged_set_KeySize_m0AF9E2BB96295D70FBADB46F8E32FB54A695C349_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesManaged_set_KeySize_m0AF9E2BB96295D70FBADB46F8E32FB54A695C349_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RijndaelManaged_t4E3376C5DAE4AB0D658F4A00A1FE7496DB258182 * L_0 = __this->get_m_rijndael_11();
 		int32_t L_1 = ___value0;
@@ -2215,6 +2608,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesManaged_set_KeySize_m0AF9E2BB96295D70
 // System.Security.Cryptography.CipherMode System.Security.Cryptography.AesManaged::get_Mode()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AesManaged_get_Mode_m85C722AAA2A9CF3BC012EC908CF5B3B57BAF4BDA (AesManaged_tECE77EB2106D6F15928DA89DF573A924936907B3 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesManaged_get_Mode_m85C722AAA2A9CF3BC012EC908CF5B3B57BAF4BDA_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesManaged_get_Mode_m85C722AAA2A9CF3BC012EC908CF5B3B57BAF4BDA_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RijndaelManaged_t4E3376C5DAE4AB0D658F4A00A1FE7496DB258182 * L_0 = __this->get_m_rijndael_11();
 		NullCheck(L_0);
@@ -2231,6 +2632,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesManaged_set_Mode_mE06717F04195261B88A
 		il2cpp_codegen_initialize_method (AesManaged_set_Mode_mE06717F04195261B88A558FBD08AEB847D9320D8_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesManaged_set_Mode_mE06717F04195261B88A558FBD08AEB847D9320D8_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___value0;
 		if ((((int32_t)L_0) == ((int32_t)4)))
@@ -2266,6 +2669,14 @@ IL_0018:
 // System.Security.Cryptography.PaddingMode System.Security.Cryptography.AesManaged::get_Padding()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AesManaged_get_Padding_mBD0B0AA07CF0FBFDFC14458D14F058DE6DA656F0 (AesManaged_tECE77EB2106D6F15928DA89DF573A924936907B3 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesManaged_get_Padding_mBD0B0AA07CF0FBFDFC14458D14F058DE6DA656F0_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesManaged_get_Padding_mBD0B0AA07CF0FBFDFC14458D14F058DE6DA656F0_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RijndaelManaged_t4E3376C5DAE4AB0D658F4A00A1FE7496DB258182 * L_0 = __this->get_m_rijndael_11();
 		NullCheck(L_0);
@@ -2276,6 +2687,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AesManaged_get_Padding_mBD0B0AA07CF0F
 // System.Void System.Security.Cryptography.AesManaged::set_Padding(System.Security.Cryptography.PaddingMode)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesManaged_set_Padding_m1BAC3EECEF3E2F49E4641E29169F149EDA8C5B23 (AesManaged_tECE77EB2106D6F15928DA89DF573A924936907B3 * __this, int32_t ___value0, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesManaged_set_Padding_m1BAC3EECEF3E2F49E4641E29169F149EDA8C5B23_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesManaged_set_Padding_m1BAC3EECEF3E2F49E4641E29169F149EDA8C5B23_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RijndaelManaged_t4E3376C5DAE4AB0D658F4A00A1FE7496DB258182 * L_0 = __this->get_m_rijndael_11();
 		int32_t L_1 = ___value0;
@@ -2287,6 +2706,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesManaged_set_Padding_m1BAC3EECEF3E2F49
 // System.Security.Cryptography.ICryptoTransform System.Security.Cryptography.AesManaged::CreateDecryptor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AesManaged_CreateDecryptor_m9E9E7861138397C7A6AAF8C43C81BD4CFCB8E0BD (AesManaged_tECE77EB2106D6F15928DA89DF573A924936907B3 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesManaged_CreateDecryptor_m9E9E7861138397C7A6AAF8C43C81BD4CFCB8E0BD_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesManaged_CreateDecryptor_m9E9E7861138397C7A6AAF8C43C81BD4CFCB8E0BD_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RijndaelManaged_t4E3376C5DAE4AB0D658F4A00A1FE7496DB258182 * L_0 = __this->get_m_rijndael_11();
 		NullCheck(L_0);
@@ -2303,6 +2730,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AesManaged_CreateDecryptor_mEB
 		il2cpp_codegen_initialize_method (AesManaged_CreateDecryptor_mEBE041A905F0848F846901916BA23485F85C65F1_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesManaged_CreateDecryptor_mEBE041A905F0848F846901916BA23485F85C65F1_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_0 = ___key0;
 		if (L_0)
@@ -2370,6 +2799,14 @@ IL_0055:
 // System.Security.Cryptography.ICryptoTransform System.Security.Cryptography.AesManaged::CreateEncryptor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AesManaged_CreateEncryptor_m82CC97D7C3C330EB8F5F61B3192D65859CAA94F4 (AesManaged_tECE77EB2106D6F15928DA89DF573A924936907B3 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesManaged_CreateEncryptor_m82CC97D7C3C330EB8F5F61B3192D65859CAA94F4_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesManaged_CreateEncryptor_m82CC97D7C3C330EB8F5F61B3192D65859CAA94F4_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RijndaelManaged_t4E3376C5DAE4AB0D658F4A00A1FE7496DB258182 * L_0 = __this->get_m_rijndael_11();
 		NullCheck(L_0);
@@ -2386,6 +2823,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AesManaged_CreateEncryptor_mA9
 		il2cpp_codegen_initialize_method (AesManaged_CreateEncryptor_mA914CA875EF777EDB202343570182CC0D9D89A91_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesManaged_CreateEncryptor_mA914CA875EF777EDB202343570182CC0D9D89A91_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_0 = ___key0;
 		if (L_0)
@@ -2459,6 +2898,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesManaged_Dispose_m57258CB76A9CCEF03FF4
 		il2cpp_codegen_initialize_method (AesManaged_Dispose_m57258CB76A9CCEF03FF4D4C5DE02E9A31056F8ED_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesManaged_Dispose_m57258CB76A9CCEF03FF4D4C5DE02E9A31056F8ED_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	Exception_t * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t * __exception_local = 0;
@@ -2470,6 +2911,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesManaged_Dispose_m57258CB76A9CCEF03FF4
 IL_0000:
 	try
 	{ // begin try (depth: 1)
+		STORE_TRY_ID(methodExecutionContext, 0);
 		{
 			bool L_0 = ___disposing0;
 			if (!L_0)
@@ -2498,6 +2940,7 @@ IL_000e:
 
 FINALLY_0010:
 	{ // begin finally (depth: 1)
+		STORE_TRY_ID(methodExecutionContext, -1);
 		bool L_2 = ___disposing0;
 		SymmetricAlgorithm_Dispose_m7528DAAC38724C0571A2DF385D2FA6179140A258(__this, L_2, /*hidden argument*/NULL);
 		IL2CPP_END_FINALLY(16)
@@ -2516,6 +2959,14 @@ IL_0018:
 // System.Void System.Security.Cryptography.AesManaged::GenerateIV()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesManaged_GenerateIV_m92735378E3FB47DE1D0241A923CB4E426C702ABC (AesManaged_tECE77EB2106D6F15928DA89DF573A924936907B3 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesManaged_GenerateIV_m92735378E3FB47DE1D0241A923CB4E426C702ABC_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesManaged_GenerateIV_m92735378E3FB47DE1D0241A923CB4E426C702ABC_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RijndaelManaged_t4E3376C5DAE4AB0D658F4A00A1FE7496DB258182 * L_0 = __this->get_m_rijndael_11();
 		NullCheck(L_0);
@@ -2526,6 +2977,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesManaged_GenerateIV_m92735378E3FB47DE1
 // System.Void System.Security.Cryptography.AesManaged::GenerateKey()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesManaged_GenerateKey_m5C790BC376A3FAFF13617855FF6BFA8A57925146 (AesManaged_tECE77EB2106D6F15928DA89DF573A924936907B3 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesManaged_GenerateKey_m5C790BC376A3FAFF13617855FF6BFA8A57925146_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesManaged_GenerateKey_m5C790BC376A3FAFF13617855FF6BFA8A57925146_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RijndaelManaged_t4E3376C5DAE4AB0D658F4A00A1FE7496DB258182 * L_0 = __this->get_m_rijndael_11();
 		NullCheck(L_0);
@@ -2564,6 +3023,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesTransform__ctor_m1BC6B0F208747D4E35A5
 	int32_t V_11 = 0;
 	uint32_t V_12 = 0;
 	int32_t V_13 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesTransform__ctor_m1BC6B0F208747D4E35A58075D74DEBD5F72DB7DD_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Aes_t45D82D059B1811A60AF2DA6FD0355CAFB591A653 * L_0 = ___algo0;
 		bool L_1 = ___encryption1;
@@ -2732,6 +3193,7 @@ IL_00e7:
 
 IL_0100:
 	{
+		CHECK_PAUSE_POINT;
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_48 = ___key2;
 		int32_t L_49 = V_3;
 		int32_t L_50 = L_49;
@@ -2793,6 +3255,7 @@ IL_0141:
 
 IL_0155:
 	{
+		CHECK_PAUSE_POINT;
 		UInt32U5BU5D_t9AA834AF2940E75BBF8E3F08FF0D20D266DB71CB* L_78 = V_2;
 		int32_t L_79 = V_6;
 		NullCheck(L_78);
@@ -2887,12 +3350,14 @@ IL_01cd:
 
 IL_01e2:
 	{
+		CHECK_PAUSE_POINT;
 		V_11 = 0;
 		goto IL_020d;
 	}
 
 IL_01e7:
 	{
+		CHECK_PAUSE_POINT;
 		UInt32U5BU5D_t9AA834AF2940E75BBF8E3F08FF0D20D266DB71CB* L_111 = V_2;
 		int32_t L_112 = V_9;
 		int32_t L_113 = V_11;
@@ -2952,6 +3417,7 @@ IL_021e:
 
 IL_0229:
 	{
+		CHECK_PAUSE_POINT;
 		UInt32U5BU5D_t9AA834AF2940E75BBF8E3F08FF0D20D266DB71CB* L_134 = V_2;
 		int32_t L_135 = V_13;
 		IL2CPP_RUNTIME_CLASS_INIT(AesTransform_tEC263AC15300586978DFC864CFE6D82314C7A208_il2cpp_TypeInfo_var);
@@ -3034,6 +3500,14 @@ IL_028a:
 // System.Void System.Security.Cryptography.AesTransform::ECB(System.Byte[],System.Byte[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesTransform_ECB_mAFE52E4D1958026C3343F85CC950A8E24FDFBBDA (AesTransform_tEC263AC15300586978DFC864CFE6D82314C7A208 * __this, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* ___input0, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* ___output1, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AesTransform_ECB_mAFE52E4D1958026C3343F85CC950A8E24FDFBBDA_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesTransform_ECB_mAFE52E4D1958026C3343F85CC950A8E24FDFBBDA_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		bool L_0 = ((SymmetricTransform_t413AE9CB2D31AA411A8F189123C15258929AC750 *)__this)->get_encrypt_1();
 		if (!L_0)
@@ -3068,6 +3542,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t AesTransform_SubByte_mEDB43A2A4E8301
 		s_Il2CppMethodInitialized = true;
 	}
 	uint32_t V_0 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesTransform_SubByte_mEDB43A2A4E83017475094E5616E7DBC56F945A24_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		uint32_t L_0 = ___a0;
 		V_0 = ((int32_t)((int32_t)((int32_t)255)&(int32_t)L_0));
@@ -3119,6 +3595,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesTransform_Encrypt128_m09C945A0345FD32
 	uint32_t V_6 = 0;
 	uint32_t V_7 = 0;
 	int32_t V_8 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesTransform_Encrypt128_m09C945A0345FD32E8DB3F4AF4B4E184CADD754DA_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		V_8 = ((int32_t)40);
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_0 = ___indata0;
@@ -4766,6 +5244,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesTransform_Decrypt128_m1AE10B230A47A29
 	uint32_t V_6 = 0;
 	uint32_t V_7 = 0;
 	int32_t V_8 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesTransform_Decrypt128_m1AE10B230A47A294B5B10EFD9C8243B02DBEA463_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		V_8 = ((int32_t)40);
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_0 = ___indata0;
@@ -6404,6 +6884,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesTransform__cctor_mDEA197C50BA055FF76B
 		il2cpp_codegen_initialize_method (AesTransform__cctor_mDEA197C50BA055FF76B7ECFEB5C1FD7900CE4325_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AesTransform__cctor_mDEA197C50BA055FF76B7ECFEB5C1FD7900CE4325_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		UInt32U5BU5D_t9AA834AF2940E75BBF8E3F08FF0D20D266DB71CB* L_0 = (UInt32U5BU5D_t9AA834AF2940E75BBF8E3F08FF0D20D266DB71CB*)(UInt32U5BU5D_t9AA834AF2940E75BBF8E3F08FF0D20D266DB71CB*)SZArrayNew(UInt32U5BU5D_t9AA834AF2940E75BBF8E3F08FF0D20D266DB71CB_il2cpp_TypeInfo_var, (uint32_t)((int32_t)30));
 		UInt32U5BU5D_t9AA834AF2940E75BBF8E3F08FF0D20D266DB71CB* L_1 = L_0;
@@ -6468,6 +6950,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AesTransform__cctor_mDEA197C50BA055FF76B
 #endif
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR int32_t SymmetricAlgorithm_get_KeySize_m416638119C768C838536FDC5FAD652478F3EC18E_inline (SymmetricAlgorithm_t0A2EC7E7AD8B8976832B4F0AC432B691F862E789 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SymmetricAlgorithm_get_KeySize_m416638119C768C838536FDC5FAD652478F3EC18ESystem_Core_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SymmetricAlgorithm_get_KeySize_m416638119C768C838536FDC5FAD652478F3EC18E_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = __this->get_KeySizeValue_6();
 		return L_0;
@@ -6475,6 +6965,14 @@ IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR int32_t SymmetricAlgorithm_get_KeySiz
 }
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR int32_t SymmetricAlgorithm_get_FeedbackSize_mD2DEAC30A2684A4CC725A592D7301265EE979FE0_inline (SymmetricAlgorithm_t0A2EC7E7AD8B8976832B4F0AC432B691F862E789 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SymmetricAlgorithm_get_FeedbackSize_mD2DEAC30A2684A4CC725A592D7301265EE979FE0System_Core_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SymmetricAlgorithm_get_FeedbackSize_mD2DEAC30A2684A4CC725A592D7301265EE979FE0_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = __this->get_FeedbackSizeValue_1();
 		return L_0;
@@ -6482,6 +6980,14 @@ IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR int32_t SymmetricAlgorithm_get_Feedba
 }
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR int32_t SymmetricAlgorithm_get_Mode_m782D8A5FAC8271F3FAF6689DDDD4E9B1D15A685D_inline (SymmetricAlgorithm_t0A2EC7E7AD8B8976832B4F0AC432B691F862E789 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SymmetricAlgorithm_get_Mode_m782D8A5FAC8271F3FAF6689DDDD4E9B1D15A685DSystem_Core_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SymmetricAlgorithm_get_Mode_m782D8A5FAC8271F3FAF6689DDDD4E9B1D15A685D_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = __this->get_ModeValue_7();
 		return L_0;
@@ -6489,6 +6995,14 @@ IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR int32_t SymmetricAlgorithm_get_Mode_m
 }
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR int32_t SymmetricAlgorithm_get_Padding_mD308D61BEA3783A6BC49FBF5E4A8A3C6F9BB61F8_inline (SymmetricAlgorithm_t0A2EC7E7AD8B8976832B4F0AC432B691F862E789 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SymmetricAlgorithm_get_Padding_mD308D61BEA3783A6BC49FBF5E4A8A3C6F9BB61F8System_Core_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SymmetricAlgorithm_get_Padding_mD308D61BEA3783A6BC49FBF5E4A8A3C6F9BB61F8_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = __this->get_PaddingValue_8();
 		return L_0;
