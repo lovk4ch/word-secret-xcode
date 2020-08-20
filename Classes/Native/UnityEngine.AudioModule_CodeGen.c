@@ -186,7 +186,7 @@ static const int32_t s_InvokerIndices[52] =
 	49,
 	137,
 	31,
-	1356,
+	1355,
 	26,
 	49,
 	816,
@@ -205,9 +205,9 @@ static const int32_t s_InvokerIndices[52] =
 	32,
 	571,
 	26,
-	1357,
+	1356,
 	271,
-	1233,
+	1232,
 	164,
 	31,
 	698,
@@ -221,12 +221,12 @@ static const int32_t s_InvokerIndices[52] =
 	31,
 	31,
 	325,
-	1287,
+	1286,
+	1357,
 	1358,
-	1359,
 	901,
-	1287,
-	1360,
+	1286,
+	1359,
 	32,
 	32,
 	137,
@@ -234,7 +234,6 @@ static const int32_t s_InvokerIndices[52] =
 	154,
 	26,
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnityEngine_AudioModule;
 extern const Il2CppCodeGenModule g_UnityEngine_AudioModuleCodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_AudioModuleCodeGenModule = 
 {
@@ -248,5 +247,5 @@ const Il2CppCodeGenModule g_UnityEngine_AudioModuleCodeGenModule =
 	NULL,
 	0,
 	NULL,
-	&g_DebuggerMetadataRegistrationUnityEngine_AudioModule,
+	NULL,
 };

@@ -611,11 +611,10 @@ static const Il2CppTokenRangePair s_rgctxIndices[1] =
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[3] = 
 {
-	{ (Il2CppRGCTXDataType)2, 17358 },
-	{ (Il2CppRGCTXDataType)2, 17359 },
+	{ (Il2CppRGCTXDataType)2, 16939 },
+	{ (Il2CppRGCTXDataType)2, 16940 },
 	{ (Il2CppRGCTXDataType)3, 11823 },
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationSecurity;
 extern const Il2CppCodeGenModule g_SecurityCodeGenModule;
 const Il2CppCodeGenModule g_SecurityCodeGenModule = 
 {
@@ -629,5 +628,5 @@ const Il2CppCodeGenModule g_SecurityCodeGenModule =
 	s_rgctxIndices,
 	3,
 	s_rgctxValues,
-	&g_DebuggerMetadataRegistrationSecurity,
+	NULL,
 };

@@ -72,7 +72,6 @@ static const int32_t s_InvokerIndices[12] =
 	27,
 	23,
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationTizen;
 extern const Il2CppCodeGenModule g_TizenCodeGenModule;
 const Il2CppCodeGenModule g_TizenCodeGenModule = 
 {
@@ -86,5 +85,5 @@ const Il2CppCodeGenModule g_TizenCodeGenModule =
 	NULL,
 	0,
 	NULL,
-	&g_DebuggerMetadataRegistrationTizen,
+	NULL,
 };

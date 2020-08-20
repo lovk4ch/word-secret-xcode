@@ -114,7 +114,6 @@ static const int32_t s_InvokerIndices[22] =
 	23,
 	23,
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationCoffee_UnmaskForUGUI;
 extern const Il2CppCodeGenModule g_Coffee_UnmaskForUGUICodeGenModule;
 const Il2CppCodeGenModule g_Coffee_UnmaskForUGUICodeGenModule = 
 {
@@ -128,5 +127,5 @@ const Il2CppCodeGenModule g_Coffee_UnmaskForUGUICodeGenModule =
 	NULL,
 	0,
 	NULL,
-	&g_DebuggerMetadataRegistrationCoffee_UnmaskForUGUI,
+	NULL,
 };

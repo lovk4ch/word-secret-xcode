@@ -1621,7 +1621,7 @@ static const int32_t s_InvokerIndices[533] =
 	23,
 	14,
 	28,
-	1097,
+	1096,
 	1915,
 	1916,
 	23,
@@ -1689,7 +1689,7 @@ static const int32_t s_InvokerIndices[533] =
 	915,
 	34,
 	34,
-	1421,
+	1420,
 	23,
 	23,
 	89,
@@ -1715,7 +1715,7 @@ static const int32_t s_InvokerIndices[533] =
 	26,
 	26,
 	23,
-	1124,
+	1123,
 	1918,
 	23,
 	23,
@@ -1926,8 +1926,8 @@ static const int32_t s_InvokerIndices[533] =
 	175,
 	108,
 	175,
-	1117,
-	1357,
+	1116,
+	1356,
 	3,
 	3,
 	23,
@@ -1965,8 +1965,8 @@ static const int32_t s_InvokerIndices[533] =
 	14,
 	325,
 	1922,
-	1097,
-	1254,
+	1096,
+	1253,
 	23,
 	23,
 	23,
@@ -2158,12 +2158,11 @@ static const Il2CppTokenRangePair s_rgctxIndices[1] =
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[4] = 
 {
-	{ (Il2CppRGCTXDataType)2, 20483 },
-	{ (Il2CppRGCTXDataType)2, 20153 },
-	{ (Il2CppRGCTXDataType)1, 20153 },
+	{ (Il2CppRGCTXDataType)2, 20438 },
+	{ (Il2CppRGCTXDataType)2, 20080 },
+	{ (Il2CppRGCTXDataType)1, 20080 },
 	{ (Il2CppRGCTXDataType)3, 11977 },
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationAssemblyU2DCSharp;
 extern const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule = 
 {
@@ -2177,5 +2176,5 @@ const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule =
 	s_rgctxIndices,
 	4,
 	s_rgctxValues,
-	&g_DebuggerMetadataRegistrationAssemblyU2DCSharp,
+	NULL,
 };

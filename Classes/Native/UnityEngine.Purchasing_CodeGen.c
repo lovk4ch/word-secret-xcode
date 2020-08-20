@@ -764,18 +764,17 @@ static const Il2CppTokenRangePair s_rgctxIndices[7] =
 static const Il2CppRGCTXDefinition s_rgctxValues[11] = 
 {
 	{ (Il2CppRGCTXDataType)3, 11824 },
-	{ (Il2CppRGCTXDataType)1, 17515 },
-	{ (Il2CppRGCTXDataType)2, 17515 },
-	{ (Il2CppRGCTXDataType)1, 17516 },
-	{ (Il2CppRGCTXDataType)2, 17516 },
-	{ (Il2CppRGCTXDataType)2, 17517 },
-	{ (Il2CppRGCTXDataType)1, 17517 },
-	{ (Il2CppRGCTXDataType)2, 17518 },
-	{ (Il2CppRGCTXDataType)1, 17518 },
+	{ (Il2CppRGCTXDataType)1, 17102 },
+	{ (Il2CppRGCTXDataType)2, 17102 },
+	{ (Il2CppRGCTXDataType)1, 17103 },
+	{ (Il2CppRGCTXDataType)2, 17103 },
+	{ (Il2CppRGCTXDataType)2, 17104 },
+	{ (Il2CppRGCTXDataType)1, 17104 },
+	{ (Il2CppRGCTXDataType)2, 17105 },
+	{ (Il2CppRGCTXDataType)1, 17105 },
 	{ (Il2CppRGCTXDataType)3, 11825 },
 	{ (Il2CppRGCTXDataType)3, 11826 },
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnityEngine_Purchasing;
 extern const Il2CppCodeGenModule g_UnityEngine_PurchasingCodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_PurchasingCodeGenModule = 
 {
@@ -789,5 +788,5 @@ const Il2CppCodeGenModule g_UnityEngine_PurchasingCodeGenModule =
 	s_rgctxIndices,
 	11,
 	s_rgctxValues,
-	&g_DebuggerMetadataRegistrationUnityEngine_Purchasing,
+	NULL,
 };

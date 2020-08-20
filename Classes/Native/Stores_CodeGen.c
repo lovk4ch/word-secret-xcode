@@ -2154,24 +2154,23 @@ static const Il2CppTokenRangePair s_rgctxIndices[5] =
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[16] = 
 {
-	{ (Il2CppRGCTXDataType)2, 20465 },
+	{ (Il2CppRGCTXDataType)2, 20420 },
 	{ (Il2CppRGCTXDataType)3, 11894 },
-	{ (Il2CppRGCTXDataType)1, 18966 },
-	{ (Il2CppRGCTXDataType)2, 18966 },
+	{ (Il2CppRGCTXDataType)1, 18641 },
+	{ (Il2CppRGCTXDataType)2, 18641 },
 	{ (Il2CppRGCTXDataType)3, 11895 },
-	{ (Il2CppRGCTXDataType)2, 18976 },
+	{ (Il2CppRGCTXDataType)2, 18651 },
 	{ (Il2CppRGCTXDataType)3, 11896 },
-	{ (Il2CppRGCTXDataType)2, 20466 },
+	{ (Il2CppRGCTXDataType)2, 20421 },
 	{ (Il2CppRGCTXDataType)3, 11897 },
-	{ (Il2CppRGCTXDataType)2, 18986 },
+	{ (Il2CppRGCTXDataType)2, 18661 },
 	{ (Il2CppRGCTXDataType)3, 11898 },
 	{ (Il2CppRGCTXDataType)3, 11899 },
-	{ (Il2CppRGCTXDataType)1, 18987 },
-	{ (Il2CppRGCTXDataType)2, 18987 },
-	{ (Il2CppRGCTXDataType)1, 18988 },
+	{ (Il2CppRGCTXDataType)1, 18662 },
+	{ (Il2CppRGCTXDataType)2, 18662 },
+	{ (Il2CppRGCTXDataType)1, 18663 },
 	{ (Il2CppRGCTXDataType)3, 11900 },
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationStores;
 extern const Il2CppCodeGenModule g_StoresCodeGenModule;
 const Il2CppCodeGenModule g_StoresCodeGenModule = 
 {
@@ -2185,5 +2184,5 @@ const Il2CppCodeGenModule g_StoresCodeGenModule =
 	s_rgctxIndices,
 	16,
 	s_rgctxValues,
-	&g_DebuggerMetadataRegistrationStores,
+	NULL,
 };

@@ -177,7 +177,6 @@ static const int32_t s_InvokerIndices[39] =
 	23,
 	23,
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationApple;
 extern const Il2CppCodeGenModule g_AppleCodeGenModule;
 const Il2CppCodeGenModule g_AppleCodeGenModule = 
 {
@@ -191,5 +190,5 @@ const Il2CppCodeGenModule g_AppleCodeGenModule =
 	NULL,
 	0,
 	NULL,
-	&g_DebuggerMetadataRegistrationApple,
+	NULL,
 };

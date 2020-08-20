@@ -102,13 +102,11 @@ IL2CPP_EXTERN_C const RuntimeMethod* TizenStoreBindings_Purchase_mBD229ABAAC86BF
 IL2CPP_EXTERN_C const RuntimeMethod* TizenStoreBindings_RetrieveProducts_m0897A7A615DC00B90BD4D4FC847841B857DCE29F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TizenStoreBindings_SetGroupId_mA1C0A4E8C5B265D38641077F6B7F61703788663E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TizenStoreBindings_SetUnityPurchasingCallback_m5952D9C670E711B49743CCAF71A25FAE49B7DF5A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TizenStoreBindings__ctor_mF9115044617475D4F6D8995CFB7175704D68A6AF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const uint32_t TizenStoreBindings_FinishTransaction_mB5AE2C60AA83D5E49198D4089F90359E42EB75C6_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t TizenStoreBindings_Purchase_mBD229ABAAC86BFD19F8FA4BBF1EF87D2276E6AE8_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t TizenStoreBindings_RetrieveProducts_m0897A7A615DC00B90BD4D4FC847841B857DCE29F_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t TizenStoreBindings_SetGroupId_mA1C0A4E8C5B265D38641077F6B7F61703788663E_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t TizenStoreBindings_SetUnityPurchasingCallback_m5952D9C670E711B49743CCAF71A25FAE49B7DF5A_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t TizenStoreBindings__ctor_mF9115044617475D4F6D8995CFB7175704D68A6AF_MetadataUsageId;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
@@ -773,8 +771,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TizenStoreBindings_SetGroupId_mA1C0A4E8C
 		il2cpp_codegen_initialize_method (TizenStoreBindings_SetGroupId_mA1C0A4E8C5B265D38641077F6B7F61703788663E_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TizenStoreBindings_SetGroupId_mA1C0A4E8C5B265D38641077F6B7F61703788663E_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		NotImplementedException_t8AD6EBE5FEDB0AEBECEE0961CF73C35B372EFFA4 * L_0 = (NotImplementedException_t8AD6EBE5FEDB0AEBECEE0961CF73C35B372EFFA4 *)il2cpp_codegen_object_new(NotImplementedException_t8AD6EBE5FEDB0AEBECEE0961CF73C35B372EFFA4_il2cpp_TypeInfo_var);
 		NotImplementedException__ctor_m8BEA657E260FC05F0C6D2C43A6E9BC08040F59C4(L_0, /*hidden argument*/NULL);
@@ -790,8 +786,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TizenStoreBindings_SetUnityPurchasingCal
 		il2cpp_codegen_initialize_method (TizenStoreBindings_SetUnityPurchasingCallback_m5952D9C670E711B49743CCAF71A25FAE49B7DF5A_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TizenStoreBindings_SetUnityPurchasingCallback_m5952D9C670E711B49743CCAF71A25FAE49B7DF5A_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		NotImplementedException_t8AD6EBE5FEDB0AEBECEE0961CF73C35B372EFFA4 * L_0 = (NotImplementedException_t8AD6EBE5FEDB0AEBECEE0961CF73C35B372EFFA4 *)il2cpp_codegen_object_new(NotImplementedException_t8AD6EBE5FEDB0AEBECEE0961CF73C35B372EFFA4_il2cpp_TypeInfo_var);
 		NotImplementedException__ctor_m8BEA657E260FC05F0C6D2C43A6E9BC08040F59C4(L_0, /*hidden argument*/NULL);
@@ -807,8 +801,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TizenStoreBindings_RetrieveProducts_m089
 		il2cpp_codegen_initialize_method (TizenStoreBindings_RetrieveProducts_m0897A7A615DC00B90BD4D4FC847841B857DCE29F_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TizenStoreBindings_RetrieveProducts_m0897A7A615DC00B90BD4D4FC847841B857DCE29F_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		NotImplementedException_t8AD6EBE5FEDB0AEBECEE0961CF73C35B372EFFA4 * L_0 = (NotImplementedException_t8AD6EBE5FEDB0AEBECEE0961CF73C35B372EFFA4 *)il2cpp_codegen_object_new(NotImplementedException_t8AD6EBE5FEDB0AEBECEE0961CF73C35B372EFFA4_il2cpp_TypeInfo_var);
 		NotImplementedException__ctor_m8BEA657E260FC05F0C6D2C43A6E9BC08040F59C4(L_0, /*hidden argument*/NULL);
@@ -824,8 +816,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TizenStoreBindings_Purchase_mBD229ABAAC8
 		il2cpp_codegen_initialize_method (TizenStoreBindings_Purchase_mBD229ABAAC86BFD19F8FA4BBF1EF87D2276E6AE8_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TizenStoreBindings_Purchase_mBD229ABAAC86BFD19F8FA4BBF1EF87D2276E6AE8_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		NotImplementedException_t8AD6EBE5FEDB0AEBECEE0961CF73C35B372EFFA4 * L_0 = (NotImplementedException_t8AD6EBE5FEDB0AEBECEE0961CF73C35B372EFFA4 *)il2cpp_codegen_object_new(NotImplementedException_t8AD6EBE5FEDB0AEBECEE0961CF73C35B372EFFA4_il2cpp_TypeInfo_var);
 		NotImplementedException__ctor_m8BEA657E260FC05F0C6D2C43A6E9BC08040F59C4(L_0, /*hidden argument*/NULL);
@@ -841,8 +831,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TizenStoreBindings_FinishTransaction_mB5
 		il2cpp_codegen_initialize_method (TizenStoreBindings_FinishTransaction_mB5AE2C60AA83D5E49198D4089F90359E42EB75C6_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TizenStoreBindings_FinishTransaction_mB5AE2C60AA83D5E49198D4089F90359E42EB75C6_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		NotImplementedException_t8AD6EBE5FEDB0AEBECEE0961CF73C35B372EFFA4 * L_0 = (NotImplementedException_t8AD6EBE5FEDB0AEBECEE0961CF73C35B372EFFA4 *)il2cpp_codegen_object_new(NotImplementedException_t8AD6EBE5FEDB0AEBECEE0961CF73C35B372EFFA4_il2cpp_TypeInfo_var);
 		NotImplementedException__ctor_m8BEA657E260FC05F0C6D2C43A6E9BC08040F59C4(L_0, /*hidden argument*/NULL);
@@ -852,14 +840,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TizenStoreBindings_FinishTransaction_mB5
 // System.Void UnityEngine.Purchasing.TizenStoreBindings::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TizenStoreBindings__ctor_mF9115044617475D4F6D8995CFB7175704D68A6AF (TizenStoreBindings_t0CD7C87597EE0CE43FF2CF4045BEDABE0F95457B * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (TizenStoreBindings__ctor_mF9115044617475D4F6D8995CFB7175704D68A6AF_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TizenStoreBindings__ctor_mF9115044617475D4F6D8995CFB7175704D68A6AF_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0(__this, /*hidden argument*/NULL);
 		return;

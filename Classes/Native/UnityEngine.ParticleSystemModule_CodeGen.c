@@ -133,20 +133,19 @@ static const int32_t s_InvokerIndices[30] =
 	337,
 	337,
 	325,
-	1097,
-	1097,
+	1096,
+	1096,
 	325,
 	325,
 	1482,
 	32,
 	325,
-	1097,
-	1097,
+	1096,
+	1096,
 	698,
 	14,
 	115,
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnityEngine_ParticleSystemModule;
 extern const Il2CppCodeGenModule g_UnityEngine_ParticleSystemModuleCodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_ParticleSystemModuleCodeGenModule = 
 {
@@ -160,5 +159,5 @@ const Il2CppCodeGenModule g_UnityEngine_ParticleSystemModuleCodeGenModule =
 	NULL,
 	0,
 	NULL,
-	&g_DebuggerMetadataRegistrationUnityEngine_ParticleSystemModule,
+	NULL,
 };

@@ -3,5 +3,5 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '10.0'
 
 target 'UnityFramework' do
-  pod 'IronSourceSDK', '6.18.0.2'
+  pod 'IronSourceSDK', '7.0.0.0'
 end

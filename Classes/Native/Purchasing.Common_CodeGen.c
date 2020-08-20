@@ -171,7 +171,6 @@ static const int32_t s_InvokerIndices[37] =
 	0,
 	0,
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationPurchasing_Common;
 extern const Il2CppCodeGenModule g_Purchasing_CommonCodeGenModule;
 const Il2CppCodeGenModule g_Purchasing_CommonCodeGenModule = 
 {
@@ -185,5 +184,5 @@ const Il2CppCodeGenModule g_Purchasing_CommonCodeGenModule =
 	NULL,
 	0,
 	NULL,
-	&g_DebuggerMetadataRegistrationPurchasing_Common,
+	NULL,
 };

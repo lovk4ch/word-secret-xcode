@@ -98,30 +98,15 @@ struct Void_t22962CB4C05B1D89B55A6E1139F0E87A90987017;
 // UnityEngineInternal.Input.NativeUpdateCallback
 struct NativeUpdateCallback_tCC4B5A2692C21C00FC2FC1E4EC5280E98423B8D5;
 
-IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_InputModule[];
 IL2CPP_EXTERN_C RuntimeClass* NativeInputSystem_t522F6391494159917EE6963E9E61C9EFA9C5795C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* NativeInputUpdateType_t744D5594ED044E47F3BAF84F45326948B8930C71_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Action_1_Invoke_m60C027AA0F030AC2B693BEFB8E213066CD9000D0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Action_2_Invoke_mC215CA1421B7DF8C0023F107CA72045332A79489_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Func_2_Invoke_m3EBFD1B2C975E45C26C2322E78FB7E4297168511_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* IntPtr_ToPointer_mC56A17E597E9F767B889DA10DB866F0B96CF0D65_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* NativeInputSystem_NotifyBeforeUpdate_m317D534DBDD42915CE638051B87E48B76ED28574_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* NativeInputSystem_NotifyDeviceDiscovered_m48C3818DDCFB1A2C0530B6CE1C78743ABA4614B0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* NativeInputSystem_NotifyUpdate_m9AAC791622BA97DC7807610DD08C54F6011834F2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* NativeInputSystem_ShouldRunUpdate_m3232491D0E639A8C58910B2ECD2967BAC8AFF9C6_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* NativeInputSystem__cctor_m062AB23A2EB8CDEC8BEB378C4588038BD1614A11_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeType* Action_1_tA0A72999A108CE29CD4CB14537B8FE41501859C1_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Action_2_t3DE7FA14577DE01568F76D409273F315827CAA36_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Boolean_tB53F6830F670160873277339AA58F15CAED4399C_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Func_2_t9A2EAEA48EB870B763F1AB3E671CE2745D638867_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* NativeInputEventBufferU2A_t0D5FBD73D852ED51D29EF57078626FA67B4DC810_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* NativeUpdateCallback_tCC4B5A2692C21C00FC2FC1E4EC5280E98423B8D5_0_0_0_var;
-IL2CPP_EXTERN_C const uint32_t IntPtr_ToPointer_mC56A17E597E9F767B889DA10DB866F0B96CF0D65UnityEngine_InputModule_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t NativeInputSystem_NotifyBeforeUpdate_m317D534DBDD42915CE638051B87E48B76ED28574_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t NativeInputSystem_NotifyDeviceDiscovered_m48C3818DDCFB1A2C0530B6CE1C78743ABA4614B0_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t NativeInputSystem_NotifyUpdate_m9AAC791622BA97DC7807610DD08C54F6011834F2_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t NativeInputSystem_ShouldRunUpdate_m3232491D0E639A8C58910B2ECD2967BAC8AFF9C6_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t NativeInputSystem__cctor_m062AB23A2EB8CDEC8BEB378C4588038BD1614A11_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t NativeUpdateCallback_BeginInvoke_m79CEAA701133792644EE6B9C9F1B234541EA0D5C_MetadataUsageId;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
@@ -885,22 +870,8 @@ inline bool Func_2_Invoke_m3EBFD1B2C975E45C26C2322E78FB7E4297168511 (Func_2_t9A2
 // System.Void UnityEngineInternal.Input.NativeInputSystem::.cctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeInputSystem__cctor_m062AB23A2EB8CDEC8BEB378C4588038BD1614A11 (const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (NativeInputSystem__cctor_m062AB23A2EB8CDEC8BEB378C4588038BD1614A11_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, NativeInputSystem__cctor_m062AB23A2EB8CDEC8BEB378C4588038BD1614A11_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 0));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 1));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 3));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 5));
 		NativeInputSystem_set_hasDeviceDiscoveredCallback_mB5319D5A7C245D6F12C294928D4AF3B635FFE362((bool)0, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 5));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 4));
 		return;
 	}
 }
@@ -915,21 +886,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeInputSystem_NotifyBeforeUpdate_m31
 	}
 	Action_1_tA0A72999A108CE29CD4CB14537B8FE41501859C1 * V_0 = NULL;
 	bool V_1 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___updateType0));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, NativeInputSystem_NotifyBeforeUpdate_m317D534DBDD42915CE638051B87E48B76ED28574_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 6));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 7));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 8));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 9));
 		IL2CPP_RUNTIME_CLASS_INIT(NativeInputSystem_t522F6391494159917EE6963E9E61C9EFA9C5795C_il2cpp_TypeInfo_var);
 		Action_1_tA0A72999A108CE29CD4CB14537B8FE41501859C1 * L_0 = ((NativeInputSystem_t522F6391494159917EE6963E9E61C9EFA9C5795C_StaticFields*)il2cpp_codegen_static_fields_for(NativeInputSystem_t522F6391494159917EE6963E9E61C9EFA9C5795C_il2cpp_TypeInfo_var))->get_onBeforeUpdate_1();
 		V_0 = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 10));
 		Action_1_tA0A72999A108CE29CD4CB14537B8FE41501859C1 * L_1 = V_0;
 		V_1 = (bool)((!(((RuntimeObject*)(Action_1_tA0A72999A108CE29CD4CB14537B8FE41501859C1 *)L_1) <= ((RuntimeObject*)(RuntimeObject *)NULL)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 11));
 		bool L_2 = V_1;
 		if (!L_2)
 		{
@@ -937,18 +899,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeInputSystem_NotifyBeforeUpdate_m31
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 12));
 		Action_1_tA0A72999A108CE29CD4CB14537B8FE41501859C1 * L_3 = V_0;
 		int32_t L_4 = ___updateType0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 14));
 		NullCheck(L_3);
 		Action_1_Invoke_m60C027AA0F030AC2B693BEFB8E213066CD9000D0(L_3, L_4, /*hidden argument*/Action_1_Invoke_m60C027AA0F030AC2B693BEFB8E213066CD9000D0_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 14));
 	}
 
 IL_0017:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 13));
 		return;
 	}
 }
@@ -964,26 +922,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeInputSystem_NotifyUpdate_m9AAC7916
 	NativeUpdateCallback_tCC4B5A2692C21C00FC2FC1E4EC5280E98423B8D5 * V_0 = NULL;
 	NativeInputEventBuffer_t9960648276F01C5C3435E0E6FD870F2DA8A132EF * V_1 = NULL;
 	bool V_2 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___updateType0), (&___eventBuffer1));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, NativeInputSystem_NotifyUpdate_m9AAC791622BA97DC7807610DD08C54F6011834F2_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 15));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 16));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 17));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 18));
 		IL2CPP_RUNTIME_CLASS_INIT(NativeInputSystem_t522F6391494159917EE6963E9E61C9EFA9C5795C_il2cpp_TypeInfo_var);
 		NativeUpdateCallback_tCC4B5A2692C21C00FC2FC1E4EC5280E98423B8D5 * L_0 = ((NativeInputSystem_t522F6391494159917EE6963E9E61C9EFA9C5795C_StaticFields*)il2cpp_codegen_static_fields_for(NativeInputSystem_t522F6391494159917EE6963E9E61C9EFA9C5795C_il2cpp_TypeInfo_var))->get_onUpdate_0();
 		V_0 = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 19));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 30));
 		void* L_1 = IntPtr_ToPointer_mC56A17E597E9F767B889DA10DB866F0B96CF0D65_inline((intptr_t*)(&___eventBuffer1), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 30));
 		V_1 = (NativeInputEventBuffer_t9960648276F01C5C3435E0E6FD870F2DA8A132EF *)L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 20));
 		NativeUpdateCallback_tCC4B5A2692C21C00FC2FC1E4EC5280E98423B8D5 * L_2 = V_0;
 		V_2 = (bool)((((RuntimeObject*)(NativeUpdateCallback_tCC4B5A2692C21C00FC2FC1E4EC5280E98423B8D5 *)L_2) == ((RuntimeObject*)(RuntimeObject *)NULL))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 21));
 		bool L_3 = V_2;
 		if (!L_3)
 		{
@@ -991,36 +937,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeInputSystem_NotifyUpdate_m9AAC7916
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 22));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 23));
 		NativeInputEventBuffer_t9960648276F01C5C3435E0E6FD870F2DA8A132EF * L_4 = V_1;
 		NullCheck(L_4);
 		L_4->set_eventCount_1(0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 24));
 		NativeInputEventBuffer_t9960648276F01C5C3435E0E6FD870F2DA8A132EF * L_5 = V_1;
 		NullCheck(L_5);
 		L_5->set_sizeInBytes_2(0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 25));
 		goto IL_0034;
 	}
 
 IL_0029:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 26));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 27));
 		NativeUpdateCallback_tCC4B5A2692C21C00FC2FC1E4EC5280E98423B8D5 * L_6 = V_0;
 		int32_t L_7 = ___updateType0;
 		NativeInputEventBuffer_t9960648276F01C5C3435E0E6FD870F2DA8A132EF * L_8 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 31));
 		NullCheck(L_6);
 		NativeUpdateCallback_Invoke_m0F3B8F934AB1C953397B0E2134D17A9AAEBD975E(L_6, L_7, (NativeInputEventBuffer_t9960648276F01C5C3435E0E6FD870F2DA8A132EF *)(NativeInputEventBuffer_t9960648276F01C5C3435E0E6FD870F2DA8A132EF *)L_8, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 31));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 28));
 	}
 
 IL_0034:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 29));
 		return;
 	}
 }
@@ -1035,21 +971,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeInputSystem_NotifyDeviceDiscovered
 	}
 	Action_2_t3DE7FA14577DE01568F76D409273F315827CAA36 * V_0 = NULL;
 	bool V_1 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___deviceId0), (&___deviceDescriptor1));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, NativeInputSystem_NotifyDeviceDiscovered_m48C3818DDCFB1A2C0530B6CE1C78743ABA4614B0_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 32));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 33));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 34));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 35));
 		IL2CPP_RUNTIME_CLASS_INIT(NativeInputSystem_t522F6391494159917EE6963E9E61C9EFA9C5795C_il2cpp_TypeInfo_var);
 		Action_2_t3DE7FA14577DE01568F76D409273F315827CAA36 * L_0 = ((NativeInputSystem_t522F6391494159917EE6963E9E61C9EFA9C5795C_StaticFields*)il2cpp_codegen_static_fields_for(NativeInputSystem_t522F6391494159917EE6963E9E61C9EFA9C5795C_il2cpp_TypeInfo_var))->get_s_OnDeviceDiscoveredCallback_3();
 		V_0 = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 36));
 		Action_2_t3DE7FA14577DE01568F76D409273F315827CAA36 * L_1 = V_0;
 		V_1 = (bool)((!(((RuntimeObject*)(Action_2_t3DE7FA14577DE01568F76D409273F315827CAA36 *)L_1) <= ((RuntimeObject*)(RuntimeObject *)NULL)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 37));
 		bool L_2 = V_1;
 		if (!L_2)
 		{
@@ -1057,19 +984,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeInputSystem_NotifyDeviceDiscovered
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 38));
 		Action_2_t3DE7FA14577DE01568F76D409273F315827CAA36 * L_3 = V_0;
 		int32_t L_4 = ___deviceId0;
 		String_t* L_5 = ___deviceDescriptor1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 40));
 		NullCheck(L_3);
 		Action_2_Invoke_mC215CA1421B7DF8C0023F107CA72045332A79489(L_3, L_4, L_5, /*hidden argument*/Action_2_Invoke_mC215CA1421B7DF8C0023F107CA72045332A79489_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 40));
 	}
 
 IL_0018:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 39));
 		return;
 	}
 }
@@ -1083,22 +1006,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeInputSystem_ShouldRunUpdate_m32324
 		s_Il2CppMethodInitialized = true;
 	}
 	Func_2_t9A2EAEA48EB870B763F1AB3E671CE2745D638867 * V_0 = NULL;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___updateType0), (&___retval1));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, NativeInputSystem_ShouldRunUpdate_m3232491D0E639A8C58910B2ECD2967BAC8AFF9C6_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 41));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 42));
 	bool* G_B2_0 = NULL;
 	bool* G_B1_0 = NULL;
 	int32_t G_B3_0 = 0;
 	bool* G_B3_1 = NULL;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 43));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 44));
 		IL2CPP_RUNTIME_CLASS_INIT(NativeInputSystem_t522F6391494159917EE6963E9E61C9EFA9C5795C_il2cpp_TypeInfo_var);
 		Func_2_t9A2EAEA48EB870B763F1AB3E671CE2745D638867 * L_0 = ((NativeInputSystem_t522F6391494159917EE6963E9E61C9EFA9C5795C_StaticFields*)il2cpp_codegen_static_fields_for(NativeInputSystem_t522F6391494159917EE6963E9E61C9EFA9C5795C_il2cpp_TypeInfo_var))->get_onShouldRunUpdate_2();
 		V_0 = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 45));
 		bool* L_1 = ___retval1;
 		Func_2_t9A2EAEA48EB870B763F1AB3E671CE2745D638867 * L_2 = V_0;
 		G_B1_0 = L_1;
@@ -1118,10 +1033,8 @@ IL_000e:
 	{
 		Func_2_t9A2EAEA48EB870B763F1AB3E671CE2745D638867 * L_3 = V_0;
 		int32_t L_4 = ___updateType0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 47));
 		NullCheck(L_3);
 		bool L_5 = Func_2_Invoke_m3EBFD1B2C975E45C26C2322E78FB7E4297168511(L_3, L_4, /*hidden argument*/Func_2_Invoke_m3EBFD1B2C975E45C26C2322E78FB7E4297168511_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 47));
 		G_B3_0 = ((int32_t)(L_5));
 		G_B3_1 = G_B2_0;
 	}
@@ -1129,7 +1042,6 @@ IL_000e:
 IL_0015:
 	{
 		*((int8_t*)G_B3_1) = (int8_t)G_B3_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_InputModule + 46));
 		return;
 	}
 }
@@ -1283,14 +1195,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeUpdateCallback_EndInvoke_m58A8CC71
 #endif
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void* IntPtr_ToPointer_mC56A17E597E9F767B889DA10DB866F0B96CF0D65_inline (intptr_t* __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (IntPtr_ToPointer_mC56A17E597E9F767B889DA10DB866F0B96CF0D65UnityEngine_InputModule_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, IntPtr_ToPointer_mC56A17E597E9F767B889DA10DB866F0B96CF0D65_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		intptr_t L_0 = *__this;
 		return (void*)(L_0);

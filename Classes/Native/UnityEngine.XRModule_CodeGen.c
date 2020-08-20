@@ -190,7 +190,7 @@ static Il2CppMethodPointer s_methodPointers[55] =
 };
 static const int32_t s_InvokerIndices[55] = 
 {
-	1375,
+	1374,
 	3,
 	208,
 	32,
@@ -198,10 +198,15 @@ static const int32_t s_InvokerIndices[55] =
 	14,
 	10,
 	9,
-	1376,
+	1375,
 	10,
 	208,
 	181,
+	9,
+	1376,
+	10,
+	181,
+	10,
 	9,
 	1377,
 	10,
@@ -215,12 +220,7 @@ static const int32_t s_InvokerIndices[55] =
 	9,
 	1379,
 	10,
-	181,
-	10,
-	9,
 	1380,
-	10,
-	1381,
 	816,
 	23,
 	23,
@@ -231,22 +231,21 @@ static const int32_t s_InvokerIndices[55] =
 	14,
 	10,
 	9,
-	1382,
+	1381,
 	3,
 	177,
-	1383,
+	1382,
 	14,
 	14,
 	10,
 	10,
 	9,
-	1384,
+	1383,
 	10,
-	1385,
+	1384,
 	23,
 	23,
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnityEngine_XRModule;
 extern const Il2CppCodeGenModule g_UnityEngine_XRModuleCodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_XRModuleCodeGenModule = 
 {
@@ -260,5 +259,5 @@ const Il2CppCodeGenModule g_UnityEngine_XRModuleCodeGenModule =
 	NULL,
 	0,
 	NULL,
-	&g_DebuggerMetadataRegistrationUnityEngine_XRModule,
+	NULL,
 };

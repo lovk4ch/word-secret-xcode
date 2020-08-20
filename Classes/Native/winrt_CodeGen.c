@@ -85,7 +85,6 @@ static const int32_t s_InvokerIndices[16] =
 	31,
 	1655,
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationwinrt;
 extern const Il2CppCodeGenModule g_winrtCodeGenModule;
 const Il2CppCodeGenModule g_winrtCodeGenModule = 
 {
@@ -99,5 +98,5 @@ const Il2CppCodeGenModule g_winrtCodeGenModule =
 	NULL,
 	0,
 	NULL,
-	&g_DebuggerMetadataRegistrationwinrt,
+	NULL,
 };

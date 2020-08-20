@@ -42,36 +42,7 @@ struct WinProductDescription_tB3144EBF4DA49C65396F3AF779136D88E6E3AE43;
 
 IL2CPP_EXTERN_C RuntimeClass* NotImplementedException_t8AD6EBE5FEDB0AEBECEE0961CF73C35B372EFFA4_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Factory_Create_m9D2714E3627BA7FA59E66C96BD459072D14110A7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* WinProductDescription__ctor_mAAEF8B336277574079D4490C9100998BF237AF8F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* WinProductDescription_set_ISOCurrencyCode_mF097ACEF0DD143A28A79AF5252172CE7C7F3D1A6_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* WinProductDescription_set_consumable_m90A3535F5715F4972444062F7DE3A1CC549D5582_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* WinProductDescription_set_description_mE9CC9EFD4812A411FE1277A2BEB3AAC3D6029B30_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* WinProductDescription_set_platformSpecificID_m4A668AB347E9ACFCFCEA2D95789A8902EFB282AB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* WinProductDescription_set_priceDecimal_m118EA165F28FE0A959EC523CEE6593D49804ADA9_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* WinProductDescription_set_price_mDFCD8D6F84C07FE50510C8E31161E18E1959FC5F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* WinProductDescription_set_receipt_m76ACC63CA0A4118B610168B762041E4D09FAD613_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* WinProductDescription_set_title_m93BA50E01B8CB7C53EA543D219BD13C0C3C4FB3B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* WinProductDescription_set_transactionID_mD04E4530777C2EB26DE555FBF0D895EA88CE6AA6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const uint32_t Factory_Create_m9D2714E3627BA7FA59E66C96BD459072D14110A7_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t WinProductDescription__ctor_mAAEF8B336277574079D4490C9100998BF237AF8F_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t WinProductDescription_set_ISOCurrencyCode_mF097ACEF0DD143A28A79AF5252172CE7C7F3D1A6_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t WinProductDescription_set_ISOCurrencyCode_mF097ACEF0DD143A28A79AF5252172CE7C7F3D1A6winrt_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t WinProductDescription_set_consumable_m90A3535F5715F4972444062F7DE3A1CC549D5582_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t WinProductDescription_set_consumable_m90A3535F5715F4972444062F7DE3A1CC549D5582winrt_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t WinProductDescription_set_description_mE9CC9EFD4812A411FE1277A2BEB3AAC3D6029B30_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t WinProductDescription_set_description_mE9CC9EFD4812A411FE1277A2BEB3AAC3D6029B30winrt_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t WinProductDescription_set_platformSpecificID_m4A668AB347E9ACFCFCEA2D95789A8902EFB282AB_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t WinProductDescription_set_platformSpecificID_m4A668AB347E9ACFCFCEA2D95789A8902EFB282ABwinrt_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t WinProductDescription_set_priceDecimal_m118EA165F28FE0A959EC523CEE6593D49804ADA9_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t WinProductDescription_set_priceDecimal_m118EA165F28FE0A959EC523CEE6593D49804ADA9winrt_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t WinProductDescription_set_price_mDFCD8D6F84C07FE50510C8E31161E18E1959FC5F_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t WinProductDescription_set_price_mDFCD8D6F84C07FE50510C8E31161E18E1959FC5Fwinrt_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t WinProductDescription_set_receipt_m76ACC63CA0A4118B610168B762041E4D09FAD613_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t WinProductDescription_set_receipt_m76ACC63CA0A4118B610168B762041E4D09FAD613winrt_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t WinProductDescription_set_title_m93BA50E01B8CB7C53EA543D219BD13C0C3C4FB3B_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t WinProductDescription_set_title_m93BA50E01B8CB7C53EA543D219BD13C0C3C4FB3Bwinrt_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t WinProductDescription_set_transactionID_mD04E4530777C2EB26DE555FBF0D895EA88CE6AA6_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t WinProductDescription_set_transactionID_mD04E4530777C2EB26DE555FBF0D895EA88CE6AA6winrt_MetadataUsageId;
 struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
 
@@ -801,8 +772,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Factory_Create_m9D2714E3627BA7
 		il2cpp_codegen_initialize_method (Factory_Create_m9D2714E3627BA7FA59E66C96BD459072D14110A7_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Factory_Create_m9D2714E3627BA7FA59E66C96BD459072D14110A7_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		NotImplementedException_t8AD6EBE5FEDB0AEBECEE0961CF73C35B372EFFA4 * L_0 = (NotImplementedException_t8AD6EBE5FEDB0AEBECEE0961CF73C35B372EFFA4 *)il2cpp_codegen_object_new(NotImplementedException_t8AD6EBE5FEDB0AEBECEE0961CF73C35B372EFFA4_il2cpp_TypeInfo_var);
 		NotImplementedException__ctor_m8BEA657E260FC05F0C6D2C43A6E9BC08040F59C4(L_0, /*hidden argument*/NULL);
@@ -820,14 +789,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Factory_Create_m9D2714E3627BA7
 // System.Void UnityEngine.Purchasing.Default.WinProductDescription::set_platformSpecificID(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_platformSpecificID_m4A668AB347E9ACFCFCEA2D95789A8902EFB282AB (WinProductDescription_tB3144EBF4DA49C65396F3AF779136D88E6E3AE43 * __this, String_t* ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WinProductDescription_set_platformSpecificID_m4A668AB347E9ACFCFCEA2D95789A8902EFB282AB_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WinProductDescription_set_platformSpecificID_m4A668AB347E9ACFCFCEA2D95789A8902EFB282AB_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___value0;
 		__this->set_U3CplatformSpecificIDU3Ek__BackingField_0(L_0);
@@ -837,14 +798,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_platformSpecif
 // System.Void UnityEngine.Purchasing.Default.WinProductDescription::set_price(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_price_mDFCD8D6F84C07FE50510C8E31161E18E1959FC5F (WinProductDescription_tB3144EBF4DA49C65396F3AF779136D88E6E3AE43 * __this, String_t* ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WinProductDescription_set_price_mDFCD8D6F84C07FE50510C8E31161E18E1959FC5F_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WinProductDescription_set_price_mDFCD8D6F84C07FE50510C8E31161E18E1959FC5F_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___value0;
 		__this->set_U3CpriceU3Ek__BackingField_1(L_0);
@@ -854,14 +807,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_price_mDFCD8D6
 // System.Void UnityEngine.Purchasing.Default.WinProductDescription::set_title(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_title_m93BA50E01B8CB7C53EA543D219BD13C0C3C4FB3B (WinProductDescription_tB3144EBF4DA49C65396F3AF779136D88E6E3AE43 * __this, String_t* ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WinProductDescription_set_title_m93BA50E01B8CB7C53EA543D219BD13C0C3C4FB3B_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WinProductDescription_set_title_m93BA50E01B8CB7C53EA543D219BD13C0C3C4FB3B_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___value0;
 		__this->set_U3CtitleU3Ek__BackingField_2(L_0);
@@ -871,14 +816,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_title_m93BA50E
 // System.Void UnityEngine.Purchasing.Default.WinProductDescription::set_description(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_description_mE9CC9EFD4812A411FE1277A2BEB3AAC3D6029B30 (WinProductDescription_tB3144EBF4DA49C65396F3AF779136D88E6E3AE43 * __this, String_t* ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WinProductDescription_set_description_mE9CC9EFD4812A411FE1277A2BEB3AAC3D6029B30_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WinProductDescription_set_description_mE9CC9EFD4812A411FE1277A2BEB3AAC3D6029B30_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___value0;
 		__this->set_U3CdescriptionU3Ek__BackingField_3(L_0);
@@ -888,14 +825,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_description_mE
 // System.Void UnityEngine.Purchasing.Default.WinProductDescription::set_ISOCurrencyCode(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_ISOCurrencyCode_mF097ACEF0DD143A28A79AF5252172CE7C7F3D1A6 (WinProductDescription_tB3144EBF4DA49C65396F3AF779136D88E6E3AE43 * __this, String_t* ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WinProductDescription_set_ISOCurrencyCode_mF097ACEF0DD143A28A79AF5252172CE7C7F3D1A6_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WinProductDescription_set_ISOCurrencyCode_mF097ACEF0DD143A28A79AF5252172CE7C7F3D1A6_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___value0;
 		__this->set_U3CISOCurrencyCodeU3Ek__BackingField_4(L_0);
@@ -905,14 +834,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_ISOCurrencyCod
 // System.Void UnityEngine.Purchasing.Default.WinProductDescription::set_priceDecimal(System.Decimal)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_priceDecimal_m118EA165F28FE0A959EC523CEE6593D49804ADA9 (WinProductDescription_tB3144EBF4DA49C65396F3AF779136D88E6E3AE43 * __this, Decimal_t44EE9DA309A1BF848308DE4DDFC070CAE6D95EE8  ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WinProductDescription_set_priceDecimal_m118EA165F28FE0A959EC523CEE6593D49804ADA9_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WinProductDescription_set_priceDecimal_m118EA165F28FE0A959EC523CEE6593D49804ADA9_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Decimal_t44EE9DA309A1BF848308DE4DDFC070CAE6D95EE8  L_0 = ___value0;
 		__this->set_U3CpriceDecimalU3Ek__BackingField_5(L_0);
@@ -922,14 +843,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_priceDecimal_m
 // System.Void UnityEngine.Purchasing.Default.WinProductDescription::set_receipt(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_receipt_m76ACC63CA0A4118B610168B762041E4D09FAD613 (WinProductDescription_tB3144EBF4DA49C65396F3AF779136D88E6E3AE43 * __this, String_t* ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WinProductDescription_set_receipt_m76ACC63CA0A4118B610168B762041E4D09FAD613_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WinProductDescription_set_receipt_m76ACC63CA0A4118B610168B762041E4D09FAD613_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___value0;
 		__this->set_U3CreceiptU3Ek__BackingField_6(L_0);
@@ -939,14 +852,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_receipt_m76ACC
 // System.Void UnityEngine.Purchasing.Default.WinProductDescription::set_transactionID(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_transactionID_mD04E4530777C2EB26DE555FBF0D895EA88CE6AA6 (WinProductDescription_tB3144EBF4DA49C65396F3AF779136D88E6E3AE43 * __this, String_t* ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WinProductDescription_set_transactionID_mD04E4530777C2EB26DE555FBF0D895EA88CE6AA6_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WinProductDescription_set_transactionID_mD04E4530777C2EB26DE555FBF0D895EA88CE6AA6_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___value0;
 		__this->set_U3CtransactionIDU3Ek__BackingField_7(L_0);
@@ -956,14 +861,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_transactionID_
 // System.Void UnityEngine.Purchasing.Default.WinProductDescription::set_consumable(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_consumable_m90A3535F5715F4972444062F7DE3A1CC549D5582 (WinProductDescription_tB3144EBF4DA49C65396F3AF779136D88E6E3AE43 * __this, bool ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WinProductDescription_set_consumable_m90A3535F5715F4972444062F7DE3A1CC549D5582_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WinProductDescription_set_consumable_m90A3535F5715F4972444062F7DE3A1CC549D5582_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		bool L_0 = ___value0;
 		__this->set_U3CconsumableU3Ek__BackingField_8(L_0);
@@ -973,14 +870,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription_set_consumable_m90
 // System.Void UnityEngine.Purchasing.Default.WinProductDescription::.ctor(System.String,System.String,System.String,System.String,System.String,System.Decimal,System.String,System.String,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription__ctor_mAAEF8B336277574079D4490C9100998BF237AF8F (WinProductDescription_tB3144EBF4DA49C65396F3AF779136D88E6E3AE43 * __this, String_t* ___id0, String_t* ___price1, String_t* ___title2, String_t* ___description3, String_t* ___isoCode4, Decimal_t44EE9DA309A1BF848308DE4DDFC070CAE6D95EE8  ___priceD5, String_t* ___receipt6, String_t* ___transactionId7, bool ___consumable8, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WinProductDescription__ctor_mAAEF8B336277574079D4490C9100998BF237AF8F_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WinProductDescription__ctor_mAAEF8B336277574079D4490C9100998BF237AF8F_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0(__this, /*hidden argument*/NULL);
 		String_t* L_0 = ___id0;
@@ -1009,14 +898,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinProductDescription__ctor_mAAEF8B33627
 #endif
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void WinProductDescription_set_platformSpecificID_m4A668AB347E9ACFCFCEA2D95789A8902EFB282AB_inline (WinProductDescription_tB3144EBF4DA49C65396F3AF779136D88E6E3AE43 * __this, String_t* ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WinProductDescription_set_platformSpecificID_m4A668AB347E9ACFCFCEA2D95789A8902EFB282ABwinrt_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WinProductDescription_set_platformSpecificID_m4A668AB347E9ACFCFCEA2D95789A8902EFB282AB_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___value0;
 		__this->set_U3CplatformSpecificIDU3Ek__BackingField_0(L_0);
@@ -1025,14 +906,6 @@ IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void WinProductDescription_set_platfo
 }
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void WinProductDescription_set_price_mDFCD8D6F84C07FE50510C8E31161E18E1959FC5F_inline (WinProductDescription_tB3144EBF4DA49C65396F3AF779136D88E6E3AE43 * __this, String_t* ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WinProductDescription_set_price_mDFCD8D6F84C07FE50510C8E31161E18E1959FC5Fwinrt_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WinProductDescription_set_price_mDFCD8D6F84C07FE50510C8E31161E18E1959FC5F_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___value0;
 		__this->set_U3CpriceU3Ek__BackingField_1(L_0);
@@ -1041,14 +914,6 @@ IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void WinProductDescription_set_price_
 }
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void WinProductDescription_set_title_m93BA50E01B8CB7C53EA543D219BD13C0C3C4FB3B_inline (WinProductDescription_tB3144EBF4DA49C65396F3AF779136D88E6E3AE43 * __this, String_t* ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WinProductDescription_set_title_m93BA50E01B8CB7C53EA543D219BD13C0C3C4FB3Bwinrt_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WinProductDescription_set_title_m93BA50E01B8CB7C53EA543D219BD13C0C3C4FB3B_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___value0;
 		__this->set_U3CtitleU3Ek__BackingField_2(L_0);
@@ -1057,14 +922,6 @@ IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void WinProductDescription_set_title_
 }
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void WinProductDescription_set_description_mE9CC9EFD4812A411FE1277A2BEB3AAC3D6029B30_inline (WinProductDescription_tB3144EBF4DA49C65396F3AF779136D88E6E3AE43 * __this, String_t* ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WinProductDescription_set_description_mE9CC9EFD4812A411FE1277A2BEB3AAC3D6029B30winrt_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WinProductDescription_set_description_mE9CC9EFD4812A411FE1277A2BEB3AAC3D6029B30_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___value0;
 		__this->set_U3CdescriptionU3Ek__BackingField_3(L_0);
@@ -1073,14 +930,6 @@ IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void WinProductDescription_set_descri
 }
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void WinProductDescription_set_ISOCurrencyCode_mF097ACEF0DD143A28A79AF5252172CE7C7F3D1A6_inline (WinProductDescription_tB3144EBF4DA49C65396F3AF779136D88E6E3AE43 * __this, String_t* ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WinProductDescription_set_ISOCurrencyCode_mF097ACEF0DD143A28A79AF5252172CE7C7F3D1A6winrt_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WinProductDescription_set_ISOCurrencyCode_mF097ACEF0DD143A28A79AF5252172CE7C7F3D1A6_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___value0;
 		__this->set_U3CISOCurrencyCodeU3Ek__BackingField_4(L_0);
@@ -1089,14 +938,6 @@ IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void WinProductDescription_set_ISOCur
 }
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void WinProductDescription_set_priceDecimal_m118EA165F28FE0A959EC523CEE6593D49804ADA9_inline (WinProductDescription_tB3144EBF4DA49C65396F3AF779136D88E6E3AE43 * __this, Decimal_t44EE9DA309A1BF848308DE4DDFC070CAE6D95EE8  ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WinProductDescription_set_priceDecimal_m118EA165F28FE0A959EC523CEE6593D49804ADA9winrt_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WinProductDescription_set_priceDecimal_m118EA165F28FE0A959EC523CEE6593D49804ADA9_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Decimal_t44EE9DA309A1BF848308DE4DDFC070CAE6D95EE8  L_0 = ___value0;
 		__this->set_U3CpriceDecimalU3Ek__BackingField_5(L_0);
@@ -1105,14 +946,6 @@ IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void WinProductDescription_set_priceD
 }
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void WinProductDescription_set_receipt_m76ACC63CA0A4118B610168B762041E4D09FAD613_inline (WinProductDescription_tB3144EBF4DA49C65396F3AF779136D88E6E3AE43 * __this, String_t* ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WinProductDescription_set_receipt_m76ACC63CA0A4118B610168B762041E4D09FAD613winrt_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WinProductDescription_set_receipt_m76ACC63CA0A4118B610168B762041E4D09FAD613_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___value0;
 		__this->set_U3CreceiptU3Ek__BackingField_6(L_0);
@@ -1121,14 +954,6 @@ IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void WinProductDescription_set_receip
 }
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void WinProductDescription_set_transactionID_mD04E4530777C2EB26DE555FBF0D895EA88CE6AA6_inline (WinProductDescription_tB3144EBF4DA49C65396F3AF779136D88E6E3AE43 * __this, String_t* ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WinProductDescription_set_transactionID_mD04E4530777C2EB26DE555FBF0D895EA88CE6AA6winrt_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WinProductDescription_set_transactionID_mD04E4530777C2EB26DE555FBF0D895EA88CE6AA6_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___value0;
 		__this->set_U3CtransactionIDU3Ek__BackingField_7(L_0);
@@ -1137,14 +962,6 @@ IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void WinProductDescription_set_transa
 }
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void WinProductDescription_set_consumable_m90A3535F5715F4972444062F7DE3A1CC549D5582_inline (WinProductDescription_tB3144EBF4DA49C65396F3AF779136D88E6E3AE43 * __this, bool ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (WinProductDescription_set_consumable_m90A3535F5715F4972444062F7DE3A1CC549D5582winrt_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WinProductDescription_set_consumable_m90A3535F5715F4972444062F7DE3A1CC549D5582_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		bool L_0 = ___value0;
 		__this->set_U3CconsumableU3Ek__BackingField_8(L_0);

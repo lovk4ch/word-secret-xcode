@@ -63,7 +63,6 @@ static const int32_t s_InvokerIndices[10] =
 	27,
 	23,
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationFacebookStore;
 extern const Il2CppCodeGenModule g_FacebookStoreCodeGenModule;
 const Il2CppCodeGenModule g_FacebookStoreCodeGenModule = 
 {
@@ -77,5 +76,5 @@ const Il2CppCodeGenModule g_FacebookStoreCodeGenModule =
 	NULL,
 	0,
 	NULL,
-	&g_DebuggerMetadataRegistrationFacebookStore,
+	NULL,
 };

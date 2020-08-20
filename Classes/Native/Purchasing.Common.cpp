@@ -291,47 +291,10 @@ IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_ContainsKey_mAD4B2095526B47422
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_mCA7075EA6548A18B929368520217975094841997_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Item_mB490F7029D7451FAF06E3020040E604B500BA3B2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_set_Item_mEA41AEAE79570A9410777F6B90969532564025DD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Json_Deserialize_m4DF883C3C0C6387F6E993B2A75A01E991AFAC055_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Json_Serialize_mC053F9574354D75C44065DE0F017DB2D00414164_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m6930161974C7504C80F52EC379EF012387D43138_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mC832F1AC0F814BAEB19175F5D7972A7507508BC3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MiniJsonExtensions_GetString_m0B244C8B27E21C4EE034DF9C5E0E4C6AE89D12D0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MiniJsonExtensions_HashtableFromJson_m5E34E1DB2C178E140494CD1AF26718CEDC518B5E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MiniJsonExtensions_toJson_m2DB3976D2DC0DF3E9E186DEE7854BAEB1F7551C9_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MiniJsonExtensions_toJson_mEB129B8C724E52DE7DFD8313520B59ECE1F82AC3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MiniJson_JsonDecode_m8F4B396DE9D11409AC70C11E36F8AC2863A83EF0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MiniJson_JsonEncode_m4891593121DB9BF4CCA15F236D9BFC6AFD643482_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Parser_Dispose_m626C6851FEECD51D7DB2A083F9D145BE9DB406A7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Parser_EatWhitespace_mCD7F80C1294FE9B3BD03319A3C2C625D7CC6A485_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Parser_IsWordBreak_mA3011F57A07E400EE014A9714DD7923C51B2FBDE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Parser_ParseArray_mBC4FDFCE01D7CF03BF1B48418E225A0D61C730A5_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Parser_ParseByToken_m536291874E441B572ACF00D350458E1A1CF15891_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Parser_ParseNumber_m4C75FF6AE1D23D0391737CFE5E0D2DDBC63222B4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Parser_ParseObject_mD93811A97FFEB18F9D29153468CEF67AA04A02AC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Parser_ParseString_m824A5AD8628784BDAAA515D43357F7D667AACAC6_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Parser_ParseValue_m1D41CA8038B97690306E9D4FD511201860498713_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Parser_Parse_mBCF197967BCE6611EEEE9ADA8B6EC4F284452135_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Parser__ctor_mDAC5A4C7BC893137B18685EAEA2DEE02849888DF_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Parser_get_NextChar_m46C018191785411310602B3F022D46C3085DED3C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Parser_get_NextToken_m4B6BCBF18A6C1245108CEC0C40721FD08C6DE5C1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Parser_get_NextWord_m04E6AC4117C72E8B702F5157306EEBD571EBE588_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Parser_get_PeekChar_m4C59D86249D4BDC34034ED8212D7C1DB2F0FDE4D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Serializer_SerializeArray_m6CDBD88758627DD3E21B596A24E9A2A20304D1EB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Serializer_SerializeObject_mA598CDF8A872E08815AAA88D87ADE6106497EBEE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Serializer_SerializeOther_m61D82C0B9FEF0F39DDAFFEB43B851545EB63633D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Serializer_SerializeString_mFEBA44A6A5824F1903783BEB1B81FDF72D8BCCE4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Serializer_SerializeValue_m4EFB29AAAB95494D19A50B3C9DA7D20B6DA59B38_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Serializer_Serialize_m5EE777FFD0A4A796C872F774CA5F8D06A707F695_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Serializer__ctor_m77DB4100B561FE67B8F93105462632E985B9A31B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const uint32_t Json_Deserialize_m4DF883C3C0C6387F6E993B2A75A01E991AFAC055_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Json_Serialize_mC053F9574354D75C44065DE0F017DB2D00414164_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t MiniJsonExtensions_GetString_m0B244C8B27E21C4EE034DF9C5E0E4C6AE89D12D0_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t MiniJsonExtensions_HashtableFromJson_m5E34E1DB2C178E140494CD1AF26718CEDC518B5E_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t MiniJsonExtensions_toJson_m2DB3976D2DC0DF3E9E186DEE7854BAEB1F7551C9_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t MiniJsonExtensions_toJson_mEB129B8C724E52DE7DFD8313520B59ECE1F82AC3_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t MiniJson_JsonDecode_m8F4B396DE9D11409AC70C11E36F8AC2863A83EF0_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t MiniJson_JsonEncode_m4891593121DB9BF4CCA15F236D9BFC6AFD643482_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Parser_Dispose_m626C6851FEECD51D7DB2A083F9D145BE9DB406A7_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Parser_EatWhitespace_mCD7F80C1294FE9B3BD03319A3C2C625D7CC6A485_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Parser_IsWordBreak_mA3011F57A07E400EE014A9714DD7923C51B2FBDE_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Parser_ParseArray_mBC4FDFCE01D7CF03BF1B48418E225A0D61C730A5_MetadataUsageId;
@@ -339,7 +302,6 @@ IL2CPP_EXTERN_C const uint32_t Parser_ParseByToken_m536291874E441B572ACF00D35045
 IL2CPP_EXTERN_C const uint32_t Parser_ParseNumber_m4C75FF6AE1D23D0391737CFE5E0D2DDBC63222B4_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Parser_ParseObject_mD93811A97FFEB18F9D29153468CEF67AA04A02AC_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Parser_ParseString_m824A5AD8628784BDAAA515D43357F7D667AACAC6_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Parser_ParseValue_m1D41CA8038B97690306E9D4FD511201860498713_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Parser_Parse_mBCF197967BCE6611EEEE9ADA8B6EC4F284452135_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Parser__ctor_mDAC5A4C7BC893137B18685EAEA2DEE02849888DF_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Parser_get_NextChar_m46C018191785411310602B3F022D46C3085DED3C_MetadataUsageId;
@@ -2397,16 +2359,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Json_Deserialize_m4DF883C3C0C
 // System.Object UnityEngine.Purchasing.MiniJSON.Json::Deserialize(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Json_Deserialize_m4DF883C3C0C6387F6E993B2A75A01E991AFAC055 (String_t* ___json0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Json_Deserialize_m4DF883C3C0C6387F6E993B2A75A01E991AFAC055_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	bool V_0 = false;
 	RuntimeObject * V_1 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Json_Deserialize_m4DF883C3C0C6387F6E993B2A75A01E991AFAC055_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___json0;
 		V_0 = (bool)((((RuntimeObject*)(String_t*)L_0) == ((RuntimeObject*)(RuntimeObject *)NULL))? 1 : 0);
@@ -2438,15 +2392,7 @@ IL_0017:
 // System.String UnityEngine.Purchasing.MiniJSON.Json::Serialize(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Json_Serialize_mC053F9574354D75C44065DE0F017DB2D00414164 (RuntimeObject * ___obj0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Json_Serialize_mC053F9574354D75C44065DE0F017DB2D00414164_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	String_t* V_0 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Json_Serialize_mC053F9574354D75C44065DE0F017DB2D00414164_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		RuntimeObject * L_0 = ___obj0;
 		String_t* L_1 = Serializer_Serialize_m5EE777FFD0A4A796C872F774CA5F8D06A707F695(L_0, /*hidden argument*/NULL);
@@ -2478,8 +2424,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Parser_IsWordBreak_mA3011F57A07E400EE014
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Parser_IsWordBreak_mA3011F57A07E400EE014A9714DD7923C51B2FBDE_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	int32_t G_B3_0 = 0;
 	{
 		Il2CppChar L_0 = ___c0;
@@ -2524,8 +2468,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Parser__ctor_mDAC5A4C7BC893137B18685EAEA
 		il2cpp_codegen_initialize_method (Parser__ctor_mDAC5A4C7BC893137B18685EAEA2DEE02849888DF_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Parser__ctor_mDAC5A4C7BC893137B18685EAEA2DEE02849888DF_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0(__this, /*hidden argument*/NULL);
 		String_t* L_0 = ___jsonString0;
@@ -2546,8 +2488,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Parser_Parse_mBCF197967BCE661
 	}
 	Parser_tC928BD96C7294793BF59FFA654D091B112124184 * V_0 = NULL;
 	RuntimeObject * V_1 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Parser_Parse_mBCF197967BCE6611EEEE9ADA8B6EC4F284452135_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	Exception_t * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t * __exception_local = 0;
@@ -2565,7 +2505,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Parser_Parse_mBCF197967BCE661
 IL_0008:
 	try
 	{ // begin try (depth: 1)
-		STORE_TRY_ID(methodExecutionContext, 0);
 		Parser_tC928BD96C7294793BF59FFA654D091B112124184 * L_2 = V_0;
 		NullCheck(L_2);
 		RuntimeObject * L_3 = Parser_ParseValue_m1D41CA8038B97690306E9D4FD511201860498713(L_2, /*hidden argument*/NULL);
@@ -2580,7 +2519,6 @@ IL_0008:
 
 FINALLY_0012:
 	{ // begin finally (depth: 1)
-		STORE_TRY_ID(methodExecutionContext, -1);
 		{
 			Parser_tC928BD96C7294793BF59FFA654D091B112124184 * L_4 = V_0;
 			if (!L_4)
@@ -2616,14 +2554,6 @@ IL_001d:
 // System.Void UnityEngine.Purchasing.MiniJSON.Json_Parser::Dispose()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Parser_Dispose_m626C6851FEECD51D7DB2A083F9D145BE9DB406A7 (Parser_tC928BD96C7294793BF59FFA654D091B112124184 * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Parser_Dispose_m626C6851FEECD51D7DB2A083F9D145BE9DB406A7_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Parser_Dispose_m626C6851FEECD51D7DB2A083F9D145BE9DB406A7_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		StringReader_t3095DEB3D26F40D1A7F9B76835D80AFE70E47E12 * L_0 = __this->get_json_0();
 		NullCheck(L_0);
@@ -2649,8 +2579,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dictionary_2_t9140A71329927AE4FD0F3CF4D4D6666
 	bool V_5 = false;
 	bool V_6 = false;
 	bool V_7 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Parser_ParseObject_mD93811A97FFEB18F9D29153468CEF67AA04A02AC_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Dictionary_2_t9140A71329927AE4FD0F3CF4D4D66668EBE151EA * L_0 = (Dictionary_2_t9140A71329927AE4FD0F3CF4D4D66668EBE151EA *)il2cpp_codegen_object_new(Dictionary_2_t9140A71329927AE4FD0F3CF4D4D66668EBE151EA_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mCA7075EA6548A18B929368520217975094841997(L_0, /*hidden argument*/Dictionary_2__ctor_mCA7075EA6548A18B929368520217975094841997_RuntimeMethod_var);
@@ -2663,7 +2591,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dictionary_2_t9140A71329927AE4FD0F3CF4D4D6666
 
 IL_0015:
 	{
-		CHECK_PAUSE_POINT;
 		int32_t L_2 = Parser_get_NextToken_m4B6BCBF18A6C1245108CEC0C40721FD08C6DE5C1(__this, /*hidden argument*/NULL);
 		V_3 = L_2;
 		int32_t L_3 = V_3;
@@ -2798,8 +2725,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA
 	int32_t V_5 = 0;
 	List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * V_6 = NULL;
 	bool V_7 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Parser_ParseArray_mBC4FDFCE01D7CF03BF1B48418E225A0D61C730A5_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * L_0 = (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D *)il2cpp_codegen_object_new(List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D_il2cpp_TypeInfo_var);
 		List_1__ctor_mC832F1AC0F814BAEB19175F5D7972A7507508BC3(L_0, /*hidden argument*/List_1__ctor_mC832F1AC0F814BAEB19175F5D7972A7507508BC3_RuntimeMethod_var);
@@ -2813,7 +2738,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA
 
 IL_0017:
 	{
-		CHECK_PAUSE_POINT;
 		int32_t L_2 = Parser_get_NextToken_m4B6BCBF18A6C1245108CEC0C40721FD08C6DE5C1(__this, /*hidden argument*/NULL);
 		V_2 = L_2;
 		int32_t L_3 = V_2;
@@ -2912,16 +2836,8 @@ IL_0064:
 // System.Object UnityEngine.Purchasing.MiniJSON.Json_Parser::ParseValue()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Parser_ParseValue_m1D41CA8038B97690306E9D4FD511201860498713 (Parser_tC928BD96C7294793BF59FFA654D091B112124184 * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Parser_ParseValue_m1D41CA8038B97690306E9D4FD511201860498713_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	int32_t V_0 = 0;
 	RuntimeObject * V_1 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Parser_ParseValue_m1D41CA8038B97690306E9D4FD511201860498713_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = Parser_get_NextToken_m4B6BCBF18A6C1245108CEC0C40721FD08C6DE5C1(__this, /*hidden argument*/NULL);
 		V_0 = L_0;
@@ -2949,8 +2865,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Parser_ParseByToken_m53629187
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	RuntimeObject * V_2 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Parser_ParseByToken_m536291874E441B572ACF00D350458E1A1CF15891_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___token0;
 		V_1 = L_0;
@@ -3094,8 +3008,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Parser_ParseString_m824A5AD8628784B
 	bool V_11 = false;
 	bool V_12 = false;
 	String_t* V_13 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Parser_ParseString_m824A5AD8628784BDAAA515D43357F7D667AACAC6_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		StringBuilder_t * L_0 = (StringBuilder_t *)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
 		StringBuilder__ctor_mF928376F82E8C8FF3C11842C562DB8CF28B2735E(L_0, /*hidden argument*/NULL);
@@ -3109,7 +3021,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Parser_ParseString_m824A5AD8628784B
 
 IL_001a:
 	{
-		CHECK_PAUSE_POINT;
 		StringReader_t3095DEB3D26F40D1A7F9B76835D80AFE70E47E12 * L_2 = __this->get_json_0();
 		NullCheck(L_2);
 		int32_t L_3 = VirtFuncInvoker0< int32_t >::Invoke(8 /* System.Int32 System.IO.TextReader::Peek() */, L_2);
@@ -3356,7 +3267,6 @@ IL_0128:
 
 IL_0135:
 	{
-		CHECK_PAUSE_POINT;
 		CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* L_33 = V_7;
 		int32_t L_34 = V_10;
 		Il2CppChar L_35 = Parser_get_NextChar_m46C018191785411310602B3F022D46C3085DED3C(__this, /*hidden argument*/NULL);
@@ -3445,8 +3355,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Parser_ParseNumber_m4C75FF6AE
 	bool V_2 = false;
 	int64_t V_3 = 0;
 	RuntimeObject * V_4 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Parser_ParseNumber_m4C75FF6AE1D23D0391737CFE5E0D2DDBC63222B4_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	int32_t G_B4_0 = 0;
 	{
 		String_t* L_0 = Parser_get_NextWord_m04E6AC4117C72E8B702F5157306EEBD571EBE588(__this, /*hidden argument*/NULL);
@@ -3533,15 +3441,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Parser_EatWhitespace_mCD7F80C1294FE9B3BD
 	}
 	bool V_0 = false;
 	bool V_1 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Parser_EatWhitespace_mCD7F80C1294FE9B3BD03319A3C2C625D7CC6A485_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		goto IL_0026;
 	}
 
 IL_0003:
 	{
-		CHECK_PAUSE_POINT;
 		StringReader_t3095DEB3D26F40D1A7F9B76835D80AFE70E47E12 * L_0 = __this->get_json_0();
 		NullCheck(L_0);
 		VirtFuncInvoker0< int32_t >::Invoke(9 /* System.Int32 System.IO.TextReader::Read() */, L_0);
@@ -3591,8 +3496,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar Parser_get_PeekChar_m4C59D86249D4B
 		s_Il2CppMethodInitialized = true;
 	}
 	Il2CppChar V_0 = 0x0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Parser_get_PeekChar_m4C59D86249D4BDC34034ED8212D7C1DB2F0FDE4D_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		StringReader_t3095DEB3D26F40D1A7F9B76835D80AFE70E47E12 * L_0 = __this->get_json_0();
 		NullCheck(L_0);
@@ -3619,8 +3522,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar Parser_get_NextChar_m46C0181917854
 		s_Il2CppMethodInitialized = true;
 	}
 	Il2CppChar V_0 = 0x0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Parser_get_NextChar_m46C018191785411310602B3F022D46C3085DED3C_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		StringReader_t3095DEB3D26F40D1A7F9B76835D80AFE70E47E12 * L_0 = __this->get_json_0();
 		NullCheck(L_0);
@@ -3650,8 +3551,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Parser_get_NextWord_m04E6AC4117C72E
 	bool V_1 = false;
 	bool V_2 = false;
 	String_t* V_3 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Parser_get_NextWord_m04E6AC4117C72E8B702F5157306EEBD571EBE588_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		StringBuilder_t * L_0 = (StringBuilder_t *)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
 		StringBuilder__ctor_mF928376F82E8C8FF3C11842C562DB8CF28B2735E(L_0, /*hidden argument*/NULL);
@@ -3661,7 +3560,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Parser_get_NextWord_m04E6AC4117C72E
 
 IL_0009:
 	{
-		CHECK_PAUSE_POINT;
 		StringBuilder_t * L_1 = V_0;
 		Il2CppChar L_2 = Parser_get_NextChar_m46C018191785411310602B3F022D46C3085DED3C(__this, /*hidden argument*/NULL);
 		NullCheck(L_1);
@@ -3726,8 +3624,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Parser_get_NextToken_m4B6BCBF18A6C124
 	Il2CppChar V_3 = 0x0;
 	String_t* V_4 = NULL;
 	String_t* V_5 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Parser_get_NextToken_m4B6BCBF18A6C1245108CEC0C40721FD08C6DE5C1_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Parser_EatWhitespace_mCD7F80C1294FE9B3BD03319A3C2C625D7CC6A485(__this, /*hidden argument*/NULL);
 		StringReader_t3095DEB3D26F40D1A7F9B76835D80AFE70E47E12 * L_0 = __this->get_json_0();
@@ -4067,8 +3963,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Serializer__ctor_m77DB4100B561FE67B8F931
 		il2cpp_codegen_initialize_method (Serializer__ctor_m77DB4100B561FE67B8F93105462632E985B9A31B_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Serializer__ctor_m77DB4100B561FE67B8F93105462632E985B9A31B_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0(__this, /*hidden argument*/NULL);
 		StringBuilder_t * L_0 = (StringBuilder_t *)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
@@ -4088,8 +3982,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Serializer_Serialize_m5EE777FFD0A4A
 	}
 	Serializer_t2B655D2A6B60543D7DBC7D185F4F3B5E89F61024 * V_0 = NULL;
 	String_t* V_1 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Serializer_Serialize_m5EE777FFD0A4A796C872F774CA5F8D06A707F695_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Serializer_t2B655D2A6B60543D7DBC7D185F4F3B5E89F61024 * L_0 = (Serializer_t2B655D2A6B60543D7DBC7D185F4F3B5E89F61024 *)il2cpp_codegen_object_new(Serializer_t2B655D2A6B60543D7DBC7D185F4F3B5E89F61024_il2cpp_TypeInfo_var);
 		Serializer__ctor_m77DB4100B561FE67B8F93105462632E985B9A31B(L_0, /*hidden argument*/NULL);
@@ -4131,8 +4023,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Serializer_SerializeValue_m4EFB29AAAB954
 	bool V_6 = false;
 	bool V_7 = false;
 	bool V_8 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Serializer_SerializeValue_m4EFB29AAAB95494D19A50B3C9DA7D20B6DA59B38_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	StringBuilder_t * G_B7_0 = NULL;
 	StringBuilder_t * G_B6_0 = NULL;
 	String_t* G_B8_0 = NULL;
@@ -4288,8 +4178,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Serializer_SerializeObject_mA598CDF8A872
 	RuntimeObject * V_2 = NULL;
 	bool V_3 = false;
 	RuntimeObject* V_4 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Serializer_SerializeObject_mA598CDF8A872E08815AAA88D87ADE6106497EBEE_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	Exception_t * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t * __exception_local = 0;
@@ -4313,14 +4201,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Serializer_SerializeObject_mA598CDF8A872
 IL_001e:
 	try
 	{ // begin try (depth: 1)
-		STORE_TRY_ID(methodExecutionContext, 0);
 		{
 			goto IL_006c;
 		}
 
 IL_0020:
 		{
-			CHECK_PAUSE_POINT;
 			RuntimeObject* L_4 = V_1;
 			NullCheck(L_4);
 			RuntimeObject * L_5 = InterfaceFuncInvoker0< RuntimeObject * >::Invoke(1 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t8789118187258CC88B77AFAC6315B5AF87D3E18A_il2cpp_TypeInfo_var, L_4);
@@ -4382,7 +4268,6 @@ IL_0074:
 
 FINALLY_0076:
 	{ // begin finally (depth: 1)
-		STORE_TRY_ID(methodExecutionContext, -1);
 		{
 			RuntimeObject* L_17 = V_1;
 			V_4 = ((RuntimeObject*)IsInst((RuntimeObject*)L_17, IDisposable_t7218B22548186B208D65EA5B7870503810A2D15A_il2cpp_TypeInfo_var));
@@ -4433,8 +4318,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Serializer_SerializeArray_m6CDBD88758627
 	RuntimeObject * V_2 = NULL;
 	bool V_3 = false;
 	RuntimeObject* V_4 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Serializer_SerializeArray_m6CDBD88758627DD3E21B596A24E9A2A20304D1EB_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	Exception_t * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t * __exception_local = 0;
@@ -4456,14 +4339,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Serializer_SerializeArray_m6CDBD88758627
 IL_0019:
 	try
 	{ // begin try (depth: 1)
-		STORE_TRY_ID(methodExecutionContext, 0);
 		{
 			goto IL_0046;
 		}
 
 IL_001b:
 		{
-			CHECK_PAUSE_POINT;
 			RuntimeObject* L_3 = V_1;
 			NullCheck(L_3);
 			RuntimeObject * L_4 = InterfaceFuncInvoker0< RuntimeObject * >::Invoke(1 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t8789118187258CC88B77AFAC6315B5AF87D3E18A_il2cpp_TypeInfo_var, L_3);
@@ -4515,7 +4396,6 @@ IL_004e:
 
 FINALLY_0050:
 	{ // begin finally (depth: 1)
-		STORE_TRY_ID(methodExecutionContext, -1);
 		{
 			RuntimeObject* L_11 = V_1;
 			V_4 = ((RuntimeObject*)IsInst((RuntimeObject*)L_11, IDisposable_t7218B22548186B208D65EA5B7870503810A2D15A_il2cpp_TypeInfo_var));
@@ -4569,8 +4449,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Serializer_SerializeString_mFEBA44A6A582
 	Il2CppChar V_5 = 0x0;
 	Il2CppChar V_6 = 0x0;
 	bool V_7 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Serializer_SerializeString_mFEBA44A6A5824F1903783BEB1B81FDF72D8BCCE4_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	int32_t G_B17_0 = 0;
 	{
 		StringBuilder_t * L_0 = __this->get_builder_0();
@@ -4588,7 +4466,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Serializer_SerializeString_mFEBA44A6A582
 
 IL_0020:
 	{
-		CHECK_PAUSE_POINT;
 		CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* L_4 = V_1;
 		int32_t L_5 = V_2;
 		NullCheck(L_4);
@@ -4805,8 +4682,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Serializer_SerializeOther_m61D82C0B9FEF0
 	bool V_2 = false;
 	bool V_3 = false;
 	double V_4 = 0.0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Serializer_SerializeOther_m61D82C0B9FEF0F39DDAFFEB43B851545EB63633D_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	int32_t G_B11_0 = 0;
 	int32_t G_B16_0 = 0;
 	{
@@ -4982,8 +4857,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MiniJsonExtensions_GetString_m0B244
 	}
 	bool V_0 = false;
 	String_t* V_1 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MiniJsonExtensions_GetString_m0B244C8B27E21C4EE034DF9C5E0E4C6AE89D12D0_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Dictionary_2_t9140A71329927AE4FD0F3CF4D4D66668EBE151EA * L_0 = ___dic0;
 		String_t* L_1 = ___key1;
@@ -5023,15 +4896,7 @@ IL_001f:
 // System.String UnityEngine.Purchasing.MiniJSON.MiniJsonExtensions::toJson(System.Collections.Generic.Dictionary`2<System.String,System.Object>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MiniJsonExtensions_toJson_m2DB3976D2DC0DF3E9E186DEE7854BAEB1F7551C9 (Dictionary_2_t9140A71329927AE4FD0F3CF4D4D66668EBE151EA * ___obj0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (MiniJsonExtensions_toJson_m2DB3976D2DC0DF3E9E186DEE7854BAEB1F7551C9_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	String_t* V_0 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MiniJsonExtensions_toJson_m2DB3976D2DC0DF3E9E186DEE7854BAEB1F7551C9_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Dictionary_2_t9140A71329927AE4FD0F3CF4D4D66668EBE151EA * L_0 = ___obj0;
 		String_t* L_1 = MiniJson_JsonEncode_m4891593121DB9BF4CCA15F236D9BFC6AFD643482(L_0, /*hidden argument*/NULL);
@@ -5048,15 +4913,7 @@ IL_000a:
 // System.String UnityEngine.Purchasing.MiniJSON.MiniJsonExtensions::toJson(System.Collections.Generic.Dictionary`2<System.String,System.String>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MiniJsonExtensions_toJson_mEB129B8C724E52DE7DFD8313520B59ECE1F82AC3 (Dictionary_2_t931BF283048C4E74FC063C3036E5F3FE328861FC * ___obj0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (MiniJsonExtensions_toJson_mEB129B8C724E52DE7DFD8313520B59ECE1F82AC3_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	String_t* V_0 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MiniJsonExtensions_toJson_mEB129B8C724E52DE7DFD8313520B59ECE1F82AC3_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Dictionary_2_t931BF283048C4E74FC063C3036E5F3FE328861FC * L_0 = ___obj0;
 		String_t* L_1 = MiniJson_JsonEncode_m4891593121DB9BF4CCA15F236D9BFC6AFD643482(L_0, /*hidden argument*/NULL);
@@ -5080,8 +4937,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dictionary_2_t9140A71329927AE4FD0F3CF4D4D6666
 		s_Il2CppMethodInitialized = true;
 	}
 	Dictionary_2_t9140A71329927AE4FD0F3CF4D4D66668EBE151EA * V_0 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MiniJsonExtensions_HashtableFromJson_m5E34E1DB2C178E140494CD1AF26718CEDC518B5E_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___json0;
 		RuntimeObject * L_1 = MiniJson_JsonDecode_m8F4B396DE9D11409AC70C11E36F8AC2863A83EF0(L_0, /*hidden argument*/NULL);
@@ -5106,15 +4961,7 @@ IL_000f:
 // System.String UnityEngine.Purchasing.MiniJson::JsonEncode(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MiniJson_JsonEncode_m4891593121DB9BF4CCA15F236D9BFC6AFD643482 (RuntimeObject * ___json0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (MiniJson_JsonEncode_m4891593121DB9BF4CCA15F236D9BFC6AFD643482_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	String_t* V_0 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MiniJson_JsonEncode_m4891593121DB9BF4CCA15F236D9BFC6AFD643482_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		RuntimeObject * L_0 = ___json0;
 		String_t* L_1 = Json_Serialize_mC053F9574354D75C44065DE0F017DB2D00414164(L_0, /*hidden argument*/NULL);
@@ -5131,15 +4978,7 @@ IL_000a:
 // System.Object UnityEngine.Purchasing.MiniJson::JsonDecode(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * MiniJson_JsonDecode_m8F4B396DE9D11409AC70C11E36F8AC2863A83EF0 (String_t* ___json0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (MiniJson_JsonDecode_m8F4B396DE9D11409AC70C11E36F8AC2863A83EF0_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	RuntimeObject * V_0 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MiniJson_JsonDecode_m8F4B396DE9D11409AC70C11E36F8AC2863A83EF0_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___json0;
 		RuntimeObject * L_1 = Json_Deserialize_m4DF883C3C0C6387F6E993B2A75A01E991AFAC055(L_0, /*hidden argument*/NULL);

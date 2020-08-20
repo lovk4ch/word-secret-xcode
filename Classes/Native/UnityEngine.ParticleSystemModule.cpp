@@ -38,59 +38,10 @@ struct ParticleSystem_t45DA87A3E83E738DA3FDAA5A48A133F1A1247C3D;
 // UnityEngine.ParticleSystemRenderer
 struct ParticleSystemRenderer_t86E4ED2C0ADF5D2E7FA3D636B6B070600D05C459;
 
-IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_ParticleSystemModule[];
 IL2CPP_EXTERN_C RuntimeClass* Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MainModule__ctor_m10DC65291ACEC243EC5302404E059717B552BA7A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MainModule_get_startColor_m7837CBA981528393CE3EC758CD62DA7D59BD4E40_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MainModule_get_startLifetime_m6DF13640A9E75365A4E3CC629790069E41D182C4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MainModule_set_startColor_m50DF5CA21C1A06579B05C18F5F232529ADB36BED_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MinMaxCurve_get_constant_m5674EE1F5E0DAFAC2273DAE998D8FDC1370B6905_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MinMaxGradient_get_gradientMax_m38B9C75BC438644371B62920110988E40EE9E7E1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ParticleSystem_Emit_m26C1CE51747F6F96A02AF1E56DDF3C3539FC926D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ParticleSystem_Emit_m4C0873B2917D6C3E000609EA35B3C3F648B0BBC2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ParticleSystem_Emit_m8C3FCE4F94165CDF0B86326DDB5DB886C1D7B0CF_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ParticleSystem_Emit_mC0F1810F887D9EDE111F2307F2280CD0E4BA6AA2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ParticleSystem_Play_m5BC5E6B56FCF639CAD5DF41B51DC05A0B444212F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ParticleSystem_get_main_m360B0AA57C71DE0358B6B07133C68B5FD88C742F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Particle_set_angularVelocity3D_m0F282D7EE110DF290E04B2B99FEC697ED89BF4EF_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Particle_set_lifetime_m0DB60575386F2D365BCCCAB07538FC2BFF81EC17_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Particle_set_position_m3E99F891841E8B03490433FAFF5B601A6D12BDEF_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Particle_set_randomSeed_m1311237E65918DDD765FC4D6BAE85047D8B8CBCE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Particle_set_remainingLifetime_mD6ABB0C19127BD86DE3723B443331E5968EE0E87_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Particle_set_rotation3D_m46DB39BFDEEF27C6119F5EEE2C0B1CA9093FC834_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Particle_set_startColor_m67807C44D14862EBD8C030C1FE094E8438384AA6_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Particle_set_startLifetime_mEEB2B63599B1E4D1B8B2CEE25F13A50F1BCE7BBE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Particle_set_startSize_m45B6CD1480219E30A96317D654B9439C8DB2DF87_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Particle_set_velocity_mD0476C793611AD570296960FB0CB8FECD387E99C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeType* Gradient_t35A694DDA1066524440E325E582B01E33DE66A3A_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* MainModule_t99C675667E0A363368324132DFA34B27FFEE6FC7_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* MinMaxCurve_tDB335EDEBEBD4CFA753081D7C3A2FE2EECFA6D71_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* MinMaxGradient_tD94D591FCD1E394D6502774CDFC068CFA893FE6B_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* ParticleSystem_t45DA87A3E83E738DA3FDAA5A48A133F1A1247C3D_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Particle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Single_tDDDA9169C4E4E308AC6D7A824F9B28DC82204AE1_0_0_0_var;
-IL2CPP_EXTERN_C const uint32_t MainModule__ctor_m10DC65291ACEC243EC5302404E059717B552BA7A_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t MainModule_get_startColor_m7837CBA981528393CE3EC758CD62DA7D59BD4E40_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t MainModule_get_startLifetime_m6DF13640A9E75365A4E3CC629790069E41D182C4_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t MainModule_set_startColor_m50DF5CA21C1A06579B05C18F5F232529ADB36BED_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t MinMaxCurve_get_constant_m5674EE1F5E0DAFAC2273DAE998D8FDC1370B6905_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t MinMaxGradient_get_gradientMax_m38B9C75BC438644371B62920110988E40EE9E7E1_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t ParticleSystem_Emit_m26C1CE51747F6F96A02AF1E56DDF3C3539FC926D_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t ParticleSystem_Emit_m4C0873B2917D6C3E000609EA35B3C3F648B0BBC2_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t ParticleSystem_Emit_m8C3FCE4F94165CDF0B86326DDB5DB886C1D7B0CF_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t ParticleSystem_Emit_mC0F1810F887D9EDE111F2307F2280CD0E4BA6AA2_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t ParticleSystem_Play_m5BC5E6B56FCF639CAD5DF41B51DC05A0B444212F_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t ParticleSystem_get_main_m360B0AA57C71DE0358B6B07133C68B5FD88C742F_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Particle_set_angularVelocity3D_m0F282D7EE110DF290E04B2B99FEC697ED89BF4EF_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Particle_set_lifetime_m0DB60575386F2D365BCCCAB07538FC2BFF81EC17_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Particle_set_position_m3E99F891841E8B03490433FAFF5B601A6D12BDEF_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Particle_set_randomSeed_m1311237E65918DDD765FC4D6BAE85047D8B8CBCE_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Particle_set_remainingLifetime_mD6ABB0C19127BD86DE3723B443331E5968EE0E87_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Particle_set_rotation3D_m46DB39BFDEEF27C6119F5EEE2C0B1CA9093FC834_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Particle_set_startColor_m67807C44D14862EBD8C030C1FE094E8438384AA6_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Particle_set_startLifetime_mEEB2B63599B1E4D1B8B2CEE25F13A50F1BCE7BBE_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Particle_set_startSize_m45B6CD1480219E30A96317D654B9439C8DB2DF87_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Particle_set_velocity_mD0476C793611AD570296960FB0CB8FECD387E99C_MetadataUsageId;
 
 struct MeshU5BU5D_tDD9C723AA6F0225B35A93D871CDC2CEFF7F8CB89;
 
@@ -1392,94 +1343,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystem_Emit_m8C3FCE4F94165CDF0B8
 	}
 	Particle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E  V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___position0), (&___velocity1), (&___size2), (&___lifetime3), (&___color4));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ParticleSystem_Emit_m8C3FCE4F94165CDF0B86326DDB5DB886C1D7B0CF_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 0));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 1));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 3));
 		il2cpp_codegen_initobj((&V_0), sizeof(Particle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E ));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 4));
 		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_0 = ___position0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 15));
 		Particle_set_position_m3E99F891841E8B03490433FAFF5B601A6D12BDEF((Particle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E *)(&V_0), L_0, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 15));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 5));
 		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_1 = ___velocity1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 16));
 		Particle_set_velocity_mD0476C793611AD570296960FB0CB8FECD387E99C((Particle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E *)(&V_0), L_1, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 16));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 6));
 		float L_2 = ___lifetime3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 17));
 		Particle_set_lifetime_m0DB60575386F2D365BCCCAB07538FC2BFF81EC17((Particle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E *)(&V_0), L_2, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 17));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 7));
 		float L_3 = ___lifetime3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 18));
 		Particle_set_startLifetime_mEEB2B63599B1E4D1B8B2CEE25F13A50F1BCE7BBE((Particle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E *)(&V_0), L_3, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 18));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 8));
 		float L_4 = ___size2;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 19));
 		Particle_set_startSize_m45B6CD1480219E30A96317D654B9439C8DB2DF87((Particle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E *)(&V_0), L_4, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 19));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 9));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 20));
 		IL2CPP_RUNTIME_CLASS_INIT(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720_il2cpp_TypeInfo_var);
 		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_5 = Vector3_get_zero_m3CDDCAE94581DF3BB16C4B40A100E28E9C6649C2(/*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 20));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 21));
 		Particle_set_rotation3D_m46DB39BFDEEF27C6119F5EEE2C0B1CA9093FC834((Particle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E *)(&V_0), L_5, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 21));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 10));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 22));
 		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_6 = Vector3_get_zero_m3CDDCAE94581DF3BB16C4B40A100E28E9C6649C2(/*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 22));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 23));
 		Particle_set_angularVelocity3D_m0F282D7EE110DF290E04B2B99FEC697ED89BF4EF((Particle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E *)(&V_0), L_6, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 23));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 11));
 		Color32_t23ABC4AE0E0BDFD2E22EE1FA0DA3904FFE5F6E23  L_7 = ___color4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 24));
 		Particle_set_startColor_m67807C44D14862EBD8C030C1FE094E8438384AA6((Particle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E *)(&V_0), L_7, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 24));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 12));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 25));
 		Particle_set_randomSeed_m1311237E65918DDD765FC4D6BAE85047D8B8CBCE((Particle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E *)(&V_0), 5, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 25));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 13));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 26));
 		ParticleSystem_EmitOld_Internal_m4313E5BD80E21011786EA12F2D2D9EFE9186320E(__this, (Particle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E *)(&V_0), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 26));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 14));
 		return;
 	}
 }
 // System.Void UnityEngine.ParticleSystem::Emit(UnityEngine.ParticleSystem_Particle)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystem_Emit_m26C1CE51747F6F96A02AF1E56DDF3C3539FC926D (ParticleSystem_t45DA87A3E83E738DA3FDAA5A48A133F1A1247C3D * __this, Particle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E  ___particle0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (ParticleSystem_Emit_m26C1CE51747F6F96A02AF1E56DDF3C3539FC926D_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___particle0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ParticleSystem_Emit_m26C1CE51747F6F96A02AF1E56DDF3C3539FC926D_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 27));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 28));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 29));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 30));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 32));
 		ParticleSystem_EmitOld_Internal_m4313E5BD80E21011786EA12F2D2D9EFE9186320E(__this, (Particle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E *)(&___particle0), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 32));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 31));
 		return;
 	}
 }
@@ -1495,48 +1387,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystem_Play_mBB238026E6389F44C76
 // System.Void UnityEngine.ParticleSystem::Play()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystem_Play_m5BC5E6B56FCF639CAD5DF41B51DC05A0B444212F (ParticleSystem_t45DA87A3E83E738DA3FDAA5A48A133F1A1247C3D * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (ParticleSystem_Play_m5BC5E6B56FCF639CAD5DF41B51DC05A0B444212F_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ParticleSystem_Play_m5BC5E6B56FCF639CAD5DF41B51DC05A0B444212F_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 33));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 34));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 35));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 36));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 38));
 		ParticleSystem_Play_mBB238026E6389F44C76498D31038FE7A8C47E3AA(__this, (bool)1, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 38));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 37));
 		return;
 	}
 }
 // System.Void UnityEngine.ParticleSystem::Emit(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystem_Emit_m4C0873B2917D6C3E000609EA35B3C3F648B0BBC2 (ParticleSystem_t45DA87A3E83E738DA3FDAA5A48A133F1A1247C3D * __this, int32_t ___count0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (ParticleSystem_Emit_m4C0873B2917D6C3E000609EA35B3C3F648B0BBC2_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___count0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ParticleSystem_Emit_m4C0873B2917D6C3E000609EA35B3C3F648B0BBC2_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 39));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 40));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 41));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 42));
 		int32_t L_0 = ___count0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 44));
 		ParticleSystem_Emit_Internal_m1857956B7219B8232C1777E515706F8075C8B925(__this, L_0, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 44));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 43));
 		return;
 	}
 }
@@ -1552,14 +1413,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystem_Emit_Internal_m1857956B72
 // System.Void UnityEngine.ParticleSystem::Emit(UnityEngine.ParticleSystem_EmitParams,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystem_Emit_mC0F1810F887D9EDE111F2307F2280CD0E4BA6AA2 (ParticleSystem_t45DA87A3E83E738DA3FDAA5A48A133F1A1247C3D * __this, EmitParams_t03557E552852EC6B71876CD05C4098733702A219  ___emitParams0, int32_t ___count1, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ParticleSystem_Emit_mC0F1810F887D9EDE111F2307F2280CD0E4BA6AA2_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ParticleSystem_Emit_mC0F1810F887D9EDE111F2307F2280CD0E4BA6AA2_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___count1;
 		ParticleSystem_Emit_Injected_mB34A23399928EDC3111C060A2346A1EF63E1B9CC(__this, (EmitParams_t03557E552852EC6B71876CD05C4098733702A219 *)(&___emitParams0), L_0, /*hidden argument*/NULL);
@@ -1578,33 +1431,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystem_EmitOld_Internal_m4313E5B
 // UnityEngine.ParticleSystem_MainModule UnityEngine.ParticleSystem::get_main()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MainModule_t99C675667E0A363368324132DFA34B27FFEE6FC7  ParticleSystem_get_main_m360B0AA57C71DE0358B6B07133C68B5FD88C742F (ParticleSystem_t45DA87A3E83E738DA3FDAA5A48A133F1A1247C3D * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ParticleSystem_get_main_m360B0AA57C71DE0358B6B07133C68B5FD88C742F_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	MainModule_t99C675667E0A363368324132DFA34B27FFEE6FC7  V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ParticleSystem_get_main_m360B0AA57C71DE0358B6B07133C68B5FD88C742F_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 45));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 46));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 47));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 48));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 50));
 		MainModule_t99C675667E0A363368324132DFA34B27FFEE6FC7  L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		MainModule__ctor_m10DC65291ACEC243EC5302404E059717B552BA7A((&L_0), __this, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 50));
 		V_0 = L_0;
 		goto IL_000a;
 	}
 
 IL_000a:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 49));
 		MainModule_t99C675667E0A363368324132DFA34B27FFEE6FC7  L_1 = V_0;
 		return L_1;
 	}
@@ -1787,23 +1625,9 @@ IL2CPP_EXTERN_C void MainModule_t99C675667E0A363368324132DFA34B27FFEE6FC7_marsha
 // System.Void UnityEngine.ParticleSystem_MainModule::.ctor(UnityEngine.ParticleSystem)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainModule__ctor_m10DC65291ACEC243EC5302404E059717B552BA7A (MainModule_t99C675667E0A363368324132DFA34B27FFEE6FC7 * __this, ParticleSystem_t45DA87A3E83E738DA3FDAA5A48A133F1A1247C3D * ___particleSystem0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (MainModule__ctor_m10DC65291ACEC243EC5302404E059717B552BA7A_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___particleSystem0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MainModule__ctor_m10DC65291ACEC243EC5302404E059717B552BA7A_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 51));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 52));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 53));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 54));
 		ParticleSystem_t45DA87A3E83E738DA3FDAA5A48A133F1A1247C3D * L_0 = ___particleSystem0;
 		__this->set_m_ParticleSystem_0(L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 55));
 		return;
 	}
 }
@@ -1816,16 +1640,8 @@ IL2CPP_EXTERN_C  void MainModule__ctor_m10DC65291ACEC243EC5302404E059717B552BA7A
 // UnityEngine.ParticleSystem_MinMaxCurve UnityEngine.ParticleSystem_MainModule::get_startLifetime()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MinMaxCurve_tDB335EDEBEBD4CFA753081D7C3A2FE2EECFA6D71  MainModule_get_startLifetime_m6DF13640A9E75365A4E3CC629790069E41D182C4 (MainModule_t99C675667E0A363368324132DFA34B27FFEE6FC7 * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (MainModule_get_startLifetime_m6DF13640A9E75365A4E3CC629790069E41D182C4_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	MinMaxCurve_tDB335EDEBEBD4CFA753081D7C3A2FE2EECFA6D71  V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MainModule_get_startLifetime_m6DF13640A9E75365A4E3CC629790069E41D182C4_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		MainModule_get_startLifetime_Injected_mAA7AA32DED909D59401F2198CEB2A3CAE4DD855F((MainModule_t99C675667E0A363368324132DFA34B27FFEE6FC7 *)__this, (MinMaxCurve_tDB335EDEBEBD4CFA753081D7C3A2FE2EECFA6D71 *)(&V_0), /*hidden argument*/NULL);
 		MinMaxCurve_tDB335EDEBEBD4CFA753081D7C3A2FE2EECFA6D71  L_0 = V_0;
@@ -1841,16 +1657,8 @@ IL2CPP_EXTERN_C  MinMaxCurve_tDB335EDEBEBD4CFA753081D7C3A2FE2EECFA6D71  MainModu
 // UnityEngine.ParticleSystem_MinMaxGradient UnityEngine.ParticleSystem_MainModule::get_startColor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MinMaxGradient_tD94D591FCD1E394D6502774CDFC068CFA893FE6B  MainModule_get_startColor_m7837CBA981528393CE3EC758CD62DA7D59BD4E40 (MainModule_t99C675667E0A363368324132DFA34B27FFEE6FC7 * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (MainModule_get_startColor_m7837CBA981528393CE3EC758CD62DA7D59BD4E40_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	MinMaxGradient_tD94D591FCD1E394D6502774CDFC068CFA893FE6B  V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MainModule_get_startColor_m7837CBA981528393CE3EC758CD62DA7D59BD4E40_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		MainModule_get_startColor_Injected_mF7E92B901DB87BBFB5EFBE303B785643501BC7EF((MainModule_t99C675667E0A363368324132DFA34B27FFEE6FC7 *)__this, (MinMaxGradient_tD94D591FCD1E394D6502774CDFC068CFA893FE6B *)(&V_0), /*hidden argument*/NULL);
 		MinMaxGradient_tD94D591FCD1E394D6502774CDFC068CFA893FE6B  L_0 = V_0;
@@ -1866,14 +1674,6 @@ IL2CPP_EXTERN_C  MinMaxGradient_tD94D591FCD1E394D6502774CDFC068CFA893FE6B  MainM
 // System.Void UnityEngine.ParticleSystem_MainModule::set_startColor(UnityEngine.ParticleSystem_MinMaxGradient)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainModule_set_startColor_m50DF5CA21C1A06579B05C18F5F232529ADB36BED (MainModule_t99C675667E0A363368324132DFA34B27FFEE6FC7 * __this, MinMaxGradient_tD94D591FCD1E394D6502774CDFC068CFA893FE6B  ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (MainModule_set_startColor_m50DF5CA21C1A06579B05C18F5F232529ADB36BED_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MainModule_set_startColor_m50DF5CA21C1A06579B05C18F5F232529ADB36BED_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		MainModule_set_startColor_Injected_m40F40119F5E38181E1D7A0C5E22A021C450B9A84((MainModule_t99C675667E0A363368324132DFA34B27FFEE6FC7 *)__this, (MinMaxGradient_tD94D591FCD1E394D6502774CDFC068CFA893FE6B *)(&___value0), /*hidden argument*/NULL);
 		return;
@@ -1923,20 +1723,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainModule_set_startColor_Injected_m40F4
 // System.Single UnityEngine.ParticleSystem_MinMaxCurve::get_constant()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MinMaxCurve_get_constant_m5674EE1F5E0DAFAC2273DAE998D8FDC1370B6905 (MinMaxCurve_tDB335EDEBEBD4CFA753081D7C3A2FE2EECFA6D71 * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (MinMaxCurve_get_constant_m5674EE1F5E0DAFAC2273DAE998D8FDC1370B6905_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	float V_0 = 0.0f;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MinMaxCurve_get_constant_m5674EE1F5E0DAFAC2273DAE998D8FDC1370B6905_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 112));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 113));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 114));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 115));
 		float L_0 = __this->get_m_ConstantMax_5();
 		V_0 = L_0;
 		goto IL_000a;
@@ -1944,7 +1732,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MinMaxCurve_get_constant_m5674EE1F5E0DA
 
 IL_000a:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 116));
 		float L_1 = V_0;
 		return L_1;
 	}
@@ -1966,20 +1753,8 @@ IL2CPP_EXTERN_C  float MinMaxCurve_get_constant_m5674EE1F5E0DAFAC2273DAE998D8FDC
 // UnityEngine.Gradient UnityEngine.ParticleSystem_MinMaxGradient::get_gradientMax()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Gradient_t35A694DDA1066524440E325E582B01E33DE66A3A * MinMaxGradient_get_gradientMax_m38B9C75BC438644371B62920110988E40EE9E7E1 (MinMaxGradient_tD94D591FCD1E394D6502774CDFC068CFA893FE6B * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (MinMaxGradient_get_gradientMax_m38B9C75BC438644371B62920110988E40EE9E7E1_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	Gradient_t35A694DDA1066524440E325E582B01E33DE66A3A * V_0 = NULL;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MinMaxGradient_get_gradientMax_m38B9C75BC438644371B62920110988E40EE9E7E1_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 117));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 118));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 119));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 120));
 		Gradient_t35A694DDA1066524440E325E582B01E33DE66A3A * L_0 = __this->get_m_GradientMax_2();
 		V_0 = L_0;
 		goto IL_000a;
@@ -1987,7 +1762,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Gradient_t35A694DDA1066524440E325E582B01E33DE
 
 IL_000a:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 121));
 		Gradient_t35A694DDA1066524440E325E582B01E33DE66A3A * L_1 = V_0;
 		return L_1;
 	}
@@ -2009,25 +1783,9 @@ IL2CPP_EXTERN_C  Gradient_t35A694DDA1066524440E325E582B01E33DE66A3A * MinMaxGrad
 // System.Void UnityEngine.ParticleSystem_Particle::set_lifetime(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Particle_set_lifetime_m0DB60575386F2D365BCCCAB07538FC2BFF81EC17 (Particle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E * __this, float ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Particle_set_lifetime_m0DB60575386F2D365BCCCAB07538FC2BFF81EC17_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Particle_set_lifetime_m0DB60575386F2D365BCCCAB07538FC2BFF81EC17_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 56));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 57));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 58));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 59));
 		float L_0 = ___value0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 61));
 		Particle_set_remainingLifetime_mD6ABB0C19127BD86DE3723B443331E5968EE0E87((Particle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E *)__this, L_0, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 61));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 60));
 		return;
 	}
 }
@@ -2040,23 +1798,9 @@ IL2CPP_EXTERN_C  void Particle_set_lifetime_m0DB60575386F2D365BCCCAB07538FC2BFF8
 // System.Void UnityEngine.ParticleSystem_Particle::set_position(UnityEngine.Vector3)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Particle_set_position_m3E99F891841E8B03490433FAFF5B601A6D12BDEF (Particle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Particle_set_position_m3E99F891841E8B03490433FAFF5B601A6D12BDEF_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Particle_set_position_m3E99F891841E8B03490433FAFF5B601A6D12BDEF_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 62));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 63));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 64));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 65));
 		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_0 = ___value0;
 		__this->set_m_Position_0(L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 66));
 		return;
 	}
 }
@@ -2069,23 +1813,9 @@ IL2CPP_EXTERN_C  void Particle_set_position_m3E99F891841E8B03490433FAFF5B601A6D1
 // System.Void UnityEngine.ParticleSystem_Particle::set_velocity(UnityEngine.Vector3)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Particle_set_velocity_mD0476C793611AD570296960FB0CB8FECD387E99C (Particle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Particle_set_velocity_mD0476C793611AD570296960FB0CB8FECD387E99C_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Particle_set_velocity_mD0476C793611AD570296960FB0CB8FECD387E99C_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 67));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 68));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 69));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 70));
 		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_0 = ___value0;
 		__this->set_m_Velocity_1(L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 71));
 		return;
 	}
 }
@@ -2098,23 +1828,9 @@ IL2CPP_EXTERN_C  void Particle_set_velocity_mD0476C793611AD570296960FB0CB8FECD38
 // System.Void UnityEngine.ParticleSystem_Particle::set_remainingLifetime(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Particle_set_remainingLifetime_mD6ABB0C19127BD86DE3723B443331E5968EE0E87 (Particle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E * __this, float ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Particle_set_remainingLifetime_mD6ABB0C19127BD86DE3723B443331E5968EE0E87_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Particle_set_remainingLifetime_mD6ABB0C19127BD86DE3723B443331E5968EE0E87_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 72));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 73));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 74));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 75));
 		float L_0 = ___value0;
 		__this->set_m_Lifetime_11(L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 76));
 		return;
 	}
 }
@@ -2127,23 +1843,9 @@ IL2CPP_EXTERN_C  void Particle_set_remainingLifetime_mD6ABB0C19127BD86DE3723B443
 // System.Void UnityEngine.ParticleSystem_Particle::set_startLifetime(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Particle_set_startLifetime_mEEB2B63599B1E4D1B8B2CEE25F13A50F1BCE7BBE (Particle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E * __this, float ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Particle_set_startLifetime_mEEB2B63599B1E4D1B8B2CEE25F13A50F1BCE7BBE_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Particle_set_startLifetime_mEEB2B63599B1E4D1B8B2CEE25F13A50F1BCE7BBE_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 77));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 78));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 79));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 80));
 		float L_0 = ___value0;
 		__this->set_m_StartLifetime_12(L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 81));
 		return;
 	}
 }
@@ -2156,23 +1858,9 @@ IL2CPP_EXTERN_C  void Particle_set_startLifetime_mEEB2B63599B1E4D1B8B2CEE25F13A5
 // System.Void UnityEngine.ParticleSystem_Particle::set_startColor(UnityEngine.Color32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Particle_set_startColor_m67807C44D14862EBD8C030C1FE094E8438384AA6 (Particle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E * __this, Color32_t23ABC4AE0E0BDFD2E22EE1FA0DA3904FFE5F6E23  ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Particle_set_startColor_m67807C44D14862EBD8C030C1FE094E8438384AA6_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Particle_set_startColor_m67807C44D14862EBD8C030C1FE094E8438384AA6_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 82));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 83));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 84));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 85));
 		Color32_t23ABC4AE0E0BDFD2E22EE1FA0DA3904FFE5F6E23  L_0 = ___value0;
 		__this->set_m_StartColor_8(L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 86));
 		return;
 	}
 }
@@ -2185,23 +1873,9 @@ IL2CPP_EXTERN_C  void Particle_set_startColor_m67807C44D14862EBD8C030C1FE094E843
 // System.Void UnityEngine.ParticleSystem_Particle::set_randomSeed(System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Particle_set_randomSeed_m1311237E65918DDD765FC4D6BAE85047D8B8CBCE (Particle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E * __this, uint32_t ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Particle_set_randomSeed_m1311237E65918DDD765FC4D6BAE85047D8B8CBCE_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Particle_set_randomSeed_m1311237E65918DDD765FC4D6BAE85047D8B8CBCE_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 87));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 88));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 89));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 90));
 		uint32_t L_0 = ___value0;
 		__this->set_m_RandomSeed_9(L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 91));
 		return;
 	}
 }
@@ -2214,30 +1888,14 @@ IL2CPP_EXTERN_C  void Particle_set_randomSeed_m1311237E65918DDD765FC4D6BAE85047D
 // System.Void UnityEngine.ParticleSystem_Particle::set_startSize(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Particle_set_startSize_m45B6CD1480219E30A96317D654B9439C8DB2DF87 (Particle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E * __this, float ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Particle_set_startSize_m45B6CD1480219E30A96317D654B9439C8DB2DF87_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Particle_set_startSize_m45B6CD1480219E30A96317D654B9439C8DB2DF87_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 92));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 93));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 94));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 95));
 		float L_0 = ___value0;
 		float L_1 = ___value0;
 		float L_2 = ___value0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 97));
 		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		Vector3__ctor_m08F61F548AA5836D8789843ACB4A81E4963D2EE1((&L_3), L_0, L_1, L_2, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 97));
 		__this->set_m_StartSize_7(L_3);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 96));
 		return;
 	}
 }
@@ -2256,24 +1914,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Particle_set_rotation3D_m46DB39BFDEEF27C
 		il2cpp_codegen_initialize_method (Particle_set_rotation3D_m46DB39BFDEEF27C6119F5EEE2C0B1CA9093FC834_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Particle_set_rotation3D_m46DB39BFDEEF27C6119F5EEE2C0B1CA9093FC834_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 98));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 99));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 100));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 101));
 		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_0 = ___value0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 104));
 		IL2CPP_RUNTIME_CLASS_INIT(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720_il2cpp_TypeInfo_var);
 		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_1 = Vector3_op_Multiply_m1C5F07723615156ACF035D88A1280A9E8F35A04E(L_0, (0.0174532924f), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 104));
 		__this->set_m_Rotation_5(L_1);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 102));
 		uint32_t L_2 = __this->get_m_Flags_16();
 		__this->set_m_Flags_16(((int32_t)((int32_t)L_2|(int32_t)2)));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 103));
 		return;
 	}
 }
@@ -2292,24 +1939,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Particle_set_angularVelocity3D_m0F282D7E
 		il2cpp_codegen_initialize_method (Particle_set_angularVelocity3D_m0F282D7EE110DF290E04B2B99FEC697ED89BF4EF_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Particle_set_angularVelocity3D_m0F282D7EE110DF290E04B2B99FEC697ED89BF4EF_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 105));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 106));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 107));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 108));
 		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_0 = ___value0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 111));
 		IL2CPP_RUNTIME_CLASS_INIT(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720_il2cpp_TypeInfo_var);
 		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_1 = Vector3_op_Multiply_m1C5F07723615156ACF035D88A1280A9E8F35A04E(L_0, (0.0174532924f), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 111));
 		__this->set_m_AngularVelocity_6(L_1);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 109));
 		uint32_t L_2 = __this->get_m_Flags_16();
 		__this->set_m_Flags_16(((int32_t)((int32_t)L_2|(int32_t)2)));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ParticleSystemModule + 110));
 		return;
 	}
 }
