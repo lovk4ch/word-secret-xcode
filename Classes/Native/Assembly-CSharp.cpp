@@ -22705,6 +22705,8 @@ inline void List_1__ctor_m671164795AFE353FAFF61F7A894C099243407AF3 (List_1_t5105
 {
 	((  void (*) (List_1_t5105E72BE9E840A371BACFF2E4CD50275CF1E466 *, const RuntimeMethod*))List_1__ctor_mC832F1AC0F814BAEB19175F5D7972A7507508BC3_gshared)(__this, method);
 }
+// System.Void UnityEngine.MonoBehaviour::StopAllCoroutines()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_StopAllCoroutines_mA5469BB7BBB59B8A94BB86590B051E0DFACC12DD (MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429 * __this, const RuntimeMethod* method);
 // System.Collections.IEnumerator TimerController::Tick()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TimerController_Tick_m78047BFC783C04FDFBB843F0C5E4B7261C458BCD (TimerController_tBF18E4430131F5F2ACA6468178C7A62FBA0F60B1 * __this, const RuntimeMethod* method);
 // System.Collections.Generic.List`1/Enumerator<!0> System.Collections.Generic.List`1<BonusTimeController>::GetEnumerator()
@@ -38148,6 +38150,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimerController_Initialize_m2BE5533D5E6C
 		__this->set_bonuses_5(L_1);
 		// IsTick = true;
 		TimerController_set_IsTick_m5631895D71343FD989ECF1BDABA27E8CAC980139_inline(__this, (bool)1, /*hidden argument*/NULL);
+		// StopAllCoroutines();
+		MonoBehaviour_StopAllCoroutines_mA5469BB7BBB59B8A94BB86590B051E0DFACC12DD(__this, /*hidden argument*/NULL);
+		// StartCoroutine(Tick());
+		RuntimeObject* L_2 = TimerController_Tick_m78047BFC783C04FDFBB843F0C5E4B7261C458BCD(__this, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_mBF8044CE06A35D76A69669ADD8977D05956616B7(__this, L_2, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -38174,9 +38181,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimerController_Awake_mC2D072F63CEA0771B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimerController_OnEnable_m91EFBCE7994D5889757A6FDD947BB1AE6CA09392 (TimerController_tBF18E4430131F5F2ACA6468178C7A62FBA0F60B1 * __this, const RuntimeMethod* method)
 {
 	{
+		// StopAllCoroutines();
+		MonoBehaviour_StopAllCoroutines_mA5469BB7BBB59B8A94BB86590B051E0DFACC12DD(__this, /*hidden argument*/NULL);
+		// if (IsTick)
+		bool L_0 = TimerController_get_IsTick_mC2CE6EDF8099E9B3F1A890B13E32A6E9140B35F8_inline(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_001b;
+		}
+	}
+	{
 		// StartCoroutine(Tick());
-		RuntimeObject* L_0 = TimerController_Tick_m78047BFC783C04FDFBB843F0C5E4B7261C458BCD(__this, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_mBF8044CE06A35D76A69669ADD8977D05956616B7(__this, L_0, /*hidden argument*/NULL);
+		RuntimeObject* L_1 = TimerController_Tick_m78047BFC783C04FDFBB843F0C5E4B7261C458BCD(__this, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_mBF8044CE06A35D76A69669ADD8977D05956616B7(__this, L_1, /*hidden argument*/NULL);
+	}
+
+IL_001b:
+	{
 		// }
 		return;
 	}
