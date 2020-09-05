@@ -21,7 +21,6 @@
 		<type fullname="UnityEngine.AnimationClip" preserve="nothing"/>
 		<type fullname="UnityEngine.Camera" preserve="nothing"/>
 		<type fullname="UnityEngine.Renderer" preserve="nothing"/>
-		<type fullname="UnityEngine.LineRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshFilter" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.SpriteRenderer" preserve="nothing"/>
@@ -64,40 +63,46 @@
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="AudioManager" preserve="nothing"/>
 		<type fullname="BallController" preserve="nothing"/>
+		<type fullname="BlackoutController" preserve="nothing"/>
 		<type fullname="BonusTimeController" preserve="nothing"/>
 		<type fullname="ButtonController" preserve="nothing"/>
 		<type fullname="CloudController" preserve="nothing"/>
-		<type fullname="CoinsController" preserve="nothing"/>
-		<type fullname="CompleteController" preserve="nothing"/>
-		<type fullname="DailyController" preserve="nothing"/>
+		<type fullname="CoinsPanelController" preserve="nothing"/>
+		<type fullname="GameManager" preserve="nothing"/>
 		<type fullname="Gimbal" preserve="nothing"/>
 		<type fullname="Gradient" preserve="nothing"/>
+		<type fullname="HandPointerController" preserve="nothing"/>
 		<type fullname="IAPBundleController" preserve="nothing"/>
 		<type fullname="IAPManager" preserve="nothing"/>
 		<type fullname="IronSourceManager" preserve="nothing"/>
 		<type fullname="LevelManager" preserve="nothing"/>
-		<type fullname="LoseController" preserve="nothing"/>
-		<type fullname="MainManager" preserve="nothing"/>
 		<type fullname="MapManager" preserve="nothing"/>
 		<type fullname="MapPointController" preserve="nothing"/>
 		<type fullname="MenuManager" preserve="nothing"/>
-		<type fullname="NoteController" preserve="nothing"/>
 		<type fullname="NoteLetterController" preserve="nothing"/>
 		<type fullname="NoteWordController" preserve="nothing"/>
 		<type fullname="OwlController2d" preserve="nothing"/>
+		<type fullname="PopupDailyController" preserve="nothing"/>
+		<type fullname="PopupDoubleController" preserve="nothing"/>
+		<type fullname="PopupLetterController" preserve="nothing"/>
+		<type fullname="PopupLoseController" preserve="nothing"/>
+		<type fullname="PopupNoMoneyController" preserve="nothing"/>
+		<type fullname="PopupNoteController" preserve="nothing"/>
+		<type fullname="PopupPuzzleController" preserve="nothing"/>
+		<type fullname="PopupRemoveAdsController" preserve="nothing"/>
+		<type fullname="PopupStoryController" preserve="nothing"/>
+		<type fullname="PopupTermsController" preserve="nothing"/>
+		<type fullname="PopupTutorialController" preserve="nothing"/>
+		<type fullname="PopupWatchController" preserve="nothing"/>
+		<type fullname="PopupWinController" preserve="nothing"/>
 		<type fullname="PushManager" preserve="nothing"/>
-		<type fullname="PuzzleController" preserve="nothing"/>
 		<type fullname="RaysController" preserve="nothing"/>
 		<type fullname="ScreenManager" preserve="nothing"/>
 		<type fullname="SettingsManager" preserve="nothing"/>
 		<type fullname="ShakeTransform" preserve="nothing"/>
 		<type fullname="ShakeTransformEvent" preserve="nothing"/>
-		<type fullname="StoryController" preserve="nothing"/>
-		<type fullname="TermsController" preserve="nothing"/>
 		<type fullname="TimerController" preserve="nothing"/>
-		<type fullname="TutorialController" preserve="nothing"/>
 		<type fullname="UnityStandardAssets.ImageEffects.Antialiasing" preserve="nothing"/>
-		<type fullname="WinController" preserve="nothing"/>
 		<type fullname="WordController" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Coffee.UnmaskForUGUI">

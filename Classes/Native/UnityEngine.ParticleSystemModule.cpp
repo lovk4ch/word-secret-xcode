@@ -1309,8 +1309,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MinMaxGradient_tD94D591FCD1E394D6502774CDFC06
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainModule_set_startColor_Injected_m40F40119F5E38181E1D7A0C5E22A021C450B9A84 (MainModule_t99C675667E0A363368324132DFA34B27FFEE6FC7 * ____unity_self0, MinMaxGradient_tD94D591FCD1E394D6502774CDFC068CFA893FE6B * ___value1, const RuntimeMethod* method);
 // System.Void UnityEngine.ParticleSystem/MainModule::set_startColor(UnityEngine.ParticleSystem/MinMaxGradient)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainModule_set_startColor_m50DF5CA21C1A06579B05C18F5F232529ADB36BED (MainModule_t99C675667E0A363368324132DFA34B27FFEE6FC7 * __this, MinMaxGradient_tD94D591FCD1E394D6502774CDFC068CFA893FE6B  ___value0, const RuntimeMethod* method);
-// System.Single UnityEngine.ParticleSystem/MinMaxCurve::get_constant()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MinMaxCurve_get_constant_m5674EE1F5E0DAFAC2273DAE998D8FDC1370B6905 (MinMaxCurve_tDB335EDEBEBD4CFA753081D7C3A2FE2EECFA6D71 * __this, const RuntimeMethod* method);
+// System.Single UnityEngine.ParticleSystem/MinMaxCurve::get_constantMax()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MinMaxCurve_get_constantMax_mD4752ED5F2614378C04BC5F8AA47C98C8C146A90 (MinMaxCurve_tDB335EDEBEBD4CFA753081D7C3A2FE2EECFA6D71 * __this, const RuntimeMethod* method);
 // UnityEngine.Gradient UnityEngine.ParticleSystem/MinMaxGradient::get_gradientMax()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Gradient_t35A694DDA1066524440E325E582B01E33DE66A3A * MinMaxGradient_get_gradientMax_m38B9C75BC438644371B62920110988E40EE9E7E1 (MinMaxGradient_tD94D591FCD1E394D6502774CDFC068CFA893FE6B * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.ParticleSystem/Particle::set_remainingLifetime(System.Single)
@@ -1720,8 +1720,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainModule_set_startColor_Injected_m40F4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Single UnityEngine.ParticleSystem_MinMaxCurve::get_constant()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MinMaxCurve_get_constant_m5674EE1F5E0DAFAC2273DAE998D8FDC1370B6905 (MinMaxCurve_tDB335EDEBEBD4CFA753081D7C3A2FE2EECFA6D71 * __this, const RuntimeMethod* method)
+// System.Single UnityEngine.ParticleSystem_MinMaxCurve::get_constantMax()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MinMaxCurve_get_constantMax_mD4752ED5F2614378C04BC5F8AA47C98C8C146A90 (MinMaxCurve_tDB335EDEBEBD4CFA753081D7C3A2FE2EECFA6D71 * __this, const RuntimeMethod* method)
 {
 	float V_0 = 0.0f;
 	{
@@ -1736,11 +1736,11 @@ IL_000a:
 		return L_1;
 	}
 }
-IL2CPP_EXTERN_C  float MinMaxCurve_get_constant_m5674EE1F5E0DAFAC2273DAE998D8FDC1370B6905_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  float MinMaxCurve_get_constantMax_mD4752ED5F2614378C04BC5F8AA47C98C8C146A90_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
 	int32_t _offset = 1;
 	MinMaxCurve_tDB335EDEBEBD4CFA753081D7C3A2FE2EECFA6D71 * _thisAdjusted = reinterpret_cast<MinMaxCurve_tDB335EDEBEBD4CFA753081D7C3A2FE2EECFA6D71 *>(__this + _offset);
-	return MinMaxCurve_get_constant_m5674EE1F5E0DAFAC2273DAE998D8FDC1370B6905(_thisAdjusted, method);
+	return MinMaxCurve_get_constantMax_mD4752ED5F2614378C04BC5F8AA47C98C8C146A90(_thisAdjusted, method);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

@@ -1592,18 +1592,6 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.Light
 
-	//Start Registrations for type : UnityEngine.LineRenderer
-
-		//System.Void UnityEngine.LineRenderer::SetPosition_Injected(System.Int32,UnityEngine.Vector3&)
-		void Register_UnityEngine_LineRenderer_SetPosition_Injected();
-		Register_UnityEngine_LineRenderer_SetPosition_Injected();
-
-		//System.Void UnityEngine.LineRenderer::set_positionCount(System.Int32)
-		void Register_UnityEngine_LineRenderer_set_positionCount();
-		Register_UnityEngine_LineRenderer_set_positionCount();
-
-	//End Registrations for type : UnityEngine.LineRenderer
-
 	//Start Registrations for type : UnityEngine.Material
 
 		//System.Boolean UnityEngine.Material::HasProperty(System.Int32)
@@ -2313,6 +2301,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Quaternion::LookRotation_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&,UnityEngine.Quaternion&)
 		void Register_UnityEngine_Quaternion_LookRotation_Injected();
 		Register_UnityEngine_Quaternion_LookRotation_Injected();
+
+		//System.Void UnityEngine.Quaternion::Slerp_Injected(UnityEngine.Quaternion&,UnityEngine.Quaternion&,System.Single,UnityEngine.Quaternion&)
+		void Register_UnityEngine_Quaternion_Slerp_Injected();
+		Register_UnityEngine_Quaternion_Slerp_Injected();
 
 	//End Registrations for type : UnityEngine.Quaternion
 

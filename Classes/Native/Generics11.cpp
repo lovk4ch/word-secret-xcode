@@ -483,8 +483,8 @@ struct ReadOnlyCollection_1_t5D996E967221C71E4EC5CC11210C3076432D5A50;
 struct ReadOnlyCollection_1_tDB8F0CA62CF79B1054F1B209516B0E4E17B3E6C8;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>
 struct ReadOnlyCollection_1_tC2509BCA9998A9487BF53350FF82BD2674DDFDE5;
-// System.Comparison`1<LevelManager/Syllable>
-struct Comparison_1_tB7828A998A4483E81809695DA784F9F8C8945BF2;
+// System.Comparison`1<Syllable>
+struct Comparison_1_tF7F31F224308249E6559B5B12CCFD03A2E06FC43;
 // System.Comparison`1<System.Boolean>
 struct Comparison_1_tD6A4C99073FA38189E7CB3DE7C864417BF584BEC;
 // System.Comparison`1<System.Char>
@@ -816,7 +816,7 @@ IL2CPP_EXTERN_C RuntimeClass* SearchResult_tB01A1197ED99DD064C9BB9ED2990ABCD8FD6
 IL2CPP_EXTERN_C RuntimeClass* Single_tDDDA9169C4E4E308AC6D7A824F9B28DC82204AE1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SpriteData_t8ADAD39500AF244CC913ED9B1F964DF04B4E5728_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UICharInfo_tB4C92043A686A600D36A92E3108F173C499E318A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UILineInfo_t0AF27251CA07CEE2BC0C1FEF752245596B8033E6_il2cpp_TypeInfo_var;
@@ -895,8 +895,8 @@ IL2CPP_EXTERN_C const uint32_t Comparison_1_BeginInvoke_mDE78089E2A98C69D5EC64EA
 IL2CPP_EXTERN_C const uint32_t Comparison_1_BeginInvoke_mE49C2EB81472BD97886B515AE1CA12AF56C54151_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Comparison_1_BeginInvoke_mEB32AA4C9E454623028801A26569E3B96D577B4F_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Comparison_1_BeginInvoke_mECC78853F7D28120FCD58AEC1EB482A474B2B028_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t Comparison_1_BeginInvoke_mEE8DDCA8B2F424B245A3DDB6C7F5A73BF50552BB_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Comparison_1_BeginInvoke_mF0002945038BBD34DEC507728D67DBC76A0DC1E3_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Comparison_1_BeginInvoke_mF17234EC7793E811EE6C5B2E03764EBBBA1C2D16_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Comparison_1_BeginInvoke_mF96F1782CE759E9F69438ADBFEC5BE5B7E1F79A6_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t EnumerableSorter_1_Sort_m509165ADCB8C6E6380FCC0409EC88C34D04F1467_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Enumerator_MoveNext_mA1442677307840443C164BF55B0FC8553A08BD67_MetadataUsageId;
@@ -2700,17 +2700,17 @@ struct ValueType_t4D0C27076F7C36E76190FB3328E232BCB1CD1FFF_marshaled_com
 {
 };
 
-// LevelManager_Syllable
-struct  Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7 
+// Syllable
+struct  Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30 
 {
 public:
-	// System.Int32 LevelManager_Syllable::order
+	// System.Int32 Syllable::order
 	int32_t ___order_0;
-	// System.String LevelManager_Syllable::text
+	// System.String Syllable::text
 	String_t* ___text_1;
 
 public:
-	inline static int32_t get_offset_of_order_0() { return static_cast<int32_t>(offsetof(Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7, ___order_0)); }
+	inline static int32_t get_offset_of_order_0() { return static_cast<int32_t>(offsetof(Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30, ___order_0)); }
 	inline int32_t get_order_0() const { return ___order_0; }
 	inline int32_t* get_address_of_order_0() { return &___order_0; }
 	inline void set_order_0(int32_t value)
@@ -2718,7 +2718,7 @@ public:
 		___order_0 = value;
 	}
 
-	inline static int32_t get_offset_of_text_1() { return static_cast<int32_t>(offsetof(Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7, ___text_1)); }
+	inline static int32_t get_offset_of_text_1() { return static_cast<int32_t>(offsetof(Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30, ___text_1)); }
 	inline String_t* get_text_1() const { return ___text_1; }
 	inline String_t** get_address_of_text_1() { return &___text_1; }
 	inline void set_text_1(String_t* value)
@@ -2728,14 +2728,14 @@ public:
 	}
 };
 
-// Native definition for P/Invoke marshalling of LevelManager/Syllable
-struct Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7_marshaled_pinvoke
+// Native definition for P/Invoke marshalling of Syllable
+struct Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30_marshaled_pinvoke
 {
 	int32_t ___order_0;
 	char* ___text_1;
 };
-// Native definition for COM marshalling of LevelManager/Syllable
-struct Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7_marshaled_com
+// Native definition for COM marshalling of Syllable
+struct Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30_marshaled_com
 {
 	int32_t ___order_0;
 	Il2CppChar* ___text_1;
@@ -7422,8 +7422,8 @@ public:
 };
 
 
-// System.Comparison`1<LevelManager_Syllable>
-struct  Comparison_1_tB7828A998A4483E81809695DA784F9F8C8945BF2  : public MulticastDelegate_t
+// System.Comparison`1<Syllable>
+struct  Comparison_1_tF7F31F224308249E6559B5B12CCFD03A2E06FC43  : public MulticastDelegate_t
 {
 public:
 
@@ -15602,15 +15602,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadOnlyCollection_1_System_Collections_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void System.Comparison`1<LevelManager_Syllable>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Comparison_1__ctor_m3F081725C181C67B34A228F75B49A1CA3B5D58C0_gshared (Comparison_1_tB7828A998A4483E81809695DA784F9F8C8945BF2 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+// System.Void System.Comparison`1<Syllable>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Comparison_1__ctor_m372ACE48CAF9D84C62E28758358325E05CD5C24A_gshared (Comparison_1_tF7F31F224308249E6559B5B12CCFD03A2E06FC43 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
 	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
 }
-// System.Int32 System.Comparison`1<LevelManager_Syllable>::Invoke(T,T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Comparison_1_Invoke_m475175DB202D1816F88156849F719DB0F4EE5190_gshared (Comparison_1_tB7828A998A4483E81809695DA784F9F8C8945BF2 * __this, Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7  ___x0, Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7  ___y1, const RuntimeMethod* method)
+// System.Int32 System.Comparison`1<Syllable>::Invoke(T,T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Comparison_1_Invoke_mC1DA1707255E52FF905BA478E951BAB1DBCADFD6_gshared (Comparison_1_tF7F31F224308249E6559B5B12CCFD03A2E06FC43 * __this, Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30  ___x0, Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30  ___y1, const RuntimeMethod* method)
 {
 	int32_t result = 0;
 	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
@@ -15644,13 +15644,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Comparison_1_Invoke_m475175DB202D1816
 			if (___parameterCount == 2)
 			{
 				// open
-				typedef int32_t (*FunctionPointerType) (Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7 , Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7 , const RuntimeMethod*);
+				typedef int32_t (*FunctionPointerType) (Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30 , Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30 , const RuntimeMethod*);
 				result = ((FunctionPointerType)targetMethodPointer)(___x0, ___y1, targetMethod);
 			}
 			else
 			{
 				// closed
-				typedef int32_t (*FunctionPointerType) (void*, Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7 , Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7 , const RuntimeMethod*);
+				typedef int32_t (*FunctionPointerType) (void*, Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30 , Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30 , const RuntimeMethod*);
 				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___x0, ___y1, targetMethod);
 			}
 		}
@@ -15661,34 +15661,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Comparison_1_Invoke_m475175DB202D1816
 			{
 				if (targetThis == NULL)
 				{
-					typedef int32_t (*FunctionPointerType) (Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7 , Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7 , const RuntimeMethod*);
+					typedef int32_t (*FunctionPointerType) (Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30 , Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30 , const RuntimeMethod*);
 					result = ((FunctionPointerType)targetMethodPointer)(___x0, ___y1, targetMethod);
 				}
 				else if (il2cpp_codegen_method_is_generic_instance(targetMethod))
 				{
 					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = GenericInterfaceFuncInvoker2< int32_t, Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7 , Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7  >::Invoke(targetMethod, targetThis, ___x0, ___y1);
+						result = GenericInterfaceFuncInvoker2< int32_t, Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30 , Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30  >::Invoke(targetMethod, targetThis, ___x0, ___y1);
 					else
-						result = GenericVirtFuncInvoker2< int32_t, Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7 , Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7  >::Invoke(targetMethod, targetThis, ___x0, ___y1);
+						result = GenericVirtFuncInvoker2< int32_t, Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30 , Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30  >::Invoke(targetMethod, targetThis, ___x0, ___y1);
 				}
 				else
 				{
 					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = InterfaceFuncInvoker2< int32_t, Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7 , Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7  >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___x0, ___y1);
+						result = InterfaceFuncInvoker2< int32_t, Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30 , Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30  >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___x0, ___y1);
 					else
-						result = VirtFuncInvoker2< int32_t, Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7 , Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7  >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___x0, ___y1);
+						result = VirtFuncInvoker2< int32_t, Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30 , Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30  >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___x0, ___y1);
 				}
 			}
 			else
 			{
 				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
 				{
-					typedef int32_t (*FunctionPointerType) (RuntimeObject*, Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7 , const RuntimeMethod*);
+					typedef int32_t (*FunctionPointerType) (RuntimeObject*, Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30 , const RuntimeMethod*);
 					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___x0) - 1), ___y1, targetMethod);
 				}
 				else
 				{
-					typedef int32_t (*FunctionPointerType) (void*, Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7 , Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7 , const RuntimeMethod*);
+					typedef int32_t (*FunctionPointerType) (void*, Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30 , Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30 , const RuntimeMethod*);
 					result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___x0, ___y1, targetMethod);
 				}
 			}
@@ -15696,22 +15696,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Comparison_1_Invoke_m475175DB202D1816
 	}
 	return result;
 }
-// System.IAsyncResult System.Comparison`1<LevelManager_Syllable>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Comparison_1_BeginInvoke_mF17234EC7793E811EE6C5B2E03764EBBBA1C2D16_gshared (Comparison_1_tB7828A998A4483E81809695DA784F9F8C8945BF2 * __this, Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7  ___x0, Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7  ___y1, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback2, RuntimeObject * ___object3, const RuntimeMethod* method)
+// System.IAsyncResult System.Comparison`1<Syllable>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Comparison_1_BeginInvoke_mEE8DDCA8B2F424B245A3DDB6C7F5A73BF50552BB_gshared (Comparison_1_tF7F31F224308249E6559B5B12CCFD03A2E06FC43 * __this, Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30  ___x0, Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30  ___y1, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback2, RuntimeObject * ___object3, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Comparison_1_BeginInvoke_mF17234EC7793E811EE6C5B2E03764EBBBA1C2D16_MetadataUsageId);
+		il2cpp_codegen_initialize_method (Comparison_1_BeginInvoke_mEE8DDCA8B2F424B245A3DDB6C7F5A73BF50552BB_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	void *__d_args[3] = {0};
-	__d_args[0] = Box(Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7_il2cpp_TypeInfo_var, &___x0);
-	__d_args[1] = Box(Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7_il2cpp_TypeInfo_var, &___y1);
+	__d_args[0] = Box(Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30_il2cpp_TypeInfo_var, &___x0);
+	__d_args[1] = Box(Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30_il2cpp_TypeInfo_var, &___y1);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);
 }
-// System.Int32 System.Comparison`1<LevelManager_Syllable>::EndInvoke(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Comparison_1_EndInvoke_m2B9B8C461AA61325DCF6C3EFC59B45716132A0F6_gshared (Comparison_1_tB7828A998A4483E81809695DA784F9F8C8945BF2 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+// System.Int32 System.Comparison`1<Syllable>::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Comparison_1_EndInvoke_mCF2223EEAD401194F1F6A6572353FF00A2FF5FA2_gshared (Comparison_1_tF7F31F224308249E6559B5B12CCFD03A2E06FC43 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
 	return *(int32_t*)UnBox ((RuntimeObject*)__result);

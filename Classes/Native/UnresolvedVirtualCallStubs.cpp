@@ -217,17 +217,17 @@ struct UintOptions_tCD241771582D5159D0129AA82E86590D0A0FC1E6_marshaled_com
 	int32_t ___isNegativeChangeValue_0;
 };
 
-// LevelManager_Syllable
-struct  Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7 
+// Syllable
+struct  Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30 
 {
 public:
-	// System.Int32 LevelManager_Syllable::order
+	// System.Int32 Syllable::order
 	int32_t ___order_0;
-	// System.String LevelManager_Syllable::text
+	// System.String Syllable::text
 	String_t* ___text_1;
 
 public:
-	inline static int32_t get_offset_of_order_0() { return static_cast<int32_t>(offsetof(Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7, ___order_0)); }
+	inline static int32_t get_offset_of_order_0() { return static_cast<int32_t>(offsetof(Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30, ___order_0)); }
 	inline int32_t get_order_0() const { return ___order_0; }
 	inline int32_t* get_address_of_order_0() { return &___order_0; }
 	inline void set_order_0(int32_t value)
@@ -235,7 +235,7 @@ public:
 		___order_0 = value;
 	}
 
-	inline static int32_t get_offset_of_text_1() { return static_cast<int32_t>(offsetof(Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7, ___text_1)); }
+	inline static int32_t get_offset_of_text_1() { return static_cast<int32_t>(offsetof(Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30, ___text_1)); }
 	inline String_t* get_text_1() const { return ___text_1; }
 	inline String_t** get_address_of_text_1() { return &___text_1; }
 	inline void set_text_1(String_t* value)
@@ -245,14 +245,14 @@ public:
 	}
 };
 
-// Native definition for P/Invoke marshalling of LevelManager/Syllable
-struct Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7_marshaled_pinvoke
+// Native definition for P/Invoke marshalling of Syllable
+struct Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30_marshaled_pinvoke
 {
 	int32_t ___order_0;
 	char* ___text_1;
 };
-// Native definition for COM marshalling of LevelManager/Syllable
-struct Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7_marshaled_com
+// Native definition for COM marshalling of Syllable
+struct Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30_marshaled_com
 {
 	int32_t ___order_0;
 	Il2CppChar* ___text_1;
@@ -7225,7 +7225,7 @@ static  int8_t UnresolvedVirtualCall_229 (RuntimeObject * __this, SpriteState_t5
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_230 (RuntimeObject * __this, RuntimeObject * ___Object1, Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7  ___Syllable2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_230 (RuntimeObject * __this, RuntimeObject * ___Object1, Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30  ___Syllable2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
@@ -7675,7 +7675,7 @@ static  void UnresolvedVirtualCall_304 (RuntimeObject * __this, PathOptions_tE44
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_305 (RuntimeObject * __this, Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7  ___Syllable1, Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7  ___Syllable2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_305 (RuntimeObject * __this, Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30  ___Syllable1, Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30  ___Syllable2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
@@ -7927,13 +7927,13 @@ static  KeyValuePair_2_tB806C2F98E1E3559B07973D57F289EAD64113D67  UnresolvedVirt
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_347 (RuntimeObject * __this, Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7  ___Syllable1, Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7  ___Syllable2, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_347 (RuntimeObject * __this, Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30  ___Syllable1, Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30  ___Syllable2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_348 (RuntimeObject * __this, Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7  ___Syllable1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_348 (RuntimeObject * __this, Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30  ___Syllable1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
@@ -8191,7 +8191,7 @@ static  int32_t UnresolvedVirtualCall_390 (RuntimeObject * __this, Vector4_tD148
 	il2cpp_codegen_no_return();
 }
 
-static  Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7  UnresolvedVirtualCall_391 (RuntimeObject * __this, const RuntimeMethod* method)
+static  Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30  UnresolvedVirtualCall_391 (RuntimeObject * __this, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
@@ -8371,7 +8371,7 @@ static  RuntimeObject * UnresolvedVirtualCall_420 (RuntimeObject * __this, Runti
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_421 (RuntimeObject * __this, Syllable_tD303DB6A430D125ED6EF1DCD2E77E8BF565B18B7  ___Syllable1, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_421 (RuntimeObject * __this, Syllable_t5F3C76615598DB3F6C9B5D39A152EC0480940F30  ___Syllable1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();

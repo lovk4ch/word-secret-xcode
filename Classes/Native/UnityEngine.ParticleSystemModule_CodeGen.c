@@ -74,8 +74,8 @@ extern void Particle_set_startSize_m45B6CD1480219E30A96317D654B9439C8DB2DF87_Adj
 extern void Particle_set_rotation3D_m46DB39BFDEEF27C6119F5EEE2C0B1CA9093FC834_AdjustorThunk ();
 // 0x0000001B System.Void UnityEngine.ParticleSystem_Particle::set_angularVelocity3D(UnityEngine.Vector3)
 extern void Particle_set_angularVelocity3D_m0F282D7EE110DF290E04B2B99FEC697ED89BF4EF_AdjustorThunk ();
-// 0x0000001C System.Single UnityEngine.ParticleSystem_MinMaxCurve::get_constant()
-extern void MinMaxCurve_get_constant_m5674EE1F5E0DAFAC2273DAE998D8FDC1370B6905_AdjustorThunk ();
+// 0x0000001C System.Single UnityEngine.ParticleSystem_MinMaxCurve::get_constantMax()
+extern void MinMaxCurve_get_constantMax_mD4752ED5F2614378C04BC5F8AA47C98C8C146A90_AdjustorThunk ();
 // 0x0000001D UnityEngine.Gradient UnityEngine.ParticleSystem_MinMaxGradient::get_gradientMax()
 extern void MinMaxGradient_get_gradientMax_m38B9C75BC438644371B62920110988E40EE9E7E1_AdjustorThunk ();
 // 0x0000001E System.Int32 UnityEngine.ParticleSystemRenderer::GetMeshes(UnityEngine.Mesh[])
@@ -109,35 +109,35 @@ static Il2CppMethodPointer s_methodPointers[30] =
 	Particle_set_startSize_m45B6CD1480219E30A96317D654B9439C8DB2DF87_AdjustorThunk,
 	Particle_set_rotation3D_m46DB39BFDEEF27C6119F5EEE2C0B1CA9093FC834_AdjustorThunk,
 	Particle_set_angularVelocity3D_m0F282D7EE110DF290E04B2B99FEC697ED89BF4EF_AdjustorThunk,
-	MinMaxCurve_get_constant_m5674EE1F5E0DAFAC2273DAE998D8FDC1370B6905_AdjustorThunk,
+	MinMaxCurve_get_constantMax_mD4752ED5F2614378C04BC5F8AA47C98C8C146A90_AdjustorThunk,
 	MinMaxGradient_get_gradientMax_m38B9C75BC438644371B62920110988E40EE9E7E1_AdjustorThunk,
 	ParticleSystemRenderer_GetMeshes_m4DE519F198B6A36169F307F1FA5D76FA28316AD2,
 };
 static const int32_t s_InvokerIndices[30] = 
 {
-	1475,
 	1476,
+	1477,
 	31,
 	23,
 	32,
 	32,
-	1477,
-	6,
 	1478,
+	6,
+	1479,
 	64,
 	26,
-	1479,
 	1480,
 	1481,
-	337,
-	337,
-	337,
-	325,
-	1096,
-	1096,
-	325,
-	325,
 	1482,
+	337,
+	337,
+	337,
+	325,
+	1096,
+	1096,
+	325,
+	325,
+	1483,
 	32,
 	325,
 	1096,
