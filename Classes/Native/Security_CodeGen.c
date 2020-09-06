@@ -613,7 +613,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[3] =
 {
 	{ (Il2CppRGCTXDataType)2, 16959 },
 	{ (Il2CppRGCTXDataType)2, 16960 },
-	{ (Il2CppRGCTXDataType)3, 11892 },
+	{ (Il2CppRGCTXDataType)3, 11893 },
 };
 extern const Il2CppCodeGenModule g_SecurityCodeGenModule;
 const Il2CppCodeGenModule g_SecurityCodeGenModule = 

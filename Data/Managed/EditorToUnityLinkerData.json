@@ -268,15 +268,6 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "SpriteRenderer",
-            "fullManagedTypeName": "UnityEngine.SpriteRenderer",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Main.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "SortingGroup",
             "fullManagedTypeName": "UnityEngine.Rendering.SortingGroup",
             "moduleName": "Core",
