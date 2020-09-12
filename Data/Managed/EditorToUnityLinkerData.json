@@ -603,6 +603,13 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "BackPreviewController",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "BallController",
             "moduleName": "",
             "usedInScenes": []
@@ -876,14 +883,14 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "TimerController",
+            "fullManagedTypeName": "SoundController",
             "moduleName": "",
             "usedInScenes": []
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "UnityStandardAssets.ImageEffects.Antialiasing",
+            "fullManagedTypeName": "TimerController",
             "moduleName": "",
             "usedInScenes": []
         },

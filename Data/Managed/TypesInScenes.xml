@@ -61,6 +61,7 @@
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="AudioManager" preserve="nothing"/>
+		<type fullname="BackPreviewController" preserve="nothing"/>
 		<type fullname="BallController" preserve="nothing"/>
 		<type fullname="BlackoutController" preserve="nothing"/>
 		<type fullname="BonusTimeController" preserve="nothing"/>
@@ -100,8 +101,8 @@
 		<type fullname="SettingsManager" preserve="nothing"/>
 		<type fullname="ShakeTransform" preserve="nothing"/>
 		<type fullname="ShakeTransformEvent" preserve="nothing"/>
+		<type fullname="SoundController" preserve="nothing"/>
 		<type fullname="TimerController" preserve="nothing"/>
-		<type fullname="UnityStandardAssets.ImageEffects.Antialiasing" preserve="nothing"/>
 		<type fullname="WordController" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Coffee.UnmaskForUGUI">

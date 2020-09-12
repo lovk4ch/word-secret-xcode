@@ -470,6 +470,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Animator_Play();
 		Register_UnityEngine_Animator_Play();
 
+		//System.Void UnityEngine.Animator::Rebind(System.Boolean)
+		void Register_UnityEngine_Animator_Rebind();
+		Register_UnityEngine_Animator_Rebind();
+
 		//System.Void UnityEngine.Animator::ResetTriggerString(System.String)
 		void Register_UnityEngine_Animator_ResetTriggerString();
 		Register_UnityEngine_Animator_ResetTriggerString();
@@ -531,14 +535,6 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_Audio_AudioMixer_SetFloat();
 
 	//End Registrations for type : UnityEngine.Audio.AudioMixer
-
-	//Start Registrations for type : UnityEngine.AudioListener
-
-		//System.Void UnityEngine.AudioListener::set_volume(System.Single)
-		void Register_UnityEngine_AudioListener_set_volume();
-		Register_UnityEngine_AudioListener_set_volume();
-
-	//End Registrations for type : UnityEngine.AudioListener
 
 	//Start Registrations for type : UnityEngine.AudioSettings
 
@@ -2234,10 +2230,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_PlayerPrefs_HasKey();
 		Register_UnityEngine_PlayerPrefs_HasKey();
 
-		//System.Boolean UnityEngine.PlayerPrefs::TrySetFloat(System.String,System.Single)
-		void Register_UnityEngine_PlayerPrefs_TrySetFloat();
-		Register_UnityEngine_PlayerPrefs_TrySetFloat();
-
 		//System.Boolean UnityEngine.PlayerPrefs::TrySetInt(System.String,System.Int32)
 		void Register_UnityEngine_PlayerPrefs_TrySetInt();
 		Register_UnityEngine_PlayerPrefs_TrySetInt();
@@ -2249,10 +2241,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Int32 UnityEngine.PlayerPrefs::GetInt(System.String,System.Int32)
 		void Register_UnityEngine_PlayerPrefs_GetInt();
 		Register_UnityEngine_PlayerPrefs_GetInt();
-
-		//System.Single UnityEngine.PlayerPrefs::GetFloat(System.String,System.Single)
-		void Register_UnityEngine_PlayerPrefs_GetFloat();
-		Register_UnityEngine_PlayerPrefs_GetFloat();
 
 		//System.String UnityEngine.PlayerPrefs::GetString(System.String,System.String)
 		void Register_UnityEngine_PlayerPrefs_GetString();
@@ -2646,6 +2634,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Rigidbody2D_get_rotation();
 		Register_UnityEngine_Rigidbody2D_get_rotation();
 
+		//System.Void UnityEngine.Rigidbody2D::AddForce_Injected(UnityEngine.Vector2&,UnityEngine.ForceMode2D)
+		void Register_UnityEngine_Rigidbody2D_AddForce_Injected();
+		Register_UnityEngine_Rigidbody2D_AddForce_Injected();
+
 		//System.Void UnityEngine.Rigidbody2D::MovePosition_Injected(UnityEngine.Vector2&)
 		void Register_UnityEngine_Rigidbody2D_MovePosition_Injected();
 		Register_UnityEngine_Rigidbody2D_MovePosition_Injected();
@@ -2661,6 +2653,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Rigidbody2D::set_bodyType(UnityEngine.RigidbodyType2D)
 		void Register_UnityEngine_Rigidbody2D_set_bodyType();
 		Register_UnityEngine_Rigidbody2D_set_bodyType();
+
+		//System.Void UnityEngine.Rigidbody2D::set_gravityScale(System.Single)
+		void Register_UnityEngine_Rigidbody2D_set_gravityScale();
+		Register_UnityEngine_Rigidbody2D_set_gravityScale();
 
 		//System.Void UnityEngine.Rigidbody2D::set_position_Injected(UnityEngine.Vector2&)
 		void Register_UnityEngine_Rigidbody2D_set_position_Injected();

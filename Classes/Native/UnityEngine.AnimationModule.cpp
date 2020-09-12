@@ -2585,6 +2585,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_Play_m1942D7FB37F84959D2C6A859E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Animator_StringToHash_m80E4CCCB84AAD032A5D84EF5832B7F35C1E5AE3F (String_t* ___name0, const RuntimeMethod* method);
 // System.Void UnityEngine.Animator::Play(System.Int32,System.Int32,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_Play_m20B525F785DA59888E645125DB2DDC071E924F3E (Animator_tF1A88E66B3B731DDA75A066DBAE9C55837660F5A * __this, int32_t ___stateNameHash0, int32_t ___layer1, float ___normalizedTime2, const RuntimeMethod* method);
+// System.Void UnityEngine.Animator::Rebind(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_Rebind_m34E593057D8424474C06FDEF6BDF0130E659EA5A (Animator_tF1A88E66B3B731DDA75A066DBAE9C55837660F5A * __this, bool ___writeDefaultValues0, const RuntimeMethod* method);
 // System.Void UnityEngine.AnimatorOverrideController/OnOverrideControllerDirtyCallback::Invoke()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnOverrideControllerDirtyCallback_Invoke_m002CFC2CE3C42A058380BE98F015E654D5F9F177 (OnOverrideControllerDirtyCallback_t73560E6E30067C09BC58A15F9D2726051B077E2E * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.ScriptableObject::.ctor()
@@ -3991,6 +3993,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_ResetTriggerString_m31B233F948D
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Animator_ResetTriggerString_m31B233F948D7551D220FEDA56B002E6724B89851_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animator::ResetTriggerString(System.String)");
 	_il2cpp_icall_func(__this, ___name0);
+}
+// System.Void UnityEngine.Animator::Rebind()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_Rebind_m8B1703BF1EE6583BA63D1CB811CFAF058CA2507E (Animator_tF1A88E66B3B731DDA75A066DBAE9C55837660F5A * __this, const RuntimeMethod* method)
+{
+	{
+		Animator_Rebind_m34E593057D8424474C06FDEF6BDF0130E659EA5A(__this, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.Animator::Rebind(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_Rebind_m34E593057D8424474C06FDEF6BDF0130E659EA5A (Animator_tF1A88E66B3B731DDA75A066DBAE9C55837660F5A * __this, bool ___writeDefaultValues0, const RuntimeMethod* method)
+{
+	typedef void (*Animator_Rebind_m34E593057D8424474C06FDEF6BDF0130E659EA5A_ftn) (Animator_tF1A88E66B3B731DDA75A066DBAE9C55837660F5A *, bool);
+	static Animator_Rebind_m34E593057D8424474C06FDEF6BDF0130E659EA5A_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Animator_Rebind_m34E593057D8424474C06FDEF6BDF0130E659EA5A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animator::Rebind(System.Boolean)");
+	_il2cpp_icall_func(__this, ___writeDefaultValues0);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

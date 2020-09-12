@@ -122,15 +122,23 @@ extern void Rigidbody2D_MovePosition_mD0572DDD77FD07D4D03B0A44CF8AD050AE9C42E5 (
 extern void Rigidbody2D_MoveRotation_m657F4C682EF73C115151B5442B0AD415C09F130A ();
 // 0x00000033 System.Void UnityEngine.Rigidbody2D::MoveRotation_Angle(System.Single)
 extern void Rigidbody2D_MoveRotation_Angle_mC3124E587CD7E3524A1FFE8C82808D73BD013EF4 ();
-// 0x00000034 System.Void UnityEngine.Rigidbody2D::set_bodyType(UnityEngine.RigidbodyType2D)
+// 0x00000034 System.Void UnityEngine.Rigidbody2D::set_gravityScale(System.Single)
+extern void Rigidbody2D_set_gravityScale_m4593B8D87314F00947B795AA442B90F1598B1104 ();
+// 0x00000035 System.Void UnityEngine.Rigidbody2D::set_bodyType(UnityEngine.RigidbodyType2D)
 extern void Rigidbody2D_set_bodyType_m239CDB6FFA033FD3B5BAC061A3F96DC9264D9900 ();
-// 0x00000035 System.Void UnityEngine.Rigidbody2D::get_position_Injected(UnityEngine.Vector2&)
+// 0x00000036 System.Void UnityEngine.Rigidbody2D::AddForce(UnityEngine.Vector2)
+extern void Rigidbody2D_AddForce_mFE4658C0AE6643026A7CE7452857CA37DB687436 ();
+// 0x00000037 System.Void UnityEngine.Rigidbody2D::AddForce(UnityEngine.Vector2,UnityEngine.ForceMode2D)
+extern void Rigidbody2D_AddForce_m09E1A2E24DABA5BBC613E35772AE2C1C35C6E40C ();
+// 0x00000038 System.Void UnityEngine.Rigidbody2D::get_position_Injected(UnityEngine.Vector2&)
 extern void Rigidbody2D_get_position_Injected_m7684DCAD6874A8D0A8560A052FEF85EF48280F73 ();
-// 0x00000036 System.Void UnityEngine.Rigidbody2D::set_position_Injected(UnityEngine.Vector2&)
+// 0x00000039 System.Void UnityEngine.Rigidbody2D::set_position_Injected(UnityEngine.Vector2&)
 extern void Rigidbody2D_set_position_Injected_m1C9E1C0F87779A134997F60E761CB23149B3C231 ();
-// 0x00000037 System.Void UnityEngine.Rigidbody2D::MovePosition_Injected(UnityEngine.Vector2&)
+// 0x0000003A System.Void UnityEngine.Rigidbody2D::MovePosition_Injected(UnityEngine.Vector2&)
 extern void Rigidbody2D_MovePosition_Injected_mA8D44ABECD0D47CD832619650FFB176F658B878A ();
-static Il2CppMethodPointer s_methodPointers[55] = 
+// 0x0000003B System.Void UnityEngine.Rigidbody2D::AddForce_Injected(UnityEngine.Vector2&,UnityEngine.ForceMode2D)
+extern void Rigidbody2D_AddForce_Injected_m41B8B49B88A28334BE679D3E9D0A44B242CC0897 ();
+static Il2CppMethodPointer s_methodPointers[59] = 
 {
 	PhysicsScene2D_ToString_m6F48AC6CE0D8540FCE4914ABB78ED0BAF0D83CBE_AdjustorThunk,
 	PhysicsScene2D_GetHashCode_mB1C0E9E977ACCBF0AA0D266E5851B4D778354467_AdjustorThunk,
@@ -183,53 +191,57 @@ static Il2CppMethodPointer s_methodPointers[55] =
 	Rigidbody2D_MovePosition_mD0572DDD77FD07D4D03B0A44CF8AD050AE9C42E5,
 	Rigidbody2D_MoveRotation_m657F4C682EF73C115151B5442B0AD415C09F130A,
 	Rigidbody2D_MoveRotation_Angle_mC3124E587CD7E3524A1FFE8C82808D73BD013EF4,
+	Rigidbody2D_set_gravityScale_m4593B8D87314F00947B795AA442B90F1598B1104,
 	Rigidbody2D_set_bodyType_m239CDB6FFA033FD3B5BAC061A3F96DC9264D9900,
+	Rigidbody2D_AddForce_mFE4658C0AE6643026A7CE7452857CA37DB687436,
+	Rigidbody2D_AddForce_m09E1A2E24DABA5BBC613E35772AE2C1C35C6E40C,
 	Rigidbody2D_get_position_Injected_m7684DCAD6874A8D0A8560A052FEF85EF48280F73,
 	Rigidbody2D_set_position_Injected_m1C9E1C0F87779A134997F60E761CB23149B3C231,
 	Rigidbody2D_MovePosition_Injected_mA8D44ABECD0D47CD832619650FFB176F658B878A,
+	Rigidbody2D_AddForce_Injected_m41B8B49B88A28334BE679D3E9D0A44B242CC0897,
 };
-static const int32_t s_InvokerIndices[55] = 
+static const int32_t s_InvokerIndices[59] = 
 {
 	14,
 	10,
 	9,
+	1481,
+	1482,
+	1483,
 	1484,
+	1485,
+	1486,
 	1485,
 	1486,
 	1487,
 	1488,
 	1489,
-	1488,
-	1489,
+	1490,
 	1490,
 	1491,
 	1492,
-	1493,
+	49,
 	1493,
 	1494,
 	1495,
-	49,
 	1496,
 	1497,
 	1498,
 	1499,
-	1500,
-	1501,
-	1502,
-	1502,
-	1345,
-	1344,
+	1499,
 	1343,
-	1503,
-	1349,
-	1348,
+	1342,
+	1341,
+	1500,
 	1347,
+	1346,
+	1345,
 	3,
-	1504,
+	1501,
 	23,
-	1505,
+	1502,
 	1076,
-	1506,
+	1503,
 	17,
 	1102,
 	1102,
@@ -241,16 +253,20 @@ static const int32_t s_InvokerIndices[55] =
 	1123,
 	325,
 	325,
+	325,
 	32,
+	1123,
+	1504,
 	6,
 	6,
 	6,
+	64,
 };
 extern const Il2CppCodeGenModule g_UnityEngine_Physics2DModuleCodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_Physics2DModuleCodeGenModule = 
 {
 	"UnityEngine.Physics2DModule.dll",
-	55,
+	59,
 	s_methodPointers,
 	s_InvokerIndices,
 	0,
