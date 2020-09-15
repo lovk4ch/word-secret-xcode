@@ -72,6 +72,7 @@
 		<type fullname="Gimbal" preserve="nothing"/>
 		<type fullname="Gradient" preserve="nothing"/>
 		<type fullname="HandPointerController" preserve="nothing"/>
+		<type fullname="HintController" preserve="nothing"/>
 		<type fullname="IAPBundleController" preserve="nothing"/>
 		<type fullname="IAPManager" preserve="nothing"/>
 		<type fullname="IronSourceManager" preserve="nothing"/>
