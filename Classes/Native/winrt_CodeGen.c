@@ -68,7 +68,7 @@ static Il2CppMethodPointer s_methodPointers[16] =
 };
 static const int32_t s_InvokerIndices[16] = 
 {
-	780,
+	779,
 	26,
 	26,
 	31,
@@ -79,11 +79,11 @@ static const int32_t s_InvokerIndices[16] =
 	26,
 	26,
 	26,
-	700,
+	699,
 	26,
 	26,
 	31,
-	1654,
+	1636,
 };
 extern const Il2CppCodeGenModule g_winrtCodeGenModule;
 const Il2CppCodeGenModule g_winrtCodeGenModule = 

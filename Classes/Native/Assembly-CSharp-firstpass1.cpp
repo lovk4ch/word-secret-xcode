@@ -35426,7 +35426,7 @@ IL_0013:
 				// byte[] array = System.Text.Encoding.ASCII.GetBytes("DBDT");
 				Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4 * L_8 = Encoding_get_ASCII_m9B673AE3152AB04D07CADE6E5E142C785B5BC94E(/*hidden argument*/NULL);
 				NullCheck(L_8);
-				ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_9 = VirtFuncInvoker1< ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, String_t* >::Invoke(18 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_8, _stringLiteral21EF45072E19ACB8F288A292AB3D383EB9CFD01B);
+				ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_9 = VirtFuncInvoker1< ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, String_t* >::Invoke(16 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_8, _stringLiteral21EF45072E19ACB8F288A292AB3D383EB9CFD01B);
 				V_4 = L_9;
 				// if (tag[0] != array[0] ||
 				//      tag[1] != array[1] ||
@@ -35523,7 +35523,7 @@ IL_0068:
 				Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4 * L_41 = Encoding_get_UTF8_m67C8652936B681E7BC7505E459E88790E0FF16D9(/*hidden argument*/NULL);
 				ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_42 = V_5;
 				NullCheck(L_41);
-				String_t* L_43 = VirtFuncInvoker1< String_t*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* >::Invoke(34 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_41, L_42);
+				String_t* L_43 = VirtFuncInvoker1< String_t*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* >::Invoke(32 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_41, L_42);
 				V_6 = L_43;
 				// result = jsonParse != null ? jsonParse(headerString) as Dictionary<string, object> : MiniJSON.Json.Deserialize(headerString) as Dictionary<string, object>;
 				JsonParseDelegate_t83C210C17D2B249E3FEAA3064304A24FE059928D * L_44 = ___jsonParse2;

@@ -19464,7 +19464,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectReader_CheckSerializable_m87D75566
 	{
 		Type_t * L_0 = ___t0;
 		NullCheck(L_0);
-		bool L_1 = VirtFuncInvoker0< bool >::Invoke(70 /* System.Boolean System.Type::get_IsSerializable() */, L_0);
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(71 /* System.Boolean System.Type::get_IsSerializable() */, L_0);
 		if (L_1)
 		{
 			goto IL_003c;
@@ -24670,7 +24670,7 @@ IL_0010:
 		NullCheck(L_11);
 		Type_t * L_12 = L_11->get_objectType_2();
 		NullCheck(L_12);
-		Type_t * L_13 = VirtFuncInvoker0< Type_t * >::Invoke(96 /* System.Type System.Type::GetElementType() */, L_12);
+		Type_t * L_13 = VirtFuncInvoker0< Type_t * >::Invoke(97 /* System.Type System.Type::GetElementType() */, L_12);
 		V_3 = L_13;
 		V_4 = (WriteObjectInfo_t5E240CBDF05476ED57BE42BD31E19334836CCA00 *)NULL;
 		Type_t * L_14 = V_3;
@@ -27478,7 +27478,7 @@ IL_0035:
 		Type_t * L_10 = ((Converter_t487E627532CCF8E32700AE055E7EFBDAC280C794_StaticFields*)il2cpp_codegen_static_fields_for(Converter_t487E627532CCF8E32700AE055E7EFBDAC280C794_il2cpp_TypeInfo_var))->get_typeofISerializable_6();
 		Type_t * L_11 = ___objectType0;
 		NullCheck(L_10);
-		bool L_12 = VirtFuncInvoker1< bool, Type_t * >::Invoke(108 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_10, L_11);
+		bool L_12 = VirtFuncInvoker1< bool, Type_t * >::Invoke(109 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_10, L_11);
 		if (!L_12)
 		{
 			goto IL_0051;
@@ -29779,7 +29779,7 @@ IL_00a9:
 	{
 		Type_t * L_28 = __this->get_objectType_2();
 		NullCheck(L_28);
-		bool L_29 = VirtFuncInvoker0< bool >::Invoke(70 /* System.Boolean System.Type::get_IsSerializable() */, L_28);
+		bool L_29 = VirtFuncInvoker0< bool >::Invoke(71 /* System.Boolean System.Type::get_IsSerializable() */, L_28);
 		if (L_29)
 		{
 			goto IL_00f8;
@@ -29946,7 +29946,7 @@ IL_006d:
 		Type_t * L_19 = ((Converter_t487E627532CCF8E32700AE055E7EFBDAC280C794_StaticFields*)il2cpp_codegen_static_fields_for(Converter_t487E627532CCF8E32700AE055E7EFBDAC280C794_il2cpp_TypeInfo_var))->get_typeofISerializable_6();
 		Type_t * L_20 = ___objectType0;
 		NullCheck(L_19);
-		bool L_21 = VirtFuncInvoker1< bool, Type_t * >::Invoke(108 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_19, L_20);
+		bool L_21 = VirtFuncInvoker1< bool, Type_t * >::Invoke(109 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_19, L_20);
 		if (!L_21)
 		{
 			goto IL_00bd;

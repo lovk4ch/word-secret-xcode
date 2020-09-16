@@ -13036,7 +13036,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BinaryWriter__ctor_m5A85DD02499F9284E0F0
 		__this->set__encoding_3(L_2);
 		Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4 * L_3 = __this->get__encoding_3();
 		NullCheck(L_3);
-		Encoder_t29B2697B0B775EABC52EBFB914F327BE9B1A3464 * L_4 = VirtFuncInvoker0< Encoder_t29B2697B0B775EABC52EBFB914F327BE9B1A3464 * >::Invoke(31 /* System.Text.Encoder System.Text.Encoding::GetEncoder() */, L_3);
+		Encoder_t29B2697B0B775EABC52EBFB914F327BE9B1A3464 * L_4 = VirtFuncInvoker0< Encoder_t29B2697B0B775EABC52EBFB914F327BE9B1A3464 * >::Invoke(29 /* System.Text.Encoder System.Text.Encoding::GetEncoder() */, L_3);
 		__this->set__encoder_4(L_4);
 		return;
 	}
@@ -13132,7 +13132,7 @@ IL_003a:
 		__this->set__encoding_3(L_10);
 		Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4 * L_11 = __this->get__encoding_3();
 		NullCheck(L_11);
-		Encoder_t29B2697B0B775EABC52EBFB914F327BE9B1A3464 * L_12 = VirtFuncInvoker0< Encoder_t29B2697B0B775EABC52EBFB914F327BE9B1A3464 * >::Invoke(31 /* System.Text.Encoder System.Text.Encoding::GetEncoder() */, L_11);
+		Encoder_t29B2697B0B775EABC52EBFB914F327BE9B1A3464 * L_12 = VirtFuncInvoker0< Encoder_t29B2697B0B775EABC52EBFB914F327BE9B1A3464 * >::Invoke(29 /* System.Text.Encoder System.Text.Encoding::GetEncoder() */, L_11);
 		__this->set__encoder_4(L_12);
 		bool L_13 = ___leaveOpen2;
 		__this->set__leaveOpen_5(L_13);
@@ -13426,7 +13426,7 @@ IL_000e:
 		CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* L_4 = ___chars0;
 		NullCheck(L_4);
 		NullCheck(L_2);
-		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_5 = VirtFuncInvoker3< ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2*, int32_t, int32_t >::Invoke(16 /* System.Byte[] System.Text.Encoding::GetBytes(System.Char[],System.Int32,System.Int32) */, L_2, L_3, 0, (((int32_t)((int32_t)(((RuntimeArray*)L_4)->max_length)))));
+		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_5 = VirtFuncInvoker3< ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2*, int32_t, int32_t >::Invoke(14 /* System.Byte[] System.Text.Encoding::GetBytes(System.Char[],System.Int32,System.Int32) */, L_2, L_3, 0, (((int32_t)((int32_t)(((RuntimeArray*)L_4)->max_length)))));
 		V_0 = L_5;
 		Stream_tFC50657DD5AAB87770987F9179D934A51D99D5E7 * L_6 = __this->get_OutStream_1();
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_7 = V_0;
@@ -13697,7 +13697,7 @@ IL_000e:
 		Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4 * L_2 = __this->get__encoding_3();
 		String_t* L_3 = ___value0;
 		NullCheck(L_2);
-		int32_t L_4 = VirtFuncInvoker1< int32_t, String_t* >::Invoke(11 /* System.Int32 System.Text.Encoding::GetByteCount(System.String) */, L_2, L_3);
+		int32_t L_4 = VirtFuncInvoker1< int32_t, String_t* >::Invoke(9 /* System.Int32 System.Text.Encoding::GetByteCount(System.String) */, L_2, L_3);
 		V_0 = L_4;
 		int32_t L_5 = V_0;
 		BinaryWriter_Write7BitEncodedInt_m8FA5CBD3BCB110DD58FC21FF6751D77D3BEF71A3(__this, L_5, /*hidden argument*/NULL);
@@ -13714,7 +13714,7 @@ IL_000e:
 		NullCheck(L_8);
 		Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4 * L_9 = __this->get__encoding_3();
 		NullCheck(L_9);
-		int32_t L_10 = VirtFuncInvoker1< int32_t, int32_t >::Invoke(32 /* System.Int32 System.Text.Encoding::GetMaxByteCount(System.Int32) */, L_9, 1);
+		int32_t L_10 = VirtFuncInvoker1< int32_t, int32_t >::Invoke(30 /* System.Int32 System.Text.Encoding::GetMaxByteCount(System.Int32) */, L_9, 1);
 		__this->set__maxChars_7(((int32_t)((int32_t)(((int32_t)((int32_t)(((RuntimeArray*)L_8)->max_length))))/(int32_t)L_10)));
 	}
 
@@ -13736,7 +13736,7 @@ IL_0055:
 		int32_t L_16 = String_get_Length_mD48C8A16A5CF1914F330DCE82D9BE15C3BEDD018_inline(L_15, /*hidden argument*/NULL);
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_17 = __this->get__largeByteBuffer_6();
 		NullCheck(L_13);
-		VirtFuncInvoker5< int32_t, String_t*, int32_t, int32_t, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, int32_t >::Invoke(19 /* System.Int32 System.Text.Encoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32) */, L_13, L_14, 0, L_16, L_17, 0);
+		VirtFuncInvoker5< int32_t, String_t*, int32_t, int32_t, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, int32_t >::Invoke(17 /* System.Int32 System.Text.Encoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32) */, L_13, L_14, 0, L_16, L_17, 0);
 		Stream_tFC50657DD5AAB87770987F9179D934A51D99D5E7 * L_18 = __this->get_OutStream_1();
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_19 = __this->get__largeByteBuffer_6();
 		int32_t L_20 = V_0;
@@ -32361,7 +32361,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StreamReader_Init_m6CD01243AB3564C5E8B45
 		__this->set_encoding_6(L_1);
 		Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4 * L_2 = ___encoding1;
 		NullCheck(L_2);
-		Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * L_3 = VirtFuncInvoker0< Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * >::Invoke(30 /* System.Text.Decoder System.Text.Encoding::GetDecoder() */, L_2);
+		Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * L_3 = VirtFuncInvoker0< Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * >::Invoke(28 /* System.Text.Decoder System.Text.Encoding::GetDecoder() */, L_2);
 		__this->set_decoder_7(L_3);
 		int32_t L_4 = ___bufferSize3;
 		if ((((int32_t)L_4) >= ((int32_t)((int32_t)128))))
@@ -32381,7 +32381,7 @@ IL_002a:
 		Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4 * L_7 = ___encoding1;
 		int32_t L_8 = ___bufferSize3;
 		NullCheck(L_7);
-		int32_t L_9 = VirtFuncInvoker1< int32_t, int32_t >::Invoke(33 /* System.Int32 System.Text.Encoding::GetMaxCharCount(System.Int32) */, L_7, L_8);
+		int32_t L_9 = VirtFuncInvoker1< int32_t, int32_t >::Invoke(31 /* System.Int32 System.Text.Encoding::GetMaxCharCount(System.Int32) */, L_7, L_8);
 		__this->set__maxCharsPerBuffer_15(L_9);
 		int32_t L_10 = __this->get__maxCharsPerBuffer_15();
 		CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* L_11 = (CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2*)(CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2*)SZArrayNew(CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2_il2cpp_TypeInfo_var, (uint32_t)L_10);
@@ -33164,13 +33164,13 @@ IL_016c:
 	{
 		Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4 * L_50 = __this->get_encoding_6();
 		NullCheck(L_50);
-		Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * L_51 = VirtFuncInvoker0< Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * >::Invoke(30 /* System.Text.Decoder System.Text.Encoding::GetDecoder() */, L_50);
+		Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * L_51 = VirtFuncInvoker0< Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * >::Invoke(28 /* System.Text.Decoder System.Text.Encoding::GetDecoder() */, L_50);
 		__this->set_decoder_7(L_51);
 		Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4 * L_52 = __this->get_encoding_6();
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_53 = __this->get_byteBuffer_8();
 		NullCheck(L_53);
 		NullCheck(L_52);
-		int32_t L_54 = VirtFuncInvoker1< int32_t, int32_t >::Invoke(33 /* System.Int32 System.Text.Encoding::GetMaxCharCount(System.Int32) */, L_52, (((int32_t)((int32_t)(((RuntimeArray*)L_53)->max_length)))));
+		int32_t L_54 = VirtFuncInvoker1< int32_t, int32_t >::Invoke(31 /* System.Int32 System.Text.Encoding::GetMaxCharCount(System.Int32) */, L_52, (((int32_t)((int32_t)(((RuntimeArray*)L_53)->max_length)))));
 		__this->set__maxCharsPerBuffer_15(L_54);
 		int32_t L_55 = __this->get__maxCharsPerBuffer_15();
 		CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* L_56 = (CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2*)(CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2*)SZArrayNew(CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2_il2cpp_TypeInfo_var, (uint32_t)L_55);
@@ -34354,7 +34354,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StreamWriter_Init_m1AC24C15954A849C621FB
 		__this->set_encoding_13(L_1);
 		Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4 * L_2 = __this->get_encoding_13();
 		NullCheck(L_2);
-		Encoder_t29B2697B0B775EABC52EBFB914F327BE9B1A3464 * L_3 = VirtFuncInvoker0< Encoder_t29B2697B0B775EABC52EBFB914F327BE9B1A3464 * >::Invoke(31 /* System.Text.Encoder System.Text.Encoding::GetEncoder() */, L_2);
+		Encoder_t29B2697B0B775EABC52EBFB914F327BE9B1A3464 * L_3 = VirtFuncInvoker0< Encoder_t29B2697B0B775EABC52EBFB914F327BE9B1A3464 * >::Invoke(29 /* System.Text.Encoder System.Text.Encoding::GetEncoder() */, L_2);
 		__this->set_encoder_14(L_3);
 		int32_t L_4 = ___bufferSize2;
 		if ((((int32_t)L_4) >= ((int32_t)((int32_t)128))))
@@ -34374,7 +34374,7 @@ IL_002e:
 		Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4 * L_7 = __this->get_encoding_13();
 		int32_t L_8 = ___bufferSize2;
 		NullCheck(L_7);
-		int32_t L_9 = VirtFuncInvoker1< int32_t, int32_t >::Invoke(32 /* System.Int32 System.Text.Encoding::GetMaxByteCount(System.Int32) */, L_7, L_8);
+		int32_t L_9 = VirtFuncInvoker1< int32_t, int32_t >::Invoke(30 /* System.Int32 System.Text.Encoding::GetMaxByteCount(System.Int32) */, L_7, L_8);
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_10 = (ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*)(ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*)SZArrayNew(ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821_il2cpp_TypeInfo_var, (uint32_t)L_9);
 		__this->set_byteBuffer_15(L_10);
 		int32_t L_11 = ___bufferSize2;

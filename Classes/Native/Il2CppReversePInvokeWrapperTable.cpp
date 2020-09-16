@@ -101,16 +101,14 @@ public:
 #endif
 
 extern "C" void DEFAULT_CALL ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_m056BCE43FF155AAE872FF7E565F8F72A50D26147(intptr_t ___arg0);
-extern "C" void DEFAULT_CALL ReversePInvokeWrapper_AppleStoreImpl_MessageCallback_m1AFEBE0209301D9DE3F08BF561DC43984AEC3251(char* ___subject0, char* ___payload1, char* ___receipt2, char* ___transactionId3);
-extern "C" void DEFAULT_CALL ReversePInvokeWrapper_FacebookStoreImpl_MessageCallback_m95B738D784D0C0AC054DE6F7DBC86B4E12517105(char* ___subject0, char* ___payload1, char* ___receipt2, char* ___transactionId3);
-extern "C" void DEFAULT_CALL ReversePInvokeWrapper_TizenStoreImpl_MessageCallback_m468657DE860B56D8404F5502CB68ABA6C7B13748(char* ___subject0, char* ___payload1, char* ___receipt2, char* ___transactionId3);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_AppleStoreImpl_MessageCallback_m03941E0038DEE1E35B1EF9FCCE9F8CED13FD330F(char* ___subject0, char* ___payload1, char* ___receipt2, char* ___transactionId3);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_FacebookStoreImpl_MessageCallback_mF57250297EC7438A836AF55830B98161D6D6B8EA(char* ___subject0, char* ___payload1, char* ___receipt2, char* ___transactionId3);
 
 
 extern const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[];
-const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[4] = 
+const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[3] = 
 {
 	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_m056BCE43FF155AAE872FF7E565F8F72A50D26147),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_AppleStoreImpl_MessageCallback_m1AFEBE0209301D9DE3F08BF561DC43984AEC3251),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_FacebookStoreImpl_MessageCallback_m95B738D784D0C0AC054DE6F7DBC86B4E12517105),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_TizenStoreImpl_MessageCallback_m468657DE860B56D8404F5502CB68ABA6C7B13748),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_AppleStoreImpl_MessageCallback_m03941E0038DEE1E35B1EF9FCCE9F8CED13FD330F),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_FacebookStoreImpl_MessageCallback_mF57250297EC7438A836AF55830B98161D6D6B8EA),
 };

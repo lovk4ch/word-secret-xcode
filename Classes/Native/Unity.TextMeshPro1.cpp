@@ -18848,7 +18848,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisColor32_t23ABC4AE0E0BDFD
 // System.Void System.Array::Resize<System.Int32>(!!0[]&,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisInt32_t585191389E07734F19F3156FF88FB3EF4800D102_m59A6399E5C225A177C1BFE9D14C7CA7B8E8C6AD1_gshared (Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83** ___array0, int32_t ___newSize1, const RuntimeMethod* method);
 // !!0 UnityEngine.Resources::Load<System.Object>(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Resources_Load_TisRuntimeObject_m2B4657C4B7BB759A295E6F956D014FC1122DD3D8_gshared (String_t* ___path0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Resources_Load_TisRuntimeObject_m5DBFEC24E0DC9FC8734E858A489BC7B8B64B0BFF_gshared (String_t* ___path0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.Char>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_mE2ABD7706DF2996CA0BBD37AFF5EDED34CFEF48F_gshared (Dictionary_2_t1BF6D09B2C0226835F78B1BFABE6A8FA1030F08B * __this, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,System.Char>::ContainsKey(!0)
@@ -18918,7 +18918,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m7D745ADE56151C289545
 // !!0 UnityEngine.GameObject::GetComponent<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * GameObject_GetComponent_TisRuntimeObject_mE03C66715289D7957CA068A675826B7EE0887BE3_gshared (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method);
 // !!0 UnityEngine.GameObject::AddComponent<System.Object>()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * GameObject_AddComponent_TisRuntimeObject_mCB8164FB05F8DCF99E098ADC5E13E96FEF6FC4E9_gshared (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * GameObject_AddComponent_TisRuntimeObject_mE053F7A95F30AFF07D69F0DED3DA13AE2EC25E03_gshared (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method);
 // System.Void TMPro.TMP_RichTextTagStack`1<System.Int32>::Clear()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_RichTextTagStack_1_Clear_m5F3C3BAD4B532724320C76264624F3CE00781EF3_gshared (TMP_RichTextTagStack_1_t629E00E06021AA51A5AD8607BAFC61DB099F2D7F * __this, const RuntimeMethod* method);
 // System.Void TMPro.TMP_Text::ResizeInternalArray<TMPro.TMP_Text/UnicodeChar>(T[]&)
@@ -19400,7 +19400,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_Settings_LoadLinebreakingRules_mEB4D
 // !!0 UnityEngine.Resources::Load<TMPro.TMP_Settings>(System.String)
 inline TMP_Settings_t1CCF2DFCF66223CC1AC404F9AEE3E257BA37255A * Resources_Load_TisTMP_Settings_t1CCF2DFCF66223CC1AC404F9AEE3E257BA37255A_mD35E673D423926E91EA022BBC96D788B74AF5F04 (String_t* ___path0, const RuntimeMethod* method)
 {
-	return ((  TMP_Settings_t1CCF2DFCF66223CC1AC404F9AEE3E257BA37255A * (*) (String_t*, const RuntimeMethod*))Resources_Load_TisRuntimeObject_m2B4657C4B7BB759A295E6F956D014FC1122DD3D8_gshared)(___path0, method);
+	return ((  TMP_Settings_t1CCF2DFCF66223CC1AC404F9AEE3E257BA37255A * (*) (String_t*, const RuntimeMethod*))Resources_Load_TisRuntimeObject_m5DBFEC24E0DC9FC8734E858A489BC7B8B64B0BFF_gshared)(___path0, method);
 }
 // System.Void TMPro.TMP_Settings/LineBreakingTable::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineBreakingTable__ctor_mC410A1A7E117279F6EDAF80D502339EFA444836D (LineBreakingTable_tB80E0533075B07F5080E99393CEF91FDC8C2AB25 * __this, const RuntimeMethod* method);
@@ -19759,7 +19759,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TMP_StyleSheet_tC6C45E5B0EC8EF4BA7BB147712516
 // !!0 UnityEngine.Resources::Load<TMPro.TMP_StyleSheet>(System.String)
 inline TMP_StyleSheet_tC6C45E5B0EC8EF4BA7BB147712516656B0D26C04 * Resources_Load_TisTMP_StyleSheet_tC6C45E5B0EC8EF4BA7BB147712516656B0D26C04_m22B689F43ABE996B58EDA0B4D4B5771C6A1C1E8A (String_t* ___path0, const RuntimeMethod* method)
 {
-	return ((  TMP_StyleSheet_tC6C45E5B0EC8EF4BA7BB147712516656B0D26C04 * (*) (String_t*, const RuntimeMethod*))Resources_Load_TisRuntimeObject_m2B4657C4B7BB759A295E6F956D014FC1122DD3D8_gshared)(___path0, method);
+	return ((  TMP_StyleSheet_tC6C45E5B0EC8EF4BA7BB147712516656B0D26C04 * (*) (String_t*, const RuntimeMethod*))Resources_Load_TisRuntimeObject_m5DBFEC24E0DC9FC8734E858A489BC7B8B64B0BFF_gshared)(___path0, method);
 }
 // System.Void TMPro.TMP_StyleSheet::LoadStyleDictionaryInternal()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_StyleSheet_LoadStyleDictionaryInternal_m2C0AF795C78825BFD047D9CF329C1828D6BD7E93 (TMP_StyleSheet_tC6C45E5B0EC8EF4BA7BB147712516656B0D26C04 * __this, const RuntimeMethod* method);
@@ -19966,7 +19966,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransform_set_pivot_mB791A383B3C870B
 // !!0 UnityEngine.GameObject::AddComponent<TMPro.TMP_SubMeshUI>()
 inline TMP_SubMeshUI_tA1CA59D5820CBD2494E1A1562E02FE4D4272A2A1 * GameObject_AddComponent_TisTMP_SubMeshUI_tA1CA59D5820CBD2494E1A1562E02FE4D4272A2A1_mA7C2BECEC62ED35A056D224057DDD4DAC7B67FC8 (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method)
 {
-	return ((  TMP_SubMeshUI_tA1CA59D5820CBD2494E1A1562E02FE4D4272A2A1 * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_mCB8164FB05F8DCF99E098ADC5E13E96FEF6FC4E9_gshared)(__this, method);
+	return ((  TMP_SubMeshUI_tA1CA59D5820CBD2494E1A1562E02FE4D4272A2A1 * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_mE053F7A95F30AFF07D69F0DED3DA13AE2EC25E03_gshared)(__this, method);
 }
 // UnityEngine.CanvasRenderer TMPro.TMP_SubMeshUI::get_canvasRenderer()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CanvasRenderer_tB4D9C9FE77FD5C9C4546FC022D6E956960BC2B72 * TMP_SubMeshUI_get_canvasRenderer_mE49DFC3D69EFAC885E3619B4B2C7A518B06C4738 (TMP_SubMeshUI_tA1CA59D5820CBD2494E1A1562E02FE4D4272A2A1 * __this, const RuntimeMethod* method);
@@ -20048,7 +20048,7 @@ inline TMP_SpriteAnimator_tEB1A22D4A88DC5AAC3EFBDD8FD10B2A02C7B0D17 * Component_
 // !!0 UnityEngine.GameObject::AddComponent<TMPro.TMP_SpriteAnimator>()
 inline TMP_SpriteAnimator_tEB1A22D4A88DC5AAC3EFBDD8FD10B2A02C7B0D17 * GameObject_AddComponent_TisTMP_SpriteAnimator_tEB1A22D4A88DC5AAC3EFBDD8FD10B2A02C7B0D17_m6E1DAD985C228E9AC2C7EB85E4E9E79618D90540 (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method)
 {
-	return ((  TMP_SpriteAnimator_tEB1A22D4A88DC5AAC3EFBDD8FD10B2A02C7B0D17 * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_mCB8164FB05F8DCF99E098ADC5E13E96FEF6FC4E9_gshared)(__this, method);
+	return ((  TMP_SpriteAnimator_tEB1A22D4A88DC5AAC3EFBDD8FD10B2A02C7B0D17 * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_mE053F7A95F30AFF07D69F0DED3DA13AE2EC25E03_gshared)(__this, method);
 }
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.UI.LayoutElement>()
 inline LayoutElement_tD503826DB41B6EA85AC689292F8B2661B3C1048B * Component_GetComponent_TisLayoutElement_tD503826DB41B6EA85AC689292F8B2661B3C1048B_mACA9D3C2B7ADBC090A1641FD71AE7A7F61811C4E (Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 * __this, const RuntimeMethod* method)
@@ -20424,7 +20424,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TMP_Settings_get_defaultFontAssetPa
 // !!0 UnityEngine.Resources::Load<TMPro.TMP_FontAsset>(System.String)
 inline TMP_FontAsset_t44D2006105B39FB33AE5A0ADF07A7EF36C72385C * Resources_Load_TisTMP_FontAsset_t44D2006105B39FB33AE5A0ADF07A7EF36C72385C_m3C18B5436BCD51005F5E8AD6DDDF50E8F9E16107 (String_t* ___path0, const RuntimeMethod* method)
 {
-	return ((  TMP_FontAsset_t44D2006105B39FB33AE5A0ADF07A7EF36C72385C * (*) (String_t*, const RuntimeMethod*))Resources_Load_TisRuntimeObject_m2B4657C4B7BB759A295E6F956D014FC1122DD3D8_gshared)(___path0, method);
+	return ((  TMP_FontAsset_t44D2006105B39FB33AE5A0ADF07A7EF36C72385C * (*) (String_t*, const RuntimeMethod*))Resources_Load_TisRuntimeObject_m5DBFEC24E0DC9FC8734E858A489BC7B8B64B0BFF_gshared)(___path0, method);
 }
 // System.Void TMPro.MaterialReferenceManager::AddFontAsset(TMPro.TMP_FontAsset)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialReferenceManager_AddFontAsset_m13946A7F6C69EF3AE8532F2A7FDD1E8A5E071DCC (TMP_FontAsset_t44D2006105B39FB33AE5A0ADF07A7EF36C72385C * ___fontAsset0, const RuntimeMethod* method);
@@ -20435,7 +20435,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MaterialReferenceManager_TryGetMaterial_
 // !!0 UnityEngine.Resources::Load<UnityEngine.Material>(System.String)
 inline Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * Resources_Load_TisMaterial_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598_m03D88584A63B0ABDC1B4BE7B8EB210D9ECBEDE03 (String_t* ___path0, const RuntimeMethod* method)
 {
-	return ((  Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * (*) (String_t*, const RuntimeMethod*))Resources_Load_TisRuntimeObject_m2B4657C4B7BB759A295E6F956D014FC1122DD3D8_gshared)(___path0, method);
+	return ((  Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * (*) (String_t*, const RuntimeMethod*))Resources_Load_TisRuntimeObject_m5DBFEC24E0DC9FC8734E858A489BC7B8B64B0BFF_gshared)(___path0, method);
 }
 // System.Void TMPro.MaterialReferenceManager::AddFontMaterial(System.Int32,UnityEngine.Material)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialReferenceManager_AddFontMaterial_mA9EF820A88A828AA51373EC377465DD4C23F6C89 (int32_t ___hashCode0, Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * ___material1, const RuntimeMethod* method);
@@ -20478,7 +20478,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TMP_Settings_get_defaultColorGradie
 // !!0 UnityEngine.Resources::Load<TMPro.TMP_ColorGradient>(System.String)
 inline TMP_ColorGradient_tEA29C4736B1786301A803B6C0FB30107A10D79B7 * Resources_Load_TisTMP_ColorGradient_tEA29C4736B1786301A803B6C0FB30107A10D79B7_m89A70FCF7CAA2FE6E951ED3F36BA60743BE256B8 (String_t* ___path0, const RuntimeMethod* method)
 {
-	return ((  TMP_ColorGradient_tEA29C4736B1786301A803B6C0FB30107A10D79B7 * (*) (String_t*, const RuntimeMethod*))Resources_Load_TisRuntimeObject_m2B4657C4B7BB759A295E6F956D014FC1122DD3D8_gshared)(___path0, method);
+	return ((  TMP_ColorGradient_tEA29C4736B1786301A803B6C0FB30107A10D79B7 * (*) (String_t*, const RuntimeMethod*))Resources_Load_TisRuntimeObject_m5DBFEC24E0DC9FC8734E858A489BC7B8B64B0BFF_gshared)(___path0, method);
 }
 // System.Void TMPro.MaterialReferenceManager::AddColorGradientPreset(System.Int32,TMPro.TMP_ColorGradient)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialReferenceManager_AddColorGradientPreset_mE47972311AD55E972AC905EC5235A420F4BF8E49 (int32_t ___hashCode0, TMP_ColorGradient_tEA29C4736B1786301A803B6C0FB30107A10D79B7 * ___spriteAsset1, const RuntimeMethod* method);
@@ -20495,7 +20495,7 @@ inline TMP_ColorGradient_tEA29C4736B1786301A803B6C0FB30107A10D79B7 * TMP_RichTex
 // !!0 UnityEngine.Resources::Load<TMPro.TMP_SpriteAsset>(System.String)
 inline TMP_SpriteAsset_tF896FFED2AA9395D6BC40FFEAC6DE7555A27A487 * Resources_Load_TisTMP_SpriteAsset_tF896FFED2AA9395D6BC40FFEAC6DE7555A27A487_m49402125E965F28F02BD16FAFA7F8CB76F00EF8A (String_t* ___path0, const RuntimeMethod* method)
 {
-	return ((  TMP_SpriteAsset_tF896FFED2AA9395D6BC40FFEAC6DE7555A27A487 * (*) (String_t*, const RuntimeMethod*))Resources_Load_TisRuntimeObject_m2B4657C4B7BB759A295E6F956D014FC1122DD3D8_gshared)(___path0, method);
+	return ((  TMP_SpriteAsset_tF896FFED2AA9395D6BC40FFEAC6DE7555A27A487 * (*) (String_t*, const RuntimeMethod*))Resources_Load_TisRuntimeObject_m5DBFEC24E0DC9FC8734E858A489BC7B8B64B0BFF_gshared)(___path0, method);
 }
 // System.Boolean TMPro.MaterialReferenceManager::TryGetSpriteAsset(System.Int32,TMPro.TMP_SpriteAsset&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MaterialReferenceManager_TryGetSpriteAsset_m8EE1B15FAAAD71E8BAF2A4E1EAA29E9187297A95 (int32_t ___hashCode0, TMP_SpriteAsset_tF896FFED2AA9395D6BC40FFEAC6DE7555A27A487 ** ___spriteAsset1, const RuntimeMethod* method);

@@ -14219,7 +14219,7 @@ IL_00ce:
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_59 = V_3;
 		int32_t L_60 = V_2;
 		NullCheck(L_58);
-		CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* L_61 = VirtFuncInvoker3< CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, int32_t, int32_t >::Invoke(25 /* System.Char[] System.Text.Encoding::GetChars(System.Byte[],System.Int32,System.Int32) */, L_58, L_59, 0, ((int32_t)il2cpp_codegen_multiply((int32_t)4, (int32_t)L_60)));
+		CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* L_61 = VirtFuncInvoker3< CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, int32_t, int32_t >::Invoke(23 /* System.Char[] System.Text.Encoding::GetChars(System.Byte[],System.Int32,System.Int32) */, L_58, L_59, 0, ((int32_t)il2cpp_codegen_multiply((int32_t)4, (int32_t)L_60)));
 		int32_t L_62 = V_2;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t1C7A851BFB2F0782FD7F72F6AA1DCBB7B53A9C7E_il2cpp_TypeInfo_var);
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_63 = Convert_FromBase64CharArray_mADF67BA394607E583C0522964181A115209F578F(L_61, 0, ((int32_t)il2cpp_codegen_multiply((int32_t)4, (int32_t)L_62)), /*hidden argument*/NULL);
@@ -14416,7 +14416,7 @@ IL_00b5:
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_54 = V_3;
 		int32_t L_55 = V_2;
 		NullCheck(L_53);
-		CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* L_56 = VirtFuncInvoker3< CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, int32_t, int32_t >::Invoke(25 /* System.Char[] System.Text.Encoding::GetChars(System.Byte[],System.Int32,System.Int32) */, L_53, L_54, 0, ((int32_t)il2cpp_codegen_multiply((int32_t)4, (int32_t)L_55)));
+		CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* L_56 = VirtFuncInvoker3< CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, int32_t, int32_t >::Invoke(23 /* System.Char[] System.Text.Encoding::GetChars(System.Byte[],System.Int32,System.Int32) */, L_53, L_54, 0, ((int32_t)il2cpp_codegen_multiply((int32_t)4, (int32_t)L_55)));
 		int32_t L_57 = V_2;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t1C7A851BFB2F0782FD7F72F6AA1DCBB7B53A9C7E_il2cpp_TypeInfo_var);
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_58 = Convert_FromBase64CharArray_mADF67BA394607E583C0522964181A115209F578F(L_56, 0, ((int32_t)il2cpp_codegen_multiply((int32_t)4, (int32_t)L_57)), /*hidden argument*/NULL);
@@ -19414,7 +19414,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PasswordDeriveBytes__ctor_m15B5B95A3B90B
 		UTF8Encoding__ctor_m27389C5A707DE2AA997362ED250BEB946CB6B076(L_0, (bool)0, /*hidden argument*/NULL);
 		String_t* L_1 = ___strPassword0;
 		NullCheck(L_0);
-		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_2 = VirtFuncInvoker1< ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, String_t* >::Invoke(18 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_0, L_1);
+		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_2 = VirtFuncInvoker1< ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, String_t* >::Invoke(16 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_0, L_1);
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_3 = ___rgbSalt1;
 		String_t* L_4 = ___strHashName2;
 		int32_t L_5 = ___iterations3;
@@ -24867,7 +24867,7 @@ IL_0017:
 		Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4 * L_2 = Encoding_get_UTF8_m67C8652936B681E7BC7505E459E88790E0FF16D9(/*hidden argument*/NULL);
 		String_t* L_3 = ___str0;
 		NullCheck(L_2);
-		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_4 = VirtFuncInvoker1< ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, String_t* >::Invoke(18 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_2, L_3);
+		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_4 = VirtFuncInvoker1< ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, String_t* >::Invoke(16 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_2, L_3);
 		IL2CPP_RUNTIME_CLASS_INIT(RNGCryptoServiceProvider_t14EA0DDB5170AB3EFDB80A157851BD0CD27CDAE1_il2cpp_TypeInfo_var);
 		intptr_t L_5 = RNGCryptoServiceProvider_RngInitialize_m612C79F91A4B414347206082782C05D87170019E(L_4, /*hidden argument*/NULL);
 		__this->set__handle_1((intptr_t)L_5);

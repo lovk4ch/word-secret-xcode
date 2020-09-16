@@ -90,10 +90,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_AndroidJNI_CallStaticBooleanMethod();
 		Register_UnityEngine_AndroidJNI_CallStaticBooleanMethod();
 
-		//System.Boolean UnityEngine.AndroidJNI::GetStaticBooleanField(System.IntPtr,System.IntPtr)
-		void Register_UnityEngine_AndroidJNI_GetStaticBooleanField();
-		Register_UnityEngine_AndroidJNI_GetStaticBooleanField();
-
 		//System.Boolean[] UnityEngine.AndroidJNI::FromBooleanArray(System.IntPtr)
 		void Register_UnityEngine_AndroidJNI_FromBooleanArray();
 		Register_UnityEngine_AndroidJNI_FromBooleanArray();
@@ -110,10 +106,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_AndroidJNI_CallStaticCharMethod();
 		Register_UnityEngine_AndroidJNI_CallStaticCharMethod();
 
-		//System.Char UnityEngine.AndroidJNI::GetStaticCharField(System.IntPtr,System.IntPtr)
-		void Register_UnityEngine_AndroidJNI_GetStaticCharField();
-		Register_UnityEngine_AndroidJNI_GetStaticCharField();
-
 		//System.Char[] UnityEngine.AndroidJNI::FromCharArray(System.IntPtr)
 		void Register_UnityEngine_AndroidJNI_FromCharArray();
 		Register_UnityEngine_AndroidJNI_FromCharArray();
@@ -126,10 +118,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_AndroidJNI_CallStaticDoubleMethod();
 		Register_UnityEngine_AndroidJNI_CallStaticDoubleMethod();
 
-		//System.Double UnityEngine.AndroidJNI::GetStaticDoubleField(System.IntPtr,System.IntPtr)
-		void Register_UnityEngine_AndroidJNI_GetStaticDoubleField();
-		Register_UnityEngine_AndroidJNI_GetStaticDoubleField();
-
 		//System.Double[] UnityEngine.AndroidJNI::FromDoubleArray(System.IntPtr)
 		void Register_UnityEngine_AndroidJNI_FromDoubleArray();
 		Register_UnityEngine_AndroidJNI_FromDoubleArray();
@@ -141,10 +129,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Int16 UnityEngine.AndroidJNI::CallStaticShortMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
 		void Register_UnityEngine_AndroidJNI_CallStaticShortMethod();
 		Register_UnityEngine_AndroidJNI_CallStaticShortMethod();
-
-		//System.Int16 UnityEngine.AndroidJNI::GetStaticShortField(System.IntPtr,System.IntPtr)
-		void Register_UnityEngine_AndroidJNI_GetStaticShortField();
-		Register_UnityEngine_AndroidJNI_GetStaticShortField();
 
 		//System.Int16[] UnityEngine.AndroidJNI::FromShortArray(System.IntPtr)
 		void Register_UnityEngine_AndroidJNI_FromShortArray();
@@ -162,14 +146,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_AndroidJNI_GetArrayLength();
 		Register_UnityEngine_AndroidJNI_GetArrayLength();
 
-		//System.Int32 UnityEngine.AndroidJNI::GetStaticIntField(System.IntPtr,System.IntPtr)
-		void Register_UnityEngine_AndroidJNI_GetStaticIntField();
-		Register_UnityEngine_AndroidJNI_GetStaticIntField();
-
-		//System.Int32 UnityEngine.AndroidJNI::PushLocalFrame(System.Int32)
-		void Register_UnityEngine_AndroidJNI_PushLocalFrame();
-		Register_UnityEngine_AndroidJNI_PushLocalFrame();
-
 		//System.Int32[] UnityEngine.AndroidJNI::FromIntArray(System.IntPtr)
 		void Register_UnityEngine_AndroidJNI_FromIntArray();
 		Register_UnityEngine_AndroidJNI_FromIntArray();
@@ -181,10 +157,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Int64 UnityEngine.AndroidJNI::CallStaticLongMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
 		void Register_UnityEngine_AndroidJNI_CallStaticLongMethod();
 		Register_UnityEngine_AndroidJNI_CallStaticLongMethod();
-
-		//System.Int64 UnityEngine.AndroidJNI::GetStaticLongField(System.IntPtr,System.IntPtr)
-		void Register_UnityEngine_AndroidJNI_GetStaticLongField();
-		Register_UnityEngine_AndroidJNI_GetStaticLongField();
 
 		//System.Int64[] UnityEngine.AndroidJNI::FromLongArray(System.IntPtr)
 		void Register_UnityEngine_AndroidJNI_FromLongArray();
@@ -210,10 +182,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_AndroidJNI_FromReflectedMethod();
 		Register_UnityEngine_AndroidJNI_FromReflectedMethod();
 
-		//System.IntPtr UnityEngine.AndroidJNI::GetFieldID(System.IntPtr,System.String,System.String)
-		void Register_UnityEngine_AndroidJNI_GetFieldID();
-		Register_UnityEngine_AndroidJNI_GetFieldID();
-
 		//System.IntPtr UnityEngine.AndroidJNI::GetMethodID(System.IntPtr,System.String,System.String)
 		void Register_UnityEngine_AndroidJNI_GetMethodID();
 		Register_UnityEngine_AndroidJNI_GetMethodID();
@@ -226,17 +194,9 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_AndroidJNI_GetObjectClass();
 		Register_UnityEngine_AndroidJNI_GetObjectClass();
 
-		//System.IntPtr UnityEngine.AndroidJNI::GetStaticFieldID(System.IntPtr,System.String,System.String)
-		void Register_UnityEngine_AndroidJNI_GetStaticFieldID();
-		Register_UnityEngine_AndroidJNI_GetStaticFieldID();
-
 		//System.IntPtr UnityEngine.AndroidJNI::GetStaticMethodID(System.IntPtr,System.String,System.String)
 		void Register_UnityEngine_AndroidJNI_GetStaticMethodID();
 		Register_UnityEngine_AndroidJNI_GetStaticMethodID();
-
-		//System.IntPtr UnityEngine.AndroidJNI::GetStaticObjectField(System.IntPtr,System.IntPtr)
-		void Register_UnityEngine_AndroidJNI_GetStaticObjectField();
-		Register_UnityEngine_AndroidJNI_GetStaticObjectField();
 
 		//System.IntPtr UnityEngine.AndroidJNI::NewGlobalRef(System.IntPtr)
 		void Register_UnityEngine_AndroidJNI_NewGlobalRef();
@@ -261,10 +221,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.IntPtr UnityEngine.AndroidJNI::NewWeakGlobalRef(System.IntPtr)
 		void Register_UnityEngine_AndroidJNI_NewWeakGlobalRef();
 		Register_UnityEngine_AndroidJNI_NewWeakGlobalRef();
-
-		//System.IntPtr UnityEngine.AndroidJNI::PopLocalFrame(System.IntPtr)
-		void Register_UnityEngine_AndroidJNI_PopLocalFrame();
-		Register_UnityEngine_AndroidJNI_PopLocalFrame();
 
 		//System.IntPtr UnityEngine.AndroidJNI::ToBooleanArray(System.Boolean[])
 		void Register_UnityEngine_AndroidJNI_ToBooleanArray();
@@ -314,10 +270,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_AndroidJNI_CallStaticSByteMethod();
 		Register_UnityEngine_AndroidJNI_CallStaticSByteMethod();
 
-		//System.SByte UnityEngine.AndroidJNI::GetStaticSByteField(System.IntPtr,System.IntPtr)
-		void Register_UnityEngine_AndroidJNI_GetStaticSByteField();
-		Register_UnityEngine_AndroidJNI_GetStaticSByteField();
-
 		//System.SByte[] UnityEngine.AndroidJNI::FromSByteArray(System.IntPtr)
 		void Register_UnityEngine_AndroidJNI_FromSByteArray();
 		Register_UnityEngine_AndroidJNI_FromSByteArray();
@@ -330,10 +282,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_AndroidJNI_CallStaticFloatMethod();
 		Register_UnityEngine_AndroidJNI_CallStaticFloatMethod();
 
-		//System.Single UnityEngine.AndroidJNI::GetStaticFloatField(System.IntPtr,System.IntPtr)
-		void Register_UnityEngine_AndroidJNI_GetStaticFloatField();
-		Register_UnityEngine_AndroidJNI_GetStaticFloatField();
-
 		//System.Single[] UnityEngine.AndroidJNI::FromFloatArray(System.IntPtr)
 		void Register_UnityEngine_AndroidJNI_FromFloatArray();
 		Register_UnityEngine_AndroidJNI_FromFloatArray();
@@ -345,10 +293,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.String UnityEngine.AndroidJNI::CallStringMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
 		void Register_UnityEngine_AndroidJNI_CallStringMethod();
 		Register_UnityEngine_AndroidJNI_CallStringMethod();
-
-		//System.String UnityEngine.AndroidJNI::GetStaticStringField(System.IntPtr,System.IntPtr)
-		void Register_UnityEngine_AndroidJNI_GetStaticStringField();
-		Register_UnityEngine_AndroidJNI_GetStaticStringField();
 
 		//System.String UnityEngine.AndroidJNI::GetStringChars(System.IntPtr)
 		void Register_UnityEngine_AndroidJNI_GetStringChars();
@@ -378,49 +322,9 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_AndroidJNI_ExceptionClear();
 		Register_UnityEngine_AndroidJNI_ExceptionClear();
 
-		//System.Void UnityEngine.AndroidJNI::SetBooleanField(System.IntPtr,System.IntPtr,System.Boolean)
-		void Register_UnityEngine_AndroidJNI_SetBooleanField();
-		Register_UnityEngine_AndroidJNI_SetBooleanField();
-
-		//System.Void UnityEngine.AndroidJNI::SetCharField(System.IntPtr,System.IntPtr,System.Char)
-		void Register_UnityEngine_AndroidJNI_SetCharField();
-		Register_UnityEngine_AndroidJNI_SetCharField();
-
-		//System.Void UnityEngine.AndroidJNI::SetDoubleField(System.IntPtr,System.IntPtr,System.Double)
-		void Register_UnityEngine_AndroidJNI_SetDoubleField();
-		Register_UnityEngine_AndroidJNI_SetDoubleField();
-
-		//System.Void UnityEngine.AndroidJNI::SetFloatField(System.IntPtr,System.IntPtr,System.Single)
-		void Register_UnityEngine_AndroidJNI_SetFloatField();
-		Register_UnityEngine_AndroidJNI_SetFloatField();
-
-		//System.Void UnityEngine.AndroidJNI::SetIntField(System.IntPtr,System.IntPtr,System.Int32)
-		void Register_UnityEngine_AndroidJNI_SetIntField();
-		Register_UnityEngine_AndroidJNI_SetIntField();
-
-		//System.Void UnityEngine.AndroidJNI::SetLongField(System.IntPtr,System.IntPtr,System.Int64)
-		void Register_UnityEngine_AndroidJNI_SetLongField();
-		Register_UnityEngine_AndroidJNI_SetLongField();
-
 		//System.Void UnityEngine.AndroidJNI::SetObjectArrayElement(System.IntPtr,System.Int32,System.IntPtr)
 		void Register_UnityEngine_AndroidJNI_SetObjectArrayElement();
 		Register_UnityEngine_AndroidJNI_SetObjectArrayElement();
-
-		//System.Void UnityEngine.AndroidJNI::SetObjectField(System.IntPtr,System.IntPtr,System.IntPtr)
-		void Register_UnityEngine_AndroidJNI_SetObjectField();
-		Register_UnityEngine_AndroidJNI_SetObjectField();
-
-		//System.Void UnityEngine.AndroidJNI::SetSByteField(System.IntPtr,System.IntPtr,System.SByte)
-		void Register_UnityEngine_AndroidJNI_SetSByteField();
-		Register_UnityEngine_AndroidJNI_SetSByteField();
-
-		//System.Void UnityEngine.AndroidJNI::SetShortField(System.IntPtr,System.IntPtr,System.Int16)
-		void Register_UnityEngine_AndroidJNI_SetShortField();
-		Register_UnityEngine_AndroidJNI_SetShortField();
-
-		//System.Void UnityEngine.AndroidJNI::SetStringField(System.IntPtr,System.IntPtr,System.String)
-		void Register_UnityEngine_AndroidJNI_SetStringField();
-		Register_UnityEngine_AndroidJNI_SetStringField();
 
 	//End Registrations for type : UnityEngine.AndroidJNI
 
@@ -505,10 +409,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.String UnityEngine.Application::get_version()
 		void Register_UnityEngine_Application_get_version();
 		Register_UnityEngine_Application_get_version();
-
-		//System.Void UnityEngine.Application::OpenURL(System.String)
-		void Register_UnityEngine_Application_OpenURL();
-		Register_UnityEngine_Application_OpenURL();
 
 		//UnityEngine.RuntimePlatform UnityEngine.Application::get_platform()
 		void Register_UnityEngine_Application_get_platform();
@@ -1949,10 +1849,6 @@ void RegisterAllStrippedInternalCalls()
 		//UnityEngine.Networking.UnityWebRequest/UnityWebRequestError UnityEngine.Networking.UnityWebRequest::GetError()
 		void Register_UnityEngine_Networking_UnityWebRequest_GetError();
 		Register_UnityEngine_Networking_UnityWebRequest_GetError();
-
-		//UnityEngine.Networking.UnityWebRequest/UnityWebRequestError UnityEngine.Networking.UnityWebRequest::InternalSetRequestHeader(System.String,System.String)
-		void Register_UnityEngine_Networking_UnityWebRequest_InternalSetRequestHeader();
-		Register_UnityEngine_Networking_UnityWebRequest_InternalSetRequestHeader();
 
 		//UnityEngine.Networking.UnityWebRequest/UnityWebRequestError UnityEngine.Networking.UnityWebRequest::SetChunked(System.Boolean)
 		void Register_UnityEngine_Networking_UnityWebRequest_SetChunked();

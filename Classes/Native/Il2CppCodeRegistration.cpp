@@ -67,8 +67,6 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngineCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_AppleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_FacebookStoreCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_SecurityCodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_TizenCodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UDPCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_PurchasingCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UICodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_winrtCodeGenModule;
@@ -80,7 +78,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_TextMeshProCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_AssemblyU2DCSharpU2DfirstpassCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
 extern const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[45] = 
+const Il2CppCodeGenModule* g_CodeGenModules[43] = 
 {
 	(&g_mscorlibCodeGenModule),
 	(&g_System_ConfigurationCodeGenModule),
@@ -115,8 +113,6 @@ const Il2CppCodeGenModule* g_CodeGenModules[45] =
 	(&g_AppleCodeGenModule),
 	(&g_FacebookStoreCodeGenModule),
 	(&g_SecurityCodeGenModule),
-	(&g_TizenCodeGenModule),
-	(&g_UDPCodeGenModule),
 	(&g_UnityEngine_PurchasingCodeGenModule),
 	(&g_UnityEngine_UICodeGenModule),
 	(&g_winrtCodeGenModule),
@@ -131,21 +127,21 @@ const Il2CppCodeGenModule* g_CodeGenModules[45] =
 extern const Il2CppCodeRegistration g_CodeRegistration;
 const Il2CppCodeRegistration g_CodeRegistration = 
 {
-	4,
+	3,
 	g_ReversePInvokeWrapperPointers,
-	9033,
+	8870,
 	g_Il2CppGenericMethodPointers,
-	2860,
+	2823,
 	g_Il2CppInvokerPointers,
-	5608,
+	5511,
 	g_AttributeGenerators,
-	442,
+	429,
 	g_UnresolvedVirtualMethodPointers,
-	239,
+	238,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	45,
+	43,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;
