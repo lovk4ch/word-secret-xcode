@@ -22594,8 +22594,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IronSourceManager_LoadVideo_mA20EF843B15
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IronSource_destroyBanner_mF04F64E656F07FD2CADAD0A17CB819F869246238 (IronSource_t215D2DAE15E76987519D90224F662B03F91BC48E * __this, const RuntimeMethod* method);
 // System.Void IronSource::onApplicationPause(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IronSource_onApplicationPause_m86A7DBA2C7B107BB59FC73439331AFBB6F828C87 (IronSource_t215D2DAE15E76987519D90224F662B03F91BC48E * __this, bool ___pause0, const RuntimeMethod* method);
-// System.Void IronSource::validateIntegration()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IronSource_validateIntegration_m9666ACB483ED4A662A58374E0EADC20C17CDF4BA (IronSource_t215D2DAE15E76987519D90224F662B03F91BC48E * __this, const RuntimeMethod* method);
 // System.Void IronSource::loadBanner(IronSourceBannerSize,IronSourceBannerPosition)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IronSource_loadBanner_m3C7D90BB5D190C3F304C98A0343FD474285C57FD (IronSource_t215D2DAE15E76987519D90224F662B03F91BC48E * __this, IronSourceBannerSize_t7DE4B825C24F4ACDAF35757BE7AA12BAFB6A5317 * ___size0, int32_t ___position1, const RuntimeMethod* method);
 // System.Void IronSource::displayBanner()
@@ -31372,22 +31370,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IronSourceManager_OnApplicationPause_m58
 		bool L_1 = ___pause0;
 		NullCheck(L_0);
 		IronSource_onApplicationPause_m86A7DBA2C7B107BB59FC73439331AFBB6F828C87(L_0, L_1, /*hidden argument*/NULL);
-		// if (pause)
-		bool L_2 = ___pause0;
-		if (!L_2)
-		{
-			goto IL_0018;
-		}
-	}
-	{
-		// IronSource.Agent.validateIntegration();
-		IronSource_t215D2DAE15E76987519D90224F662B03F91BC48E * L_3 = IronSource_get_Agent_mB817DC185EC7D6E8DE03C1E3042B95495F492FE1(/*hidden argument*/NULL);
-		NullCheck(L_3);
-		IronSource_validateIntegration_m9666ACB483ED4A662A58374E0EADC20C17CDF4BA(L_3, /*hidden argument*/NULL);
-	}
-
-IL_0018:
-	{
 		// }
 		return;
 	}
