@@ -2122,10 +2122,6 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.PlayerPrefs
 
-		//System.Boolean UnityEngine.PlayerPrefs::HasKey(System.String)
-		void Register_UnityEngine_PlayerPrefs_HasKey();
-		Register_UnityEngine_PlayerPrefs_HasKey();
-
 		//System.Boolean UnityEngine.PlayerPrefs::TrySetInt(System.String,System.Int32)
 		void Register_UnityEngine_PlayerPrefs_TrySetInt();
 		Register_UnityEngine_PlayerPrefs_TrySetInt();

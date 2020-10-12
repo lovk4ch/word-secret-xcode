@@ -22590,8 +22590,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IronSource_t215D2DAE15E76987519D90224F662B03F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IronSource_init_m90CB7B287D4C254741F30E61839AC4E399A6FE09 (IronSource_t215D2DAE15E76987519D90224F662B03F91BC48E * __this, String_t* ___appKey0, const RuntimeMethod* method);
 // System.Void IronSourceManager::LoadVideo()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IronSourceManager_LoadVideo_mA20EF843B15643C9D69BF084A46B061262B8D1D9 (const RuntimeMethod* method);
-// System.Void IronSource::validateIntegration()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IronSource_validateIntegration_m9666ACB483ED4A662A58374E0EADC20C17CDF4BA (IronSource_t215D2DAE15E76987519D90224F662B03F91BC48E * __this, const RuntimeMethod* method);
 // System.Void IronSource::destroyBanner()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IronSource_destroyBanner_mF04F64E656F07FD2CADAD0A17CB819F869246238 (IronSource_t215D2DAE15E76987519D90224F662B03F91BC48E * __this, const RuntimeMethod* method);
 // System.Void IronSource::onApplicationPause(System.Boolean)
@@ -31347,10 +31345,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IronSourceManager_Awake_m15796ABB76BFED2
 
 IL_0031:
 	{
-		// IronSource.Agent.validateIntegration();
-		IronSource_t215D2DAE15E76987519D90224F662B03F91BC48E * L_4 = IronSource_get_Agent_mB817DC185EC7D6E8DE03C1E3042B95495F492FE1(/*hidden argument*/NULL);
-		NullCheck(L_4);
-		IronSource_validateIntegration_m9666ACB483ED4A662A58374E0EADC20C17CDF4BA(L_4, /*hidden argument*/NULL);
 		// }
 		return;
 	}
