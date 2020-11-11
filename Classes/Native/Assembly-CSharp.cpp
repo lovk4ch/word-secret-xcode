@@ -431,8 +431,12 @@ struct SoundU5BU5D_t662FA600FF60E2AAB7F66F3A6E9A0753E844389B;
 struct SyllableU5BU5D_t5DDCB33428B8533E17EB5E0C4082C18242316C61;
 // System.Action
 struct Action_t591D2A86165F896B4B800BB5C25CE18672A55579;
+// System.Action`1<IronSourceError>
+struct Action_1_t31E62CDA97F8EEC3528AAB381DB5610980B9EF3F;
 // System.Action`1<System.Boolean>
 struct Action_1_tAA0F894C98302D68F7D5034E8104E9AB4763CCAD;
+// System.Action`1<System.Object>
+struct Action_1_t551A279CEADCF6EEAE8FA2B1E1E757D0D15290D0;
 // System.Action`1<UnityEngine.AsyncOperation>
 struct Action_1_tCBF754C290FAE894631BED8FD56E9E22C4C187F9;
 // System.AsyncCallback
@@ -882,6 +886,7 @@ struct WordController_tC86D6E261856DF8ED6F9F8C8527F72D8ADA3A77C;
 // WordController[]
 struct WordControllerU5BU5D_t96ECD44ED63B091CA3BA6D0DD56EE017725737FC;
 
+IL2CPP_EXTERN_C RuntimeClass* Action_1_t31E62CDA97F8EEC3528AAB381DB5610980B9EF3F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_1_tAA0F894C98302D68F7D5034E8104E9AB4763CCAD_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_t591D2A86165F896B4B800BB5C25CE18672A55579_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* AnimationCurve_tD2F265379583AAF1BF8D84F1BB8DB12980FA504C_il2cpp_TypeInfo_var;
@@ -1009,11 +1014,13 @@ IL2CPP_EXTERN_C String_t* _stringLiteral00040BAB8A787438C2C0CF5248AC025642115FAD
 IL2CPP_EXTERN_C String_t* _stringLiteral003DEECEDB01F431006744853B2B213471C4641A;
 IL2CPP_EXTERN_C String_t* _stringLiteral05198A3D9B463ABF689BAF5458F7B6B486A285BA;
 IL2CPP_EXTERN_C String_t* _stringLiteral06878DB8190A35B96A9B70161B4AC8939992E744;
+IL2CPP_EXTERN_C String_t* _stringLiteral1108D7012765C006A30B4A3A2AB5147784652BE3;
 IL2CPP_EXTERN_C String_t* _stringLiteral113ACB59CC385DBB3293CAFA0C8B52A644B633DF;
 IL2CPP_EXTERN_C String_t* _stringLiteral118665E840CFF6AFA695D282A3CEB5D983B2D230;
 IL2CPP_EXTERN_C String_t* _stringLiteral13FBD79C3D390E5D6585A21E11FF5EC1970CFF0C;
 IL2CPP_EXTERN_C String_t* _stringLiteral18CFCD24381BFC95C94A162DFB57B289E5A36585;
 IL2CPP_EXTERN_C String_t* _stringLiteral1ADBCC344B317C2F3BD64FDAC273F8B0DC410CDF;
+IL2CPP_EXTERN_C String_t* _stringLiteral1C52FEE16DA782865C38C2234673D5EE22CDF173;
 IL2CPP_EXTERN_C String_t* _stringLiteral2284D040F5091F510DE37A154536196310F9C02D;
 IL2CPP_EXTERN_C String_t* _stringLiteral2701A94C0EB55CBD958A87DFF3E959673FF1BF53;
 IL2CPP_EXTERN_C String_t* _stringLiteral2947BBCF136364670CF61CA8F8DC43A8DAA7D6BA;
@@ -1074,6 +1081,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralAB478F3EFC840EEBAB919DFF1B9512286F70C10C
 IL2CPP_EXTERN_C String_t* _stringLiteralAC6876A1732FDFAF2A6BFDBB9A20AC4C8FADAF39;
 IL2CPP_EXTERN_C String_t* _stringLiteralADBE39950826B78040E0F8CC8FA0EF04AB0A0C27;
 IL2CPP_EXTERN_C String_t* _stringLiteralB129F1E8CB84711ED2D6EC7EDD0098DD9A2DADC1;
+IL2CPP_EXTERN_C String_t* _stringLiteralB2F3506A6305FC3FB0A828BFF2AD8B8DDA20D388;
 IL2CPP_EXTERN_C String_t* _stringLiteralB2F7DF6E0ABF3CA7EDF709A08120845428E6BFBB;
 IL2CPP_EXTERN_C String_t* _stringLiteralB3BD0B5A70497BEC4A02B7EB1CB0D4F37EB71A2A;
 IL2CPP_EXTERN_C String_t* _stringLiteralB858CB282617FB0956D960215C8E84D1CCF909C6;
@@ -1099,6 +1107,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralF042EF4D73C585E9F817AE47D058EA78F4FE9283
 IL2CPP_EXTERN_C String_t* _stringLiteralF4D0C06D801F43DDC79EA0921E0F3F84BB71587E;
 IL2CPP_EXTERN_C String_t* _stringLiteralF65023BEA1116834A5D62D54DE5D8C5315C5C1DA;
 IL2CPP_EXTERN_C String_t* _stringLiteralF6849CD92851D213FB20263A708438DD04D21BB8;
+IL2CPP_EXTERN_C const RuntimeMethod* Action_1__ctor_mCBF1034AF601D94602E455BF5F06A302EC9E61D1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Action_1__ctor_mFEB000BCBDAB6DE953B2B50CD113641DCF601890_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_Empty_TisIPurchasingModule_tBA2577ED1E963CA0ABA1DFA359A020982DE0B1BF_m0CD0BAB07A330FACDEA56E1CBB20EADD9FC46A24_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_Empty_TisRuntimeObject_m9CF99326FAC8A01A4A25C90AA97F0799BA35ECAB_RuntimeMethod_var;
@@ -1198,6 +1207,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* HintController_U3CInvokeU3Eb__14_0_mC66E518
 IL2CPP_EXTERN_C const RuntimeMethod* IAPManager_OnPurchaseComplete_m506F3E56AF0DD25C52143AFCFD25701B339DD33D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* IExtensionProvider_GetExtension_TisIAppleExtensions_t3715E680BE6145F3F5C8EBC9D5B856517D195648_m73505CF639683F9B119DDB34A998CE51794A0A25_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* IronSourceManager_InterstitialAdClosedEvent_m23E430BB7AA78EA0FAFD7A80798C2B165C89533A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* IronSourceManager_InterstitialAdLoadFailedEvent_mE4E095C0FD0C293216558F06ACE045DE54E7411B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* LevelManager_U3CAwakeU3Eb__35_0_m7F100754343FCFCFBB3405A2981DFF8C78147DC2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* LevelManager_U3CAwakeU3Eb__35_1_mDDD5CA81664B30E4525E82030B6054A7CBE21BD7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* LevelManager_U3CAwakeU3Eb__35_2_mAAC1626B8A62CACA9256D8EA1F8DFF8F74FED054_RuntimeMethod_var;
@@ -1497,6 +1507,8 @@ IL2CPP_EXTERN_C const uint32_t IAPManager_RestorePurchases_m0B7FA2B3ECEFD754C057
 IL2CPP_EXTERN_C const uint32_t IAPManager__ctor_m437AAC1955DA2A9B96D08ADFFC4EA73C79DDEB9D_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t IronSourceManager_Awake_m15796ABB76BFED252245F4599733498724D57E1B_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t IronSourceManager_InterstitialAdClosedEvent_m23E430BB7AA78EA0FAFD7A80798C2B165C89533A_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t IronSourceManager_InterstitialAdLoadFailedEvent_mE4E095C0FD0C293216558F06ACE045DE54E7411B_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t IronSourceManager_LoadVideo_mA20EF843B15643C9D69BF084A46B061262B8D1D9_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t IronSourceManager_RemoveAllListeners_mEADCC9A0D211A4244979EB7427C2C5443096B4C7_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t IronSourceManager_ShowBanner_mC10F7FBA96FAFFCBC6B6F2E5F12DF4DE6AD89820_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t IronSourceManager_ShowVideo_m4F3676B3739A1FACB9944C9857A13374A3B00A10_MetadataUsageId;
@@ -12182,6 +12194,15 @@ public:
 };
 
 
+// System.Action`1<IronSourceError>
+struct  Action_1_t31E62CDA97F8EEC3528AAB381DB5610980B9EF3F  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
 // System.Action`1<System.Boolean>
 struct  Action_1_tAA0F894C98302D68F7D5034E8104E9AB4763CCAD  : public MulticastDelegate_t
 {
@@ -21670,6 +21691,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_m9E1606EB0E08E6
 IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* Array_Empty_TisRuntimeObject_m9CF99326FAC8A01A4A25C90AA97F0799BA35ECAB_gshared_inline (const RuntimeMethod* method);
 // System.Void System.Action`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_mFEB000BCBDAB6DE953B2B50CD113641DCF601890_gshared (Action_1_tAA0F894C98302D68F7D5034E8104E9AB4763CCAD * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
+// System.Void System.Action`1<System.Object>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_mAFC7442D9D3CEC6701C3C5599F8CF12476095510_gshared (Action_1_t551A279CEADCF6EEAE8FA2B1E1E757D0D15290D0 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // System.Void EventList`1<System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventList_1__ctor_mE190F46FD55020F128DBBC3007452A031055E522_gshared (EventList_1_t44E5D56C050CB6D8BDF6BFCDE5AD8ECF54FFF75C * __this, const RuntimeMethod* method);
 // System.Void EventList`1/Event<System.Object>::.ctor(System.Object,System.IntPtr)
@@ -22583,6 +22606,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Boolean_ToString_m62D1EFD5F6D5F6B6A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IronSourceManager_add_onClose_m7A4943AEB975B05B121B61FD92DB486B3B48190C (Event_t1B26493E02832D92E21B60E864BB7D17AA56B382 * ___value0, const RuntimeMethod* method);
 // System.Void IronSourceManager::remove_onClose(IronSourceManager/Event)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IronSourceManager_remove_onClose_m8C6CBB86848F6AF9B6D4828603E0EED0B9FCBE6B (Event_t1B26493E02832D92E21B60E864BB7D17AA56B382 * ___value0, const RuntimeMethod* method);
+// System.Void System.Action`1<IronSourceError>::.ctor(System.Object,System.IntPtr)
+inline void Action_1__ctor_mCBF1034AF601D94602E455BF5F06A302EC9E61D1 (Action_1_t31E62CDA97F8EEC3528AAB381DB5610980B9EF3F * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t31E62CDA97F8EEC3528AAB381DB5610980B9EF3F *, RuntimeObject *, intptr_t, const RuntimeMethod*))Action_1__ctor_mAFC7442D9D3CEC6701C3C5599F8CF12476095510_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void IronSourceEvents::add_onInterstitialAdLoadFailedEvent(System.Action`1<IronSourceError>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IronSourceEvents_add_onInterstitialAdLoadFailedEvent_m43F15DE510DA39BEC041E4A10626E4DE1FD6BE0E (Action_1_t31E62CDA97F8EEC3528AAB381DB5610980B9EF3F * ___value0, const RuntimeMethod* method);
 // System.Void System.Action::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_m570E96B2A0C48BC1DC6788460316191F24572760 (Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // System.Void IronSourceEvents::add_onInterstitialAdClosedEvent(System.Action)
@@ -22603,14 +22633,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IronSource_loadBanner_m3C7D90BB5D190C3F3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IronSource_displayBanner_mCCA63938BCDCFA30A23D916203247A75DB89225A (IronSource_t215D2DAE15E76987519D90224F662B03F91BC48E * __this, const RuntimeMethod* method);
 // System.Void IronSource::hideBanner()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IronSource_hideBanner_m5502C4DC2F05B7D872D8D86052A6921A3FE58A02 (IronSource_t215D2DAE15E76987519D90224F662B03F91BC48E * __this, const RuntimeMethod* method);
-// System.Void IronSource::loadInterstitial()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IronSource_loadInterstitial_m69753F72E093456285F618DD44C11F78C19C2EC4 (IronSource_t215D2DAE15E76987519D90224F662B03F91BC48E * __this, const RuntimeMethod* method);
+// System.Void IronSource::loadISDemandOnlyRewardedVideo(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IronSource_loadISDemandOnlyRewardedVideo_m1B4431C0ADCF8EA7066A21ED9FD83B62A0E84E30 (IronSource_t215D2DAE15E76987519D90224F662B03F91BC48E * __this, String_t* ___instanceId0, const RuntimeMethod* method);
 // System.Boolean IronSourceManager::ShowVideo(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IronSourceManager_ShowVideo_m4F3676B3739A1FACB9944C9857A13374A3B00A10 (int32_t ____reward0, const RuntimeMethod* method);
 // System.Boolean IronSource::isInterstitialReady()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IronSource_isInterstitialReady_m63EE78814D5DF142DFC2F2A11CBBD7A34D43FD59 (IronSource_t215D2DAE15E76987519D90224F662B03F91BC48E * __this, const RuntimeMethod* method);
 // System.Void IronSource::showInterstitial()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IronSource_showInterstitial_m97B995798E144F1CD156DD22AC48AE65C715E5B0 (IronSource_t215D2DAE15E76987519D90224F662B03F91BC48E * __this, const RuntimeMethod* method);
+// System.String IronSourceError::getDescription()
+IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR String_t* IronSourceError_getDescription_m2849DCD56085B5CF67E42F0F70D41183D66E9083_inline (IronSourceError_t5EAD308F21E4108A0A2268D1628514554A5479A1 * __this, const RuntimeMethod* method);
 // System.Void IronSourceManager/Event::Invoke()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Event_Invoke_m675DF97D6F32EC46C19F05C378E37E9DC40B8703 (Event_t1B26493E02832D92E21B60E864BB7D17AA56B382 * __this, const RuntimeMethod* method);
 // System.Void Manager`1<IronSourceManager>::.ctor()
@@ -28760,7 +28792,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_CheckAds_m14ED0A9A405498C236
 		bool L_0 = GameManager_get_IsAdsEnabled_m009E4D10523B9E963772F94437BA4D020CABF73E(__this, /*hidden argument*/NULL);
 		if (!L_0)
 		{
-			goto IL_0033;
+			goto IL_003a;
 		}
 	}
 	{
@@ -28768,7 +28800,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_CheckAds_m14ED0A9A405498C236
 		int32_t L_1 = GameManager_get_LevelsInDay_m233B2440781A345F155B7A7C00C49881B304F113(__this, /*hidden argument*/NULL);
 		if (((int32_t)((int32_t)L_1%(int32_t)2)))
 		{
-			goto IL_002c;
+			goto IL_0033;
 		}
 	}
 	{
@@ -28776,7 +28808,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_CheckAds_m14ED0A9A405498C236
 		bool L_2 = IronSourceManager_ShowVideo_mB288AC484A9F767021F83BE8EDD69BDA99210F00(/*hidden argument*/NULL);
 		if (!L_2)
 		{
-			goto IL_0039;
+			goto IL_002c;
 		}
 	}
 	{
@@ -28784,7 +28816,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_CheckAds_m14ED0A9A405498C236
 		Event_t1B26493E02832D92E21B60E864BB7D17AA56B382 * L_3 = (Event_t1B26493E02832D92E21B60E864BB7D17AA56B382 *)il2cpp_codegen_object_new(Event_t1B26493E02832D92E21B60E864BB7D17AA56B382_il2cpp_TypeInfo_var);
 		Event__ctor_m60351BF074BC6F1C01020B0F8FD5DB35B4BF603A(L_3, __this, (intptr_t)((intptr_t)GameManager_U3CCheckAdsU3Eb__68_0_mE354FE40539F2F494EA5B45C1EBE24E6E70A592B_RuntimeMethod_var), /*hidden argument*/NULL);
 		IronSourceManager_AddListener_mC3EAD5DD5CC0FEBD0A1C2C81810B2F804FBE99D4(0, L_3, /*hidden argument*/NULL);
-		// }
 		return;
 	}
 
@@ -28800,10 +28831,14 @@ IL_0033:
 	{
 		// StartGame();
 		GameManager_StartGame_m81BE2597BAAC92FCC4A4C8D38E0055C7FCDCC468(__this, /*hidden argument*/NULL);
+		// }
+		return;
 	}
 
-IL_0039:
+IL_003a:
 	{
+		// StartGame();
+		GameManager_StartGame_m81BE2597BAAC92FCC4A4C8D38E0055C7FCDCC468(__this, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -31323,22 +31358,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IronSourceManager_Awake_m15796ABB76BFED2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		// IronSourceEvents.onInterstitialAdLoadFailedEvent += InterstitialAdLoadFailedEvent;
+		Action_1_t31E62CDA97F8EEC3528AAB381DB5610980B9EF3F * L_0 = (Action_1_t31E62CDA97F8EEC3528AAB381DB5610980B9EF3F *)il2cpp_codegen_object_new(Action_1_t31E62CDA97F8EEC3528AAB381DB5610980B9EF3F_il2cpp_TypeInfo_var);
+		Action_1__ctor_mCBF1034AF601D94602E455BF5F06A302EC9E61D1(L_0, __this, (intptr_t)((intptr_t)IronSourceManager_InterstitialAdLoadFailedEvent_mE4E095C0FD0C293216558F06ACE045DE54E7411B_RuntimeMethod_var), /*hidden argument*/Action_1__ctor_mCBF1034AF601D94602E455BF5F06A302EC9E61D1_RuntimeMethod_var);
+		IronSourceEvents_add_onInterstitialAdLoadFailedEvent_m43F15DE510DA39BEC041E4A10626E4DE1FD6BE0E(L_0, /*hidden argument*/NULL);
 		// IronSourceEvents.onInterstitialAdClosedEvent += InterstitialAdClosedEvent;
-		Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * L_0 = (Action_t591D2A86165F896B4B800BB5C25CE18672A55579 *)il2cpp_codegen_object_new(Action_t591D2A86165F896B4B800BB5C25CE18672A55579_il2cpp_TypeInfo_var);
-		Action__ctor_m570E96B2A0C48BC1DC6788460316191F24572760(L_0, __this, (intptr_t)((intptr_t)IronSourceManager_InterstitialAdClosedEvent_m23E430BB7AA78EA0FAFD7A80798C2B165C89533A_RuntimeMethod_var), /*hidden argument*/NULL);
-		IronSourceEvents_add_onInterstitialAdClosedEvent_m755519F12C76FD418D15EA0B4009680F9C931D2E(L_0, /*hidden argument*/NULL);
+		Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * L_1 = (Action_t591D2A86165F896B4B800BB5C25CE18672A55579 *)il2cpp_codegen_object_new(Action_t591D2A86165F896B4B800BB5C25CE18672A55579_il2cpp_TypeInfo_var);
+		Action__ctor_m570E96B2A0C48BC1DC6788460316191F24572760(L_1, __this, (intptr_t)((intptr_t)IronSourceManager_InterstitialAdClosedEvent_m23E430BB7AA78EA0FAFD7A80798C2B165C89533A_RuntimeMethod_var), /*hidden argument*/NULL);
+		IronSourceEvents_add_onInterstitialAdClosedEvent_m755519F12C76FD418D15EA0B4009680F9C931D2E(L_1, /*hidden argument*/NULL);
 		// IronSource.Agent.init(IRONSOURCE_APP_KEY);
-		IronSource_t215D2DAE15E76987519D90224F662B03F91BC48E * L_1 = IronSource_get_Agent_mB817DC185EC7D6E8DE03C1E3042B95495F492FE1(/*hidden argument*/NULL);
-		NullCheck(L_1);
-		IronSource_init_m90CB7B287D4C254741F30E61839AC4E399A6FE09(L_1, _stringLiteral8ACCFDEE2BF428C252524E8E0AFB7B9655CD39E5, /*hidden argument*/NULL);
+		IronSource_t215D2DAE15E76987519D90224F662B03F91BC48E * L_2 = IronSource_get_Agent_mB817DC185EC7D6E8DE03C1E3042B95495F492FE1(/*hidden argument*/NULL);
+		NullCheck(L_2);
+		IronSource_init_m90CB7B287D4C254741F30E61839AC4E399A6FE09(L_2, _stringLiteral8ACCFDEE2BF428C252524E8E0AFB7B9655CD39E5, /*hidden argument*/NULL);
 		// if (GameManager.Instance.IsAdsEnabled)
 		IL2CPP_RUNTIME_CLASS_INIT(Manager_1_t419326A55950246E5DE0C43646F6BAD34A69CF63_il2cpp_TypeInfo_var);
-		GameManager_tAC830B937D5E37F47803FE8AB44CAB0762B77B89 * L_2 = Manager_1_get_Instance_mD4198950A1BD443E6F81FC604FFBA2EF52EB7E0C(/*hidden argument*/Manager_1_get_Instance_mD4198950A1BD443E6F81FC604FFBA2EF52EB7E0C_RuntimeMethod_var);
-		NullCheck(L_2);
-		bool L_3 = GameManager_get_IsAdsEnabled_m009E4D10523B9E963772F94437BA4D020CABF73E(L_2, /*hidden argument*/NULL);
-		if (!L_3)
+		GameManager_tAC830B937D5E37F47803FE8AB44CAB0762B77B89 * L_3 = Manager_1_get_Instance_mD4198950A1BD443E6F81FC604FFBA2EF52EB7E0C(/*hidden argument*/Manager_1_get_Instance_mD4198950A1BD443E6F81FC604FFBA2EF52EB7E0C_RuntimeMethod_var);
+		NullCheck(L_3);
+		bool L_4 = GameManager_get_IsAdsEnabled_m009E4D10523B9E963772F94437BA4D020CABF73E(L_3, /*hidden argument*/NULL);
+		if (!L_4)
 		{
-			goto IL_0031;
+			goto IL_0042;
 		}
 	}
 	{
@@ -31346,7 +31385,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IronSourceManager_Awake_m15796ABB76BFED2
 		IronSourceManager_LoadVideo_mA20EF843B15643C9D69BF084A46B061262B8D1D9(/*hidden argument*/NULL);
 	}
 
-IL_0031:
+IL_0042:
 	{
 		// }
 		return;
@@ -31416,11 +31455,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IronSourceManager_HideBanner_m2727E80E06
 // System.Void IronSourceManager::LoadVideo()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IronSourceManager_LoadVideo_mA20EF843B15643C9D69BF084A46B061262B8D1D9 (const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
-		// IronSource.Agent.loadInterstitial();
+		il2cpp_codegen_initialize_method (IronSourceManager_LoadVideo_mA20EF843B15643C9D69BF084A46B061262B8D1D9_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// IronSource.Agent.loadISDemandOnlyRewardedVideo("3434378");
 		IronSource_t215D2DAE15E76987519D90224F662B03F91BC48E * L_0 = IronSource_get_Agent_mB817DC185EC7D6E8DE03C1E3042B95495F492FE1(/*hidden argument*/NULL);
 		NullCheck(L_0);
-		IronSource_loadInterstitial_m69753F72E093456285F618DD44C11F78C19C2EC4(L_0, /*hidden argument*/NULL);
+		IronSource_loadISDemandOnlyRewardedVideo_m1B4431C0ADCF8EA7066A21ED9FD83B62A0E84E30(L_0, _stringLiteralB2F3506A6305FC3FB0A828BFF2AD8B8DDA20D388, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -31467,6 +31512,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IronSourceManager_ShowVideo_m4F3676B3739
 
 IL_001e:
 	{
+		// Debug.Log("Video doesn't loaded");
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t7B5FCB117E2FD63B6838BC52821B252E2BFB61C4_il2cpp_TypeInfo_var);
+		Debug_Log_m4B7C70BAFD477C6BDB59C88A0934F0B018D03708(_stringLiteral1C52FEE16DA782865C38C2234673D5EE22CDF173, /*hidden argument*/NULL);
 		// LoadVideo();
 		IronSourceManager_LoadVideo_mA20EF843B15643C9D69BF084A46B061262B8D1D9(/*hidden argument*/NULL);
 		// return false;
@@ -31476,7 +31524,20 @@ IL_001e:
 // System.Void IronSourceManager::InterstitialAdLoadFailedEvent(IronSourceError)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IronSourceManager_InterstitialAdLoadFailedEvent_mE4E095C0FD0C293216558F06ACE045DE54E7411B (IronSourceManager_t6F5ABD27D014692981CD252F9C4AC72E1D89BBF4 * __this, IronSourceError_t5EAD308F21E4108A0A2268D1628514554A5479A1 * ___error0, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_method (IronSourceManager_InterstitialAdLoadFailedEvent_mE4E095C0FD0C293216558F06ACE045DE54E7411B_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Debug.Log("Video load is failed: " + error.getDescription());
+		IronSourceError_t5EAD308F21E4108A0A2268D1628514554A5479A1 * L_0 = ___error0;
+		NullCheck(L_0);
+		String_t* L_1 = IronSourceError_getDescription_m2849DCD56085B5CF67E42F0F70D41183D66E9083_inline(L_0, /*hidden argument*/NULL);
+		String_t* L_2 = String_Concat_mB78D0094592718DA6D5DB6C712A9C225631666BE(_stringLiteral1108D7012765C006A30B4A3A2AB5147784652BE3, L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t7B5FCB117E2FD63B6838BC52821B252E2BFB61C4_il2cpp_TypeInfo_var);
+		Debug_Log_m4B7C70BAFD477C6BDB59C88A0934F0B018D03708(L_2, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -43550,21 +43611,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PopupWatchController_Awake_mD7468735D3E4
 		UnityAction__ctor_mEFC4B92529CE83DF72501F92E07EC5598C54BDAC(L_7, __this, (intptr_t)((intptr_t)PopupWatchController_U3CAwakeU3Eb__5_0_m4CED9C06FFC8301BAF54FCEB5D3B6D64C8CCE777_RuntimeMethod_var), /*hidden argument*/NULL);
 		NullCheck(L_6);
 		UnityEvent_AddListener_m31973FDDC5BB0B2828AB6EF519EC4FD6563499C9(L_6, L_7, /*hidden argument*/NULL);
-		//         buttonOk.onClick.AddListener(() =>
-		//         {
-		// 
-		// #if UNITY_EDITOR
-		// 
-		//             GetReward();
-		// #else
-		//             if (IronSourceManager.ShowVideo(reward))
-		//             {
-		//                 IronSourceManager.AddListener(IronSourceManager.State.Close, () => GetReward());
-		//                 buttonOk.interactable = false;
-		//             }
-		// #endif
-		// 
-		//         });
+		// buttonOk.onClick.AddListener(() =>
+		// {
+		//     if (IronSourceManager.ShowVideo(reward))
+		//     {
+		//         IronSourceManager.AddListener(IronSourceManager.State.Close, () => GetReward());
+		//         buttonOk.interactable = false;
+		//     }
+		// });
 		Button_t1203820000D5513FDCCE3D4BFF9C1C9CC755CC2B * L_8 = __this->get_buttonOk_15();
 		NullCheck(L_8);
 		ButtonClickedEvent_t975D9C903BC4880557ADD7D3ACFB01CB2B3D6DDB * L_9 = Button_get_onClick_m77E8CA6917881760CC7900930F4C789F3E2F8817_inline(L_8, /*hidden argument*/NULL);
@@ -44601,6 +44655,14 @@ IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR String_t* ProductDefinition_get_store
 {
 	{
 		String_t* L_0 = __this->get_U3CstoreSpecificIdU3Ek__BackingField_1();
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR String_t* IronSourceError_getDescription_m2849DCD56085B5CF67E42F0F70D41183D66E9083_inline (IronSourceError_t5EAD308F21E4108A0A2268D1628514554A5479A1 * __this, const RuntimeMethod* method)
+{
+	{
+		// return description;
+		String_t* L_0 = __this->get_description_0();
 		return L_0;
 	}
 }
